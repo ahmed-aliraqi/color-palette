@@ -97,14 +97,14 @@ With the pre-built CSS, you get **over 3,000 utility classes** for 11 colors acr
 
 ### Basic Usage
 ```scss
-@import 'scss-color-palette-plugin';
+@import '@ahmed-aliraqi/color-palette';
 
 // Automatically generates classes for red, green, blue, yellow, purple, etc.
 ```
 
 ### Add Custom Colors
 ```scss
-@import 'scss-color-palette-plugin';
+@import '@ahmed-aliraqi/color-palette';
 
 // Add your brand colors
 @include generate-color(#ff6b35, 'brand-orange');
@@ -116,7 +116,7 @@ With the pre-built CSS, you get **over 3,000 utility classes** for 11 colors acr
 // Disable auto-generation
 $auto-generate: false;
 
-@import 'scss-color-palette-plugin';
+@import '@ahmed-aliraqi/color-palette';
 
 // Configure what gets generated
 @include configure-color-palette((
@@ -132,7 +132,7 @@ $auto-generate: false;
 
 ### Custom Shade Scale
 ```scss
-@import 'scss-color-palette-plugin';
+@import '@ahmed-aliraqi/color-palette';
 
 // Define custom shade percentages
 $custom-shades: (
@@ -233,7 +233,7 @@ $color-palette: (
   'error': #ef4444
 );
 
-@import 'scss-color-palette-plugin';
+@import '@ahmed-aliraqi/color-palette';
 ```
 
 ### Conditional Generation
@@ -245,7 +245,7 @@ $color-palette: (
   'generate-ui': false
 ));
 
-@import 'scss-color-palette-plugin';
+@import '@ahmed-aliraqi/color-palette';
 ```
 
 ### Framework Integration
@@ -256,7 +256,7 @@ $color-palette: (
   'important': false
 ));
 
-@import 'scss-color-palette-plugin';
+@import '@ahmed-aliraqi/color-palette';
 // Generates .tw-bg-red-500, .tw-text-blue-300, etc.
 ```
 

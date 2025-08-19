@@ -149,3 +149,4 @@ $auto-generate: true !default;
 @if $auto-generate {
   @include generate-color-palette();
 }
+
