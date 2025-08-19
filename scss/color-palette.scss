@@ -1,152 +1,107 @@
 /*!
  * SCSS Color Palette Plugin
  * Generate comprehensive color utility classes with automatic shade variations
- * Version: 1.0.0
+ * Version: 1.0.5
  */
 
-@use 'sass:map';
 @use 'sass:color';
 @use 'sass:math';
 
-// Default configuration - can be overridden
-$color-palette-config: (
-  'generate-backgrounds': true,
-  'generate-text': true,
-  'generate-borders': true,
-  'generate-svg': true,
-  'generate-ui': true,
-  'generate-shadows': false,
-  'important': true,
-  'prefix': ''
-) !default;
-
-// Default shade percentages - can be customized
+// Default shade percentages
 $color-shade-percentages: (
-  50: 90%,
-  100: 80%,
-  200: 70%,
-  300: 60%,
-  400: 50%,
-  500: 0%,
-  600: -10%,
-  700: -20%,
-  800: -30%,
-  900: -40%,
-  1000: -50%
-) !default;
+        50: 90%,
+        100: 80%,
+        200: 70%,
+        300: 60%,
+        400: 50%,
+        500: 0%,
+        600: -10%,
+        700: -20%,
+        800: -30%,
+        900: -40%,
+        1000: -50%
+);
 
-// Default color palette - can be extended or replaced
+// Default color palette
 $color-palette: (
-  'red': #ef4444,
-  'green': #22c55e,
-  'blue': #3b82f6,
-  'yellow': #f59e0b,
-  'purple': #8b5cf6,
-  'pink': #ec4899,
-  'indigo': #6366f1,
-  'orange': #f97316,
-  'teal': #14b8a6,
-  'cyan': #06b6d4,
-  'gray': #6b7280
-) !default;
+        'red': #ef4444,
+        'green': #22c55e,
+        'blue': #3b82f6,
+        'yellow': #f59e0b,
+        'purple': #8b5cf6,
+        'pink': #ec4899,
+        'indigo': #6366f1,
+        'orange': #f97316,
+        'teal': #14b8a6,
+        'cyan': #06b6d4,
+        'gray': #6b7280,
+        'black': #000000,
+        'white': #ffffff,
+        'zinc': #71717a,
+        'rose': #f43f5e
+);
 
-// Helper function to get config value
-@function get-config($key) {
-  @return map.get($color-palette-config, $key);
-}
-
-// Helper function to generate importance flag
+// Helper for !important
 @function importance() {
-  @return if(get-config('important'), ' !important', '');
+  @return ' !important';
 }
 
-// Main mixin to generate color classes
-@mixin generate-color($base-color, $name, $custom-shades: null) {
-  $shades: if($custom-shades, $custom-shades, $color-shade-percentages);
-  $prefix: get-config('prefix');
-  $prefix-dash: if($prefix == '', '', '#{$prefix}-');
-
-  @each $key, $percent in $shades {
+// Mixin to generate color classes
+@mixin generate-color($base-color, $name) {
+  @each $key, $percent in $color-shade-percentages {
     $color: if($percent >= 0, color.mix(white, $base-color, $percent), color.mix(black, $base-color, math.abs($percent)));
 
     // Background colors
-    @if get-config('generate-backgrounds') {
-      .#{$prefix-dash}bg-#{$name}-#{$key} {
-        background-color: $color#{importance()};
-      }
+    .bg-#{$name}-#{$key} {
+      background-color: $color#{importance()};
     }
 
     // Text / Foreground colors
-    @if get-config('generate-text') {
-      .#{$prefix-dash}text-#{$name}-#{$key} {
-        color: $color#{importance()};
-      }
+    .text-#{$name}-#{$key} {
+      color: $color#{importance()};
     }
 
     // Borders & Outlines
-    @if get-config('generate-borders') {
-      .#{$prefix-dash}border-#{$name}-#{$key} {
-        border-color: $color#{importance()};
-      }
-      .#{$prefix-dash}outline-#{$name}-#{$key} {
-        outline-color: $color#{importance()};
-      }
+    .border-#{$name}-#{$key} {
+      border-color: $color#{importance()};
+    }
+    .outline-#{$name}-#{$key} {
+      outline-color: $color#{importance()};
     }
 
     // SVG colors
-    @if get-config('generate-svg') {
-      .#{$prefix-dash}fill-#{$name}-#{$key} {
-        fill: $color#{importance()};
-      }
-      .#{$prefix-dash}stroke-#{$name}-#{$key} {
-        stroke: $color#{importance()};
-      }
+    .fill-#{$name}-#{$key} {
+      fill: $color#{importance()};
+    }
+    .stroke-#{$name}-#{$key} {
+      stroke: $color#{importance()};
     }
 
     // UI & layout colors
-    @if get-config('generate-ui') {
-      .#{$prefix-dash}text-decoration-#{$name}-#{$key} {
-        text-decoration-color: $color#{importance()};
-      }
-      .#{$prefix-dash}caret-#{$name}-#{$key} {
-        caret-color: $color#{importance()};
-      }
-      .#{$prefix-dash}emphasis-#{$name}-#{$key} {
-        text-emphasis-color: $color#{importance()};
-      }
-      .#{$prefix-dash}accent-#{$name}-#{$key} {
-        accent-color: $color#{importance()};
-      }
-      .#{$prefix-dash}column-rule-#{$name}-#{$key} {
-        column-rule-color: $color#{importance()};
-      }
+    .text-decoration-#{$name}-#{$key} {
+      text-decoration-color: $color#{importance()};
+    }
+    .caret-#{$name}-#{$key} {
+      caret-color: $color#{importance()};
+    }
+    .emphasis-#{$name}-#{$key} {
+      text-emphasis-color: $color#{importance()};
+    }
+    .accent-#{$name}-#{$key} {
+      accent-color: $color#{importance()};
+    }
+    .column-rule-#{$name}-#{$key} {
+      column-rule-color: $color#{importance()};
     }
 
-    // Shadow colors (optional)
-    @if get-config('generate-shadows') {
-      .#{$prefix-dash}shadow-#{$name}-#{$key} {
-        box-shadow: 0 0 0 0 $color#{importance()};
-      }
+    // Shadow colors (optional, kept for compatibility)
+    .shadow-#{$name}-#{$key} {
+      box-shadow: 0 0 0 0 $color#{importance()};
     }
   }
 }
 
-// Mixin to generate all colors from the palette
-@mixin generate-color-palette($palette: $color-palette) {
-  @each $name, $color in $palette {
-    @include generate-color($color, $name);
-  }
+// Generate all colors from the default palette
+@each $name, $color in $color-palette {
+  @include generate-color($color, $name);
 }
-
-// Mixin to configure the plugin
-@mixin configure-color-palette($config) {
-  $color-palette-config: map-merge($color-palette-config, $config) !global;
-}
-
-// Auto-generate default palette (can be disabled by setting $auto-generate to false)
-$auto-generate: true !default;
-
-@if $auto-generate {
-  @include generate-color-palette();
-}
-

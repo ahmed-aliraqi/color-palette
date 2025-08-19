@@ -21,7 +21,7 @@ Include the CSS directly in your HTML:
 <link rel="stylesheet" href="https://unpkg.com/@ahmed-aliraqi/color-palette@latest/dist/color-palette.min.css">
 
 <!-- Or specific version -->
-<link rel="stylesheet" href="https://unpkg.com/@ahmed-aliraqi/color-palette@1.0.0/dist/color-palette.min.css">
+<link rel="stylesheet" href="https://unpkg.com/@ahmed-aliraqi/color-palette@1.0.3/dist/color-palette.min.css">
 
 <!-- Via jsDelivr -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ahmed-aliraqi/color-palette@latest/dist/color-palette.min.css">
@@ -38,7 +38,7 @@ yarn add @ahmed-aliraqi/color-palette
 ```
 
 ### Manual
-Download and include the `dist/color-palette.css` or `src/index.scss` file in your project.
+Download and include the `dist/color-palette.css` or `scss/index.scss` file in your project.
 
 ## Quick Start
 
@@ -88,75 +88,6 @@ With the pre-built CSS, you get **over 3,000 utility classes** for 11 colors acr
 - **Emphasis**: `.emphasis-cyan-400`
 - **Accent**: `.accent-yellow-600`
 - **Column Rule**: `.column-rule-gray-500`
-
-## File Sizes
-- **Development** (`color-palette.css`): 97KB
-- **Production** (`color-palette.min.css`): 83KB
-
-## Usage Examples
-
-### Basic Usage
-```scss
-@import '@ahmed-aliraqi/color-palette';
-
-// Automatically generates classes for red, green, blue, yellow, purple, etc.
-```
-
-### Add Custom Colors
-```scss
-@import '@ahmed-aliraqi/color-palette';
-
-// Add your brand colors
-@include generate-color(#ff6b35, 'brand-orange');
-@include generate-color(#2d3748, 'brand-dark');
-```
-
-### Configure the Plugin
-```scss
-// Disable auto-generation
-$auto-generate: false;
-
-@import '@ahmed-aliraqi/color-palette';
-
-// Configure what gets generated
-@include configure-color-palette((
-  'generate-shadows': true,
-  'prefix': 'my',
-  'important': false
-));
-
-// Generate only specific colors
-@include generate-color(#3b82f6, 'primary');
-@include generate-color(#ef4444, 'danger');
-```
-
-### Custom Shade Scale
-```scss
-@import '@ahmed-aliraqi/color-palette';
-
-// Define custom shade percentages
-$custom-shades: (
-  'light': 60%,
-  'base': 0%,
-  'dark': -30%
-);
-
-@include generate-color(#3b82f6, 'custom-blue', $custom-shades);
-// Generates: .bg-custom-blue-light, .bg-custom-blue-base, .bg-custom-blue-dark
-```
-
-## Configuration Options
-
-| Option | Default | Description |
-|--------|---------|-------------|
-| `generate-backgrounds` | `true` | Generate `.bg-*` classes |
-| `generate-text` | `true` | Generate `.text-*` classes |
-| `generate-borders` | `true` | Generate `.border-*` and `.outline-*` classes |
-| `generate-svg` | `true` | Generate `.fill-*` and `.stroke-*` classes |
-| `generate-ui` | `true` | Generate UI-related color classes |
-| `generate-shadows` | `false` | Generate `.shadow-*` classes |
-| `important` | `true` | Add `!important` to all declarations |
-| `prefix` | `''` | Add prefix to all class names |
 
 ## Default Color Palette
 
@@ -218,46 +149,6 @@ For a color named `blue`, the plugin generates:
 ```css
 .fill-blue-500 { fill: #3b82f6 !important; }
 .stroke-blue-500 { stroke: #3b82f6 !important; }
-```
-
-## Advanced Usage
-
-### Replace Default Palette
-```scss
-// Define your own palette
-$color-palette: (
-  'primary': #3b82f6,
-  'secondary': #6b7280,
-  'success': #10b981,
-  'warning': #f59e0b,
-  'error': #ef4444
-);
-
-@import '@ahmed-aliraqi/color-palette';
-```
-
-### Conditional Generation
-```scss
-// Only generate backgrounds and text colors
-@include configure-color-palette((
-  'generate-borders': false,
-  'generate-svg': false,
-  'generate-ui': false
-));
-
-@import '@ahmed-aliraqi/color-palette';
-```
-
-### Framework Integration
-```scss
-// Use with CSS frameworks
-@include configure-color-palette((
-  'prefix': 'tw',
-  'important': false
-));
-
-@import '@ahmed-aliraqi/color-palette';
-// Generates .tw-bg-red-500, .tw-text-blue-300, etc.
 ```
 
 ## Browser Support
