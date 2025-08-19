@@ -1,0 +1,52 @@
+{
+  "name": "@ahmed-aliraqi/color-palette",
+  "version": "1.0.0",
+  "description": "A powerful SCSS plugin that automatically generates comprehensive color utility classes with customizable shade variations. Perfect for design systems and utility-first CSS frameworks.",
+  "main": "dist/color-palette.css",
+  "style": "dist/color-palette.css",
+  "unpkg": "dist/color-palette.min.css",
+  "jsdelivr": "dist/color-palette.min.css",
+  "keywords": [
+    "scss",
+    "sass",
+    "color",
+    "palette",
+    "utility",
+    "css",
+    "plugin"
+  ],
+  "author": {
+    "name": "Ahmed Fathy",
+    "email": "ahmed@fathy.me"
+  },
+  "license": "MIT",
+  "files": [
+    "src/",
+    "dist/",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmed-aliraqi/color-palette.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ahmed-aliraqi/color-palette/issues"
+  },
+  "homepage": "https://github.com/ahmed-aliraqi/color-palette#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "build": "npm run build:css && npm run build:min",
+    "build:css": "sass src/index.scss dist/color-palette.css --style=expanded",
+    "build:min": "sass src/index.scss dist/color-palette.min.css --style=compressed",
+    "watch": "sass src/index.scss dist/color-palette.css --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "sass": "^1.69.0"
+  },
+  "peerDependencies": {
+    "sass": "^1.0.0"
+  }
+}
