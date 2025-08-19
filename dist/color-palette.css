@@ -1,7 +1,7 @@
 /*!
  * SCSS Color Palette Plugin
  * Generate comprehensive color utility classes with automatic shade variations
- * Version: 1.0.5
+ * Version: 1.0.6
  */
 .bg-red-50 {
   background-color: rgb(253.4, 236.3, 236.3)  !important;
@@ -481,54 +481,6 @@
 
 .shadow-red-900 {
   box-shadow: 0 0 0 0 rgb(143.4, 40.8, 40.8)  !important;
-}
-
-.bg-red-1000 {
-  background-color: rgb(119.5, 34, 34)  !important;
-}
-
-.text-red-1000 {
-  color: rgb(119.5, 34, 34)  !important;
-}
-
-.border-red-1000 {
-  border-color: rgb(119.5, 34, 34)  !important;
-}
-
-.outline-red-1000 {
-  outline-color: rgb(119.5, 34, 34)  !important;
-}
-
-.fill-red-1000 {
-  fill: rgb(119.5, 34, 34)  !important;
-}
-
-.stroke-red-1000 {
-  stroke: rgb(119.5, 34, 34)  !important;
-}
-
-.text-decoration-red-1000 {
-  text-decoration-color: rgb(119.5, 34, 34)  !important;
-}
-
-.caret-red-1000 {
-  caret-color: rgb(119.5, 34, 34)  !important;
-}
-
-.emphasis-red-1000 {
-  text-emphasis-color: rgb(119.5, 34, 34)  !important;
-}
-
-.accent-red-1000 {
-  accent-color: rgb(119.5, 34, 34)  !important;
-}
-
-.column-rule-red-1000 {
-  column-rule-color: rgb(119.5, 34, 34)  !important;
-}
-
-.shadow-red-1000 {
-  box-shadow: 0 0 0 0 rgb(119.5, 34, 34)  !important;
 }
 
 .bg-green-50 {
@@ -1011,54 +963,6 @@
   box-shadow: 0 0 0 0 rgb(20.4, 118.2, 56.4)  !important;
 }
 
-.bg-green-1000 {
-  background-color: rgb(17, 98.5, 47)  !important;
-}
-
-.text-green-1000 {
-  color: rgb(17, 98.5, 47)  !important;
-}
-
-.border-green-1000 {
-  border-color: rgb(17, 98.5, 47)  !important;
-}
-
-.outline-green-1000 {
-  outline-color: rgb(17, 98.5, 47)  !important;
-}
-
-.fill-green-1000 {
-  fill: rgb(17, 98.5, 47)  !important;
-}
-
-.stroke-green-1000 {
-  stroke: rgb(17, 98.5, 47)  !important;
-}
-
-.text-decoration-green-1000 {
-  text-decoration-color: rgb(17, 98.5, 47)  !important;
-}
-
-.caret-green-1000 {
-  caret-color: rgb(17, 98.5, 47)  !important;
-}
-
-.emphasis-green-1000 {
-  text-emphasis-color: rgb(17, 98.5, 47)  !important;
-}
-
-.accent-green-1000 {
-  accent-color: rgb(17, 98.5, 47)  !important;
-}
-
-.column-rule-green-1000 {
-  column-rule-color: rgb(17, 98.5, 47)  !important;
-}
-
-.shadow-green-1000 {
-  box-shadow: 0 0 0 0 rgb(17, 98.5, 47)  !important;
-}
-
 .bg-blue-50 {
   background-color: rgb(235.4, 242.5, 254.1)  !important;
 }
@@ -1537,54 +1441,6 @@
 
 .shadow-blue-900 {
   box-shadow: 0 0 0 0 rgb(35.4, 78, 147.6)  !important;
-}
-
-.bg-blue-1000 {
-  background-color: rgb(29.5, 65, 123)  !important;
-}
-
-.text-blue-1000 {
-  color: rgb(29.5, 65, 123)  !important;
-}
-
-.border-blue-1000 {
-  border-color: rgb(29.5, 65, 123)  !important;
-}
-
-.outline-blue-1000 {
-  outline-color: rgb(29.5, 65, 123)  !important;
-}
-
-.fill-blue-1000 {
-  fill: rgb(29.5, 65, 123)  !important;
-}
-
-.stroke-blue-1000 {
-  stroke: rgb(29.5, 65, 123)  !important;
-}
-
-.text-decoration-blue-1000 {
-  text-decoration-color: rgb(29.5, 65, 123)  !important;
-}
-
-.caret-blue-1000 {
-  caret-color: rgb(29.5, 65, 123)  !important;
-}
-
-.emphasis-blue-1000 {
-  text-emphasis-color: rgb(29.5, 65, 123)  !important;
-}
-
-.accent-blue-1000 {
-  accent-color: rgb(29.5, 65, 123)  !important;
-}
-
-.column-rule-blue-1000 {
-  column-rule-color: rgb(29.5, 65, 123)  !important;
-}
-
-.shadow-blue-1000 {
-  box-shadow: 0 0 0 0 rgb(29.5, 65, 123)  !important;
 }
 
 .bg-yellow-50 {
@@ -2067,54 +1923,6 @@
   box-shadow: 0 0 0 0 rgb(147, 94.8, 6.6)  !important;
 }
 
-.bg-yellow-1000 {
-  background-color: rgb(122.5, 79, 5.5)  !important;
-}
-
-.text-yellow-1000 {
-  color: rgb(122.5, 79, 5.5)  !important;
-}
-
-.border-yellow-1000 {
-  border-color: rgb(122.5, 79, 5.5)  !important;
-}
-
-.outline-yellow-1000 {
-  outline-color: rgb(122.5, 79, 5.5)  !important;
-}
-
-.fill-yellow-1000 {
-  fill: rgb(122.5, 79, 5.5)  !important;
-}
-
-.stroke-yellow-1000 {
-  stroke: rgb(122.5, 79, 5.5)  !important;
-}
-
-.text-decoration-yellow-1000 {
-  text-decoration-color: rgb(122.5, 79, 5.5)  !important;
-}
-
-.caret-yellow-1000 {
-  caret-color: rgb(122.5, 79, 5.5)  !important;
-}
-
-.emphasis-yellow-1000 {
-  text-emphasis-color: rgb(122.5, 79, 5.5)  !important;
-}
-
-.accent-yellow-1000 {
-  accent-color: rgb(122.5, 79, 5.5)  !important;
-}
-
-.column-rule-yellow-1000 {
-  column-rule-color: rgb(122.5, 79, 5.5)  !important;
-}
-
-.shadow-yellow-1000 {
-  box-shadow: 0 0 0 0 rgb(122.5, 79, 5.5)  !important;
-}
-
 .bg-purple-50 {
   background-color: rgb(243.4, 238.7, 254.1)  !important;
 }
@@ -2593,54 +2401,6 @@
 
 .shadow-purple-900 {
   box-shadow: 0 0 0 0 rgb(83.4, 55.2, 147.6)  !important;
-}
-
-.bg-purple-1000 {
-  background-color: rgb(69.5, 46, 123)  !important;
-}
-
-.text-purple-1000 {
-  color: rgb(69.5, 46, 123)  !important;
-}
-
-.border-purple-1000 {
-  border-color: rgb(69.5, 46, 123)  !important;
-}
-
-.outline-purple-1000 {
-  outline-color: rgb(69.5, 46, 123)  !important;
-}
-
-.fill-purple-1000 {
-  fill: rgb(69.5, 46, 123)  !important;
-}
-
-.stroke-purple-1000 {
-  stroke: rgb(69.5, 46, 123)  !important;
-}
-
-.text-decoration-purple-1000 {
-  text-decoration-color: rgb(69.5, 46, 123)  !important;
-}
-
-.caret-purple-1000 {
-  caret-color: rgb(69.5, 46, 123)  !important;
-}
-
-.emphasis-purple-1000 {
-  text-emphasis-color: rgb(69.5, 46, 123)  !important;
-}
-
-.accent-purple-1000 {
-  accent-color: rgb(69.5, 46, 123)  !important;
-}
-
-.column-rule-purple-1000 {
-  column-rule-color: rgb(69.5, 46, 123)  !important;
-}
-
-.shadow-purple-1000 {
-  box-shadow: 0 0 0 0 rgb(69.5, 46, 123)  !important;
 }
 
 .bg-pink-50 {
@@ -3123,54 +2883,6 @@
   box-shadow: 0 0 0 0 rgb(141.6, 43.2, 91.8)  !important;
 }
 
-.bg-pink-1000 {
-  background-color: rgb(118, 36, 76.5)  !important;
-}
-
-.text-pink-1000 {
-  color: rgb(118, 36, 76.5)  !important;
-}
-
-.border-pink-1000 {
-  border-color: rgb(118, 36, 76.5)  !important;
-}
-
-.outline-pink-1000 {
-  outline-color: rgb(118, 36, 76.5)  !important;
-}
-
-.fill-pink-1000 {
-  fill: rgb(118, 36, 76.5)  !important;
-}
-
-.stroke-pink-1000 {
-  stroke: rgb(118, 36, 76.5)  !important;
-}
-
-.text-decoration-pink-1000 {
-  text-decoration-color: rgb(118, 36, 76.5)  !important;
-}
-
-.caret-pink-1000 {
-  caret-color: rgb(118, 36, 76.5)  !important;
-}
-
-.emphasis-pink-1000 {
-  text-emphasis-color: rgb(118, 36, 76.5)  !important;
-}
-
-.accent-pink-1000 {
-  accent-color: rgb(118, 36, 76.5)  !important;
-}
-
-.column-rule-pink-1000 {
-  column-rule-color: rgb(118, 36, 76.5)  !important;
-}
-
-.shadow-pink-1000 {
-  box-shadow: 0 0 0 0 rgb(118, 36, 76.5)  !important;
-}
-
 .bg-indigo-50 {
   background-color: rgb(239.4, 239.7, 253.6)  !important;
 }
@@ -3649,54 +3361,6 @@
 
 .shadow-indigo-900 {
   box-shadow: 0 0 0 0 rgb(59.4, 61.2, 144.6)  !important;
-}
-
-.bg-indigo-1000 {
-  background-color: rgb(49.5, 51, 120.5)  !important;
-}
-
-.text-indigo-1000 {
-  color: rgb(49.5, 51, 120.5)  !important;
-}
-
-.border-indigo-1000 {
-  border-color: rgb(49.5, 51, 120.5)  !important;
-}
-
-.outline-indigo-1000 {
-  outline-color: rgb(49.5, 51, 120.5)  !important;
-}
-
-.fill-indigo-1000 {
-  fill: rgb(49.5, 51, 120.5)  !important;
-}
-
-.stroke-indigo-1000 {
-  stroke: rgb(49.5, 51, 120.5)  !important;
-}
-
-.text-decoration-indigo-1000 {
-  text-decoration-color: rgb(49.5, 51, 120.5)  !important;
-}
-
-.caret-indigo-1000 {
-  caret-color: rgb(49.5, 51, 120.5)  !important;
-}
-
-.emphasis-indigo-1000 {
-  text-emphasis-color: rgb(49.5, 51, 120.5)  !important;
-}
-
-.accent-indigo-1000 {
-  accent-color: rgb(49.5, 51, 120.5)  !important;
-}
-
-.column-rule-indigo-1000 {
-  column-rule-color: rgb(49.5, 51, 120.5)  !important;
-}
-
-.shadow-indigo-1000 {
-  box-shadow: 0 0 0 0 rgb(49.5, 51, 120.5)  !important;
 }
 
 .bg-orange-50 {
@@ -4179,54 +3843,6 @@
   box-shadow: 0 0 0 0 rgb(149.4, 69, 13.2)  !important;
 }
 
-.bg-orange-1000 {
-  background-color: rgb(124.5, 57.5, 11)  !important;
-}
-
-.text-orange-1000 {
-  color: rgb(124.5, 57.5, 11)  !important;
-}
-
-.border-orange-1000 {
-  border-color: rgb(124.5, 57.5, 11)  !important;
-}
-
-.outline-orange-1000 {
-  outline-color: rgb(124.5, 57.5, 11)  !important;
-}
-
-.fill-orange-1000 {
-  fill: rgb(124.5, 57.5, 11)  !important;
-}
-
-.stroke-orange-1000 {
-  stroke: rgb(124.5, 57.5, 11)  !important;
-}
-
-.text-decoration-orange-1000 {
-  text-decoration-color: rgb(124.5, 57.5, 11)  !important;
-}
-
-.caret-orange-1000 {
-  caret-color: rgb(124.5, 57.5, 11)  !important;
-}
-
-.emphasis-orange-1000 {
-  text-emphasis-color: rgb(124.5, 57.5, 11)  !important;
-}
-
-.accent-orange-1000 {
-  accent-color: rgb(124.5, 57.5, 11)  !important;
-}
-
-.column-rule-orange-1000 {
-  column-rule-color: rgb(124.5, 57.5, 11)  !important;
-}
-
-.shadow-orange-1000 {
-  box-shadow: 0 0 0 0 rgb(124.5, 57.5, 11)  !important;
-}
-
 .bg-teal-50 {
   background-color: rgb(231.5, 247.9, 246.1)  !important;
 }
@@ -4705,54 +4321,6 @@
 
 .shadow-teal-900 {
   box-shadow: 0 0 0 0 rgb(12, 110.4, 99.6)  !important;
-}
-
-.bg-teal-1000 {
-  background-color: #0a5c53  !important;
-}
-
-.text-teal-1000 {
-  color: #0a5c53  !important;
-}
-
-.border-teal-1000 {
-  border-color: #0a5c53  !important;
-}
-
-.outline-teal-1000 {
-  outline-color: #0a5c53  !important;
-}
-
-.fill-teal-1000 {
-  fill: #0a5c53  !important;
-}
-
-.stroke-teal-1000 {
-  stroke: #0a5c53  !important;
-}
-
-.text-decoration-teal-1000 {
-  text-decoration-color: #0a5c53  !important;
-}
-
-.caret-teal-1000 {
-  caret-color: #0a5c53  !important;
-}
-
-.emphasis-teal-1000 {
-  text-emphasis-color: #0a5c53  !important;
-}
-
-.accent-teal-1000 {
-  accent-color: #0a5c53  !important;
-}
-
-.column-rule-teal-1000 {
-  column-rule-color: #0a5c53  !important;
-}
-
-.shadow-teal-1000 {
-  box-shadow: 0 0 0 0 #0a5c53  !important;
 }
 
 .bg-cyan-50 {
@@ -5235,54 +4803,6 @@
   box-shadow: 0 0 0 0 rgb(3.6, 109.2, 127.2)  !important;
 }
 
-.bg-cyan-1000 {
-  background-color: #035b6a  !important;
-}
-
-.text-cyan-1000 {
-  color: #035b6a  !important;
-}
-
-.border-cyan-1000 {
-  border-color: #035b6a  !important;
-}
-
-.outline-cyan-1000 {
-  outline-color: #035b6a  !important;
-}
-
-.fill-cyan-1000 {
-  fill: #035b6a  !important;
-}
-
-.stroke-cyan-1000 {
-  stroke: #035b6a  !important;
-}
-
-.text-decoration-cyan-1000 {
-  text-decoration-color: #035b6a  !important;
-}
-
-.caret-cyan-1000 {
-  caret-color: #035b6a  !important;
-}
-
-.emphasis-cyan-1000 {
-  text-emphasis-color: #035b6a  !important;
-}
-
-.accent-cyan-1000 {
-  accent-color: #035b6a  !important;
-}
-
-.column-rule-cyan-1000 {
-  column-rule-color: #035b6a  !important;
-}
-
-.shadow-cyan-1000 {
-  box-shadow: 0 0 0 0 #035b6a  !important;
-}
-
 .bg-gray-50 {
   background-color: rgb(240.2, 240.9, 242.3)  !important;
 }
@@ -5763,54 +5283,6 @@
   box-shadow: 0 0 0 0 rgb(64.2, 68.4, 76.8)  !important;
 }
 
-.bg-gray-1000 {
-  background-color: rgb(53.5, 57, 64)  !important;
-}
-
-.text-gray-1000 {
-  color: rgb(53.5, 57, 64)  !important;
-}
-
-.border-gray-1000 {
-  border-color: rgb(53.5, 57, 64)  !important;
-}
-
-.outline-gray-1000 {
-  outline-color: rgb(53.5, 57, 64)  !important;
-}
-
-.fill-gray-1000 {
-  fill: rgb(53.5, 57, 64)  !important;
-}
-
-.stroke-gray-1000 {
-  stroke: rgb(53.5, 57, 64)  !important;
-}
-
-.text-decoration-gray-1000 {
-  text-decoration-color: rgb(53.5, 57, 64)  !important;
-}
-
-.caret-gray-1000 {
-  caret-color: rgb(53.5, 57, 64)  !important;
-}
-
-.emphasis-gray-1000 {
-  text-emphasis-color: rgb(53.5, 57, 64)  !important;
-}
-
-.accent-gray-1000 {
-  accent-color: rgb(53.5, 57, 64)  !important;
-}
-
-.column-rule-gray-1000 {
-  column-rule-color: rgb(53.5, 57, 64)  !important;
-}
-
-.shadow-gray-1000 {
-  box-shadow: 0 0 0 0 rgb(53.5, 57, 64)  !important;
-}
-
 .bg-black-50 {
   background-color: rgb(229.5, 229.5, 229.5)  !important;
 }
@@ -6288,54 +5760,6 @@
 }
 
 .shadow-black-900 {
-  box-shadow: 0 0 0 0 black  !important;
-}
-
-.bg-black-1000 {
-  background-color: black  !important;
-}
-
-.text-black-1000 {
-  color: black  !important;
-}
-
-.border-black-1000 {
-  border-color: black  !important;
-}
-
-.outline-black-1000 {
-  outline-color: black  !important;
-}
-
-.fill-black-1000 {
-  fill: black  !important;
-}
-
-.stroke-black-1000 {
-  stroke: black  !important;
-}
-
-.text-decoration-black-1000 {
-  text-decoration-color: black  !important;
-}
-
-.caret-black-1000 {
-  caret-color: black  !important;
-}
-
-.emphasis-black-1000 {
-  text-emphasis-color: black  !important;
-}
-
-.accent-black-1000 {
-  accent-color: black  !important;
-}
-
-.column-rule-black-1000 {
-  column-rule-color: black  !important;
-}
-
-.shadow-black-1000 {
   box-shadow: 0 0 0 0 black  !important;
 }
 
@@ -6819,54 +6243,6 @@
   box-shadow: 0 0 0 0 #999999  !important;
 }
 
-.bg-white-1000 {
-  background-color: rgb(127.5, 127.5, 127.5)  !important;
-}
-
-.text-white-1000 {
-  color: rgb(127.5, 127.5, 127.5)  !important;
-}
-
-.border-white-1000 {
-  border-color: rgb(127.5, 127.5, 127.5)  !important;
-}
-
-.outline-white-1000 {
-  outline-color: rgb(127.5, 127.5, 127.5)  !important;
-}
-
-.fill-white-1000 {
-  fill: rgb(127.5, 127.5, 127.5)  !important;
-}
-
-.stroke-white-1000 {
-  stroke: rgb(127.5, 127.5, 127.5)  !important;
-}
-
-.text-decoration-white-1000 {
-  text-decoration-color: rgb(127.5, 127.5, 127.5)  !important;
-}
-
-.caret-white-1000 {
-  caret-color: rgb(127.5, 127.5, 127.5)  !important;
-}
-
-.emphasis-white-1000 {
-  text-emphasis-color: rgb(127.5, 127.5, 127.5)  !important;
-}
-
-.accent-white-1000 {
-  accent-color: rgb(127.5, 127.5, 127.5)  !important;
-}
-
-.column-rule-white-1000 {
-  column-rule-color: rgb(127.5, 127.5, 127.5)  !important;
-}
-
-.shadow-white-1000 {
-  box-shadow: 0 0 0 0 rgb(127.5, 127.5, 127.5)  !important;
-}
-
 .bg-zinc-50 {
   background-color: rgb(240.8, 240.8, 241.7)  !important;
 }
@@ -7347,54 +6723,6 @@
   box-shadow: 0 0 0 0 rgb(67.8, 67.8, 73.2)  !important;
 }
 
-.bg-zinc-1000 {
-  background-color: rgb(56.5, 56.5, 61)  !important;
-}
-
-.text-zinc-1000 {
-  color: rgb(56.5, 56.5, 61)  !important;
-}
-
-.border-zinc-1000 {
-  border-color: rgb(56.5, 56.5, 61)  !important;
-}
-
-.outline-zinc-1000 {
-  outline-color: rgb(56.5, 56.5, 61)  !important;
-}
-
-.fill-zinc-1000 {
-  fill: rgb(56.5, 56.5, 61)  !important;
-}
-
-.stroke-zinc-1000 {
-  stroke: rgb(56.5, 56.5, 61)  !important;
-}
-
-.text-decoration-zinc-1000 {
-  text-decoration-color: rgb(56.5, 56.5, 61)  !important;
-}
-
-.caret-zinc-1000 {
-  caret-color: rgb(56.5, 56.5, 61)  !important;
-}
-
-.emphasis-zinc-1000 {
-  text-emphasis-color: rgb(56.5, 56.5, 61)  !important;
-}
-
-.accent-zinc-1000 {
-  accent-color: rgb(56.5, 56.5, 61)  !important;
-}
-
-.column-rule-zinc-1000 {
-  column-rule-color: rgb(56.5, 56.5, 61)  !important;
-}
-
-.shadow-zinc-1000 {
-  box-shadow: 0 0 0 0 rgb(56.5, 56.5, 61)  !important;
-}
-
 .bg-rose-50 {
   background-color: rgb(253.9, 235.8, 238.9)  !important;
 }
@@ -7873,54 +7201,6 @@
 
 .shadow-rose-900 {
   box-shadow: 0 0 0 0 rgb(146.4, 37.8, 56.4)  !important;
-}
-
-.bg-rose-1000 {
-  background-color: rgb(122, 31.5, 47)  !important;
-}
-
-.text-rose-1000 {
-  color: rgb(122, 31.5, 47)  !important;
-}
-
-.border-rose-1000 {
-  border-color: rgb(122, 31.5, 47)  !important;
-}
-
-.outline-rose-1000 {
-  outline-color: rgb(122, 31.5, 47)  !important;
-}
-
-.fill-rose-1000 {
-  fill: rgb(122, 31.5, 47)  !important;
-}
-
-.stroke-rose-1000 {
-  stroke: rgb(122, 31.5, 47)  !important;
-}
-
-.text-decoration-rose-1000 {
-  text-decoration-color: rgb(122, 31.5, 47)  !important;
-}
-
-.caret-rose-1000 {
-  caret-color: rgb(122, 31.5, 47)  !important;
-}
-
-.emphasis-rose-1000 {
-  text-emphasis-color: rgb(122, 31.5, 47)  !important;
-}
-
-.accent-rose-1000 {
-  accent-color: rgb(122, 31.5, 47)  !important;
-}
-
-.column-rule-rose-1000 {
-  column-rule-color: rgb(122, 31.5, 47)  !important;
-}
-
-.shadow-rose-1000 {
-  box-shadow: 0 0 0 0 rgb(122, 31.5, 47)  !important;
 }
 
 /*# sourceMappingURL=color-palette.css.map */

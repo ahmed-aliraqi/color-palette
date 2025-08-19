@@ -4,11 +4,8 @@ A powerful SCSS plugin that automatically generates comprehensive color utility 
 
 ## Features
 
-- 🎨 **Automatic shade generation** - Creates 11 shades (50-1000) for any base color
-- 🔧 **Highly configurable** - Enable/disable different property types
+- 🎨 **Automatic shade generation** - Creates 11 shades (50-900) for any base color
 - 🎯 **Comprehensive coverage** - Background, text, border, SVG, UI, and shadow utilities
-- 📦 **Easy to use** - Simple mixins with sensible defaults
-- 🚀 **Performance focused** - Only generates what you need
 - 🌐 **CDN Ready** - Pre-built CSS files available for direct use
 
 ## Installation
@@ -59,7 +56,7 @@ Download and include the `dist/color-palette.css` or `scss/index.scss` file in y
 ### Using SCSS Source
 ```scss
 // Import the plugin
-@import '@ahmed-aliraqi/color-palette';
+@use '@ahmed-aliraqi/color-palette';
 
 // The plugin automatically generates utilities for the default color palette
 // You can now use classes like:

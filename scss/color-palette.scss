@@ -1,7 +1,7 @@
 /*!
  * SCSS Color Palette Plugin
  * Generate comprehensive color utility classes with automatic shade variations
- * Version: 1.0.5
+ * Version: 1.0.6
  */
 
 @use 'sass:color';
@@ -18,8 +18,7 @@ $color-shade-percentages: (
         600: -10%,
         700: -20%,
         800: -30%,
-        900: -40%,
-        1000: -50%
+        900: -40%
 );
 
 // Default color palette

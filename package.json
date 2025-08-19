@@ -1,6 +1,6 @@
 {
   "name": "@ahmed-aliraqi/color-palette",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A powerful SCSS plugin that automatically generates comprehensive color utility classes with customizable shade variations. Perfect for design systems and utility-first CSS frameworks.",
   "main": "dist/color-palette.css",
   "style": "dist/color-palette.css",
