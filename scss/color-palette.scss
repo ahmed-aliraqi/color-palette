@@ -1,7 +1,7 @@
 /*!
- * SCSS Color Palette Plugin
- * Generate comprehensive color utility classes with automatic shade variations
- * Version: 1.0.6
+ * SCSS Color Palette Plugin (with dark mode via [data-mode="dark"])
+ * Generates color utility classes with automatic shade variations
+ * Version: 1.1.1
  */
 
 @use 'sass:color';
@@ -45,62 +45,72 @@ $color-palette: (
   @return ' !important';
 }
 
-// Mixin to generate color classes
-@mixin generate-color($base-color, $name) {
+// Mixin to generate color utility classes
+@mixin generate-color($base-color, $name, $prefix: '') {
   @each $key, $percent in $color-shade-percentages {
-    $color: if($percent >= 0, color.mix(white, $base-color, $percent), color.mix(black, $base-color, math.abs($percent)));
+    $color: if(
+                    $percent >= 0,
+                    color.mix(white, $base-color, $percent),
+                    color.mix(black, $base-color, math.abs($percent))
+    );
 
-    // Background colors
-    .bg-#{$name}-#{$key} {
+    // Background
+    .#{$prefix}bg-#{$name}-#{$key} {
       background-color: $color#{importance()};
     }
 
-    // Text / Foreground colors
-    .text-#{$name}-#{$key} {
+    // Text
+    .#{$prefix}text-#{$name}-#{$key} {
       color: $color#{importance()};
     }
 
-    // Borders & Outlines
-    .border-#{$name}-#{$key} {
+    // Border / Outline
+    .#{$prefix}border-#{$name}-#{$key} {
       border-color: $color#{importance()};
     }
-    .outline-#{$name}-#{$key} {
+    .#{$prefix}outline-#{$name}-#{$key} {
       outline-color: $color#{importance()};
     }
 
-    // SVG colors
-    .fill-#{$name}-#{$key} {
+    // SVG
+    .#{$prefix}fill-#{$name}-#{$key} {
       fill: $color#{importance()};
     }
-    .stroke-#{$name}-#{$key} {
+    .#{$prefix}stroke-#{$name}-#{$key} {
       stroke: $color#{importance()};
     }
 
-    // UI & layout colors
-    .text-decoration-#{$name}-#{$key} {
+    // UI / layout
+    .#{$prefix}text-decoration-#{$name}-#{$key} {
       text-decoration-color: $color#{importance()};
     }
-    .caret-#{$name}-#{$key} {
+    .#{$prefix}caret-#{$name}-#{$key} {
       caret-color: $color#{importance()};
     }
-    .emphasis-#{$name}-#{$key} {
+    .#{$prefix}emphasis-#{$name}-#{$key} {
       text-emphasis-color: $color#{importance()};
     }
-    .accent-#{$name}-#{$key} {
+    .#{$prefix}accent-#{$name}-#{$key} {
       accent-color: $color#{importance()};
     }
-    .column-rule-#{$name}-#{$key} {
+    .#{$prefix}column-rule-#{$name}-#{$key} {
       column-rule-color: $color#{importance()};
     }
 
-    // Shadow colors (optional, kept for compatibility)
-    .shadow-#{$name}-#{$key} {
+    // Shadow
+    .#{$prefix}shadow-#{$name}-#{$key} {
       box-shadow: 0 0 0 0 $color#{importance()};
     }
   }
 }
 
-// Generate all colors from the default palette
+// Generate normal and dark-prefixed classes
 @each $name, $color in $color-palette {
+  // Normal variants
   @include generate-color($color, $name);
+
+  // Dark variants (only active when [data-mode="dark"] is on <html>)
+  html[data-mode='dark'] {
+    @include generate-color($color, $name, 'dark\\:');
+  }
 }

@@ -1,7 +1,7 @@
 /*!
- * SCSS Color Palette Plugin
- * Generate comprehensive color utility classes with automatic shade variations
- * Version: 1.0.6
+ * SCSS Color Palette Plugin (with dark mode via [data-mode="dark"])
+ * Generates color utility classes with automatic shade variations
+ * Version: 1.1.1
  */
 .bg-red-50 {
   background-color: rgb(253.4, 236.3, 236.3)  !important;
@@ -480,6 +480,367 @@
 }
 
 .shadow-red-900 {
+  box-shadow: 0 0 0 0 rgb(143.4, 40.8, 40.8)  !important;
+}
+
+html[data-mode=dark] .dark\:bg-red-50 {
+  background-color: rgb(253.4, 236.3, 236.3)  !important;
+}
+html[data-mode=dark] .dark\:text-red-50 {
+  color: rgb(253.4, 236.3, 236.3)  !important;
+}
+html[data-mode=dark] .dark\:border-red-50 {
+  border-color: rgb(253.4, 236.3, 236.3)  !important;
+}
+html[data-mode=dark] .dark\:outline-red-50 {
+  outline-color: rgb(253.4, 236.3, 236.3)  !important;
+}
+html[data-mode=dark] .dark\:fill-red-50 {
+  fill: rgb(253.4, 236.3, 236.3)  !important;
+}
+html[data-mode=dark] .dark\:stroke-red-50 {
+  stroke: rgb(253.4, 236.3, 236.3)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-red-50 {
+  text-decoration-color: rgb(253.4, 236.3, 236.3)  !important;
+}
+html[data-mode=dark] .dark\:caret-red-50 {
+  caret-color: rgb(253.4, 236.3, 236.3)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-red-50 {
+  text-emphasis-color: rgb(253.4, 236.3, 236.3)  !important;
+}
+html[data-mode=dark] .dark\:accent-red-50 {
+  accent-color: rgb(253.4, 236.3, 236.3)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-red-50 {
+  column-rule-color: rgb(253.4, 236.3, 236.3)  !important;
+}
+html[data-mode=dark] .dark\:shadow-red-50 {
+  box-shadow: 0 0 0 0 rgb(253.4, 236.3, 236.3)  !important;
+}
+html[data-mode=dark] .dark\:bg-red-100 {
+  background-color: rgb(251.8, 217.6, 217.6)  !important;
+}
+html[data-mode=dark] .dark\:text-red-100 {
+  color: rgb(251.8, 217.6, 217.6)  !important;
+}
+html[data-mode=dark] .dark\:border-red-100 {
+  border-color: rgb(251.8, 217.6, 217.6)  !important;
+}
+html[data-mode=dark] .dark\:outline-red-100 {
+  outline-color: rgb(251.8, 217.6, 217.6)  !important;
+}
+html[data-mode=dark] .dark\:fill-red-100 {
+  fill: rgb(251.8, 217.6, 217.6)  !important;
+}
+html[data-mode=dark] .dark\:stroke-red-100 {
+  stroke: rgb(251.8, 217.6, 217.6)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-red-100 {
+  text-decoration-color: rgb(251.8, 217.6, 217.6)  !important;
+}
+html[data-mode=dark] .dark\:caret-red-100 {
+  caret-color: rgb(251.8, 217.6, 217.6)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-red-100 {
+  text-emphasis-color: rgb(251.8, 217.6, 217.6)  !important;
+}
+html[data-mode=dark] .dark\:accent-red-100 {
+  accent-color: rgb(251.8, 217.6, 217.6)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-red-100 {
+  column-rule-color: rgb(251.8, 217.6, 217.6)  !important;
+}
+html[data-mode=dark] .dark\:shadow-red-100 {
+  box-shadow: 0 0 0 0 rgb(251.8, 217.6, 217.6)  !important;
+}
+html[data-mode=dark] .dark\:bg-red-200 {
+  background-color: rgb(250.2, 198.9, 198.9)  !important;
+}
+html[data-mode=dark] .dark\:text-red-200 {
+  color: rgb(250.2, 198.9, 198.9)  !important;
+}
+html[data-mode=dark] .dark\:border-red-200 {
+  border-color: rgb(250.2, 198.9, 198.9)  !important;
+}
+html[data-mode=dark] .dark\:outline-red-200 {
+  outline-color: rgb(250.2, 198.9, 198.9)  !important;
+}
+html[data-mode=dark] .dark\:fill-red-200 {
+  fill: rgb(250.2, 198.9, 198.9)  !important;
+}
+html[data-mode=dark] .dark\:stroke-red-200 {
+  stroke: rgb(250.2, 198.9, 198.9)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-red-200 {
+  text-decoration-color: rgb(250.2, 198.9, 198.9)  !important;
+}
+html[data-mode=dark] .dark\:caret-red-200 {
+  caret-color: rgb(250.2, 198.9, 198.9)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-red-200 {
+  text-emphasis-color: rgb(250.2, 198.9, 198.9)  !important;
+}
+html[data-mode=dark] .dark\:accent-red-200 {
+  accent-color: rgb(250.2, 198.9, 198.9)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-red-200 {
+  column-rule-color: rgb(250.2, 198.9, 198.9)  !important;
+}
+html[data-mode=dark] .dark\:shadow-red-200 {
+  box-shadow: 0 0 0 0 rgb(250.2, 198.9, 198.9)  !important;
+}
+html[data-mode=dark] .dark\:bg-red-300 {
+  background-color: rgb(248.6, 180.2, 180.2)  !important;
+}
+html[data-mode=dark] .dark\:text-red-300 {
+  color: rgb(248.6, 180.2, 180.2)  !important;
+}
+html[data-mode=dark] .dark\:border-red-300 {
+  border-color: rgb(248.6, 180.2, 180.2)  !important;
+}
+html[data-mode=dark] .dark\:outline-red-300 {
+  outline-color: rgb(248.6, 180.2, 180.2)  !important;
+}
+html[data-mode=dark] .dark\:fill-red-300 {
+  fill: rgb(248.6, 180.2, 180.2)  !important;
+}
+html[data-mode=dark] .dark\:stroke-red-300 {
+  stroke: rgb(248.6, 180.2, 180.2)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-red-300 {
+  text-decoration-color: rgb(248.6, 180.2, 180.2)  !important;
+}
+html[data-mode=dark] .dark\:caret-red-300 {
+  caret-color: rgb(248.6, 180.2, 180.2)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-red-300 {
+  text-emphasis-color: rgb(248.6, 180.2, 180.2)  !important;
+}
+html[data-mode=dark] .dark\:accent-red-300 {
+  accent-color: rgb(248.6, 180.2, 180.2)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-red-300 {
+  column-rule-color: rgb(248.6, 180.2, 180.2)  !important;
+}
+html[data-mode=dark] .dark\:shadow-red-300 {
+  box-shadow: 0 0 0 0 rgb(248.6, 180.2, 180.2)  !important;
+}
+html[data-mode=dark] .dark\:bg-red-400 {
+  background-color: rgb(247, 161.5, 161.5)  !important;
+}
+html[data-mode=dark] .dark\:text-red-400 {
+  color: rgb(247, 161.5, 161.5)  !important;
+}
+html[data-mode=dark] .dark\:border-red-400 {
+  border-color: rgb(247, 161.5, 161.5)  !important;
+}
+html[data-mode=dark] .dark\:outline-red-400 {
+  outline-color: rgb(247, 161.5, 161.5)  !important;
+}
+html[data-mode=dark] .dark\:fill-red-400 {
+  fill: rgb(247, 161.5, 161.5)  !important;
+}
+html[data-mode=dark] .dark\:stroke-red-400 {
+  stroke: rgb(247, 161.5, 161.5)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-red-400 {
+  text-decoration-color: rgb(247, 161.5, 161.5)  !important;
+}
+html[data-mode=dark] .dark\:caret-red-400 {
+  caret-color: rgb(247, 161.5, 161.5)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-red-400 {
+  text-emphasis-color: rgb(247, 161.5, 161.5)  !important;
+}
+html[data-mode=dark] .dark\:accent-red-400 {
+  accent-color: rgb(247, 161.5, 161.5)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-red-400 {
+  column-rule-color: rgb(247, 161.5, 161.5)  !important;
+}
+html[data-mode=dark] .dark\:shadow-red-400 {
+  box-shadow: 0 0 0 0 rgb(247, 161.5, 161.5)  !important;
+}
+html[data-mode=dark] .dark\:bg-red-500 {
+  background-color: #ef4444  !important;
+}
+html[data-mode=dark] .dark\:text-red-500 {
+  color: #ef4444  !important;
+}
+html[data-mode=dark] .dark\:border-red-500 {
+  border-color: #ef4444  !important;
+}
+html[data-mode=dark] .dark\:outline-red-500 {
+  outline-color: #ef4444  !important;
+}
+html[data-mode=dark] .dark\:fill-red-500 {
+  fill: #ef4444  !important;
+}
+html[data-mode=dark] .dark\:stroke-red-500 {
+  stroke: #ef4444  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-red-500 {
+  text-decoration-color: #ef4444  !important;
+}
+html[data-mode=dark] .dark\:caret-red-500 {
+  caret-color: #ef4444  !important;
+}
+html[data-mode=dark] .dark\:emphasis-red-500 {
+  text-emphasis-color: #ef4444  !important;
+}
+html[data-mode=dark] .dark\:accent-red-500 {
+  accent-color: #ef4444  !important;
+}
+html[data-mode=dark] .dark\:column-rule-red-500 {
+  column-rule-color: #ef4444  !important;
+}
+html[data-mode=dark] .dark\:shadow-red-500 {
+  box-shadow: 0 0 0 0 #ef4444  !important;
+}
+html[data-mode=dark] .dark\:bg-red-600 {
+  background-color: rgb(215.1, 61.2, 61.2)  !important;
+}
+html[data-mode=dark] .dark\:text-red-600 {
+  color: rgb(215.1, 61.2, 61.2)  !important;
+}
+html[data-mode=dark] .dark\:border-red-600 {
+  border-color: rgb(215.1, 61.2, 61.2)  !important;
+}
+html[data-mode=dark] .dark\:outline-red-600 {
+  outline-color: rgb(215.1, 61.2, 61.2)  !important;
+}
+html[data-mode=dark] .dark\:fill-red-600 {
+  fill: rgb(215.1, 61.2, 61.2)  !important;
+}
+html[data-mode=dark] .dark\:stroke-red-600 {
+  stroke: rgb(215.1, 61.2, 61.2)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-red-600 {
+  text-decoration-color: rgb(215.1, 61.2, 61.2)  !important;
+}
+html[data-mode=dark] .dark\:caret-red-600 {
+  caret-color: rgb(215.1, 61.2, 61.2)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-red-600 {
+  text-emphasis-color: rgb(215.1, 61.2, 61.2)  !important;
+}
+html[data-mode=dark] .dark\:accent-red-600 {
+  accent-color: rgb(215.1, 61.2, 61.2)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-red-600 {
+  column-rule-color: rgb(215.1, 61.2, 61.2)  !important;
+}
+html[data-mode=dark] .dark\:shadow-red-600 {
+  box-shadow: 0 0 0 0 rgb(215.1, 61.2, 61.2)  !important;
+}
+html[data-mode=dark] .dark\:bg-red-700 {
+  background-color: rgb(191.2, 54.4, 54.4)  !important;
+}
+html[data-mode=dark] .dark\:text-red-700 {
+  color: rgb(191.2, 54.4, 54.4)  !important;
+}
+html[data-mode=dark] .dark\:border-red-700 {
+  border-color: rgb(191.2, 54.4, 54.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-red-700 {
+  outline-color: rgb(191.2, 54.4, 54.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-red-700 {
+  fill: rgb(191.2, 54.4, 54.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-red-700 {
+  stroke: rgb(191.2, 54.4, 54.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-red-700 {
+  text-decoration-color: rgb(191.2, 54.4, 54.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-red-700 {
+  caret-color: rgb(191.2, 54.4, 54.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-red-700 {
+  text-emphasis-color: rgb(191.2, 54.4, 54.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-red-700 {
+  accent-color: rgb(191.2, 54.4, 54.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-red-700 {
+  column-rule-color: rgb(191.2, 54.4, 54.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-red-700 {
+  box-shadow: 0 0 0 0 rgb(191.2, 54.4, 54.4)  !important;
+}
+html[data-mode=dark] .dark\:bg-red-800 {
+  background-color: rgb(167.3, 47.6, 47.6)  !important;
+}
+html[data-mode=dark] .dark\:text-red-800 {
+  color: rgb(167.3, 47.6, 47.6)  !important;
+}
+html[data-mode=dark] .dark\:border-red-800 {
+  border-color: rgb(167.3, 47.6, 47.6)  !important;
+}
+html[data-mode=dark] .dark\:outline-red-800 {
+  outline-color: rgb(167.3, 47.6, 47.6)  !important;
+}
+html[data-mode=dark] .dark\:fill-red-800 {
+  fill: rgb(167.3, 47.6, 47.6)  !important;
+}
+html[data-mode=dark] .dark\:stroke-red-800 {
+  stroke: rgb(167.3, 47.6, 47.6)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-red-800 {
+  text-decoration-color: rgb(167.3, 47.6, 47.6)  !important;
+}
+html[data-mode=dark] .dark\:caret-red-800 {
+  caret-color: rgb(167.3, 47.6, 47.6)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-red-800 {
+  text-emphasis-color: rgb(167.3, 47.6, 47.6)  !important;
+}
+html[data-mode=dark] .dark\:accent-red-800 {
+  accent-color: rgb(167.3, 47.6, 47.6)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-red-800 {
+  column-rule-color: rgb(167.3, 47.6, 47.6)  !important;
+}
+html[data-mode=dark] .dark\:shadow-red-800 {
+  box-shadow: 0 0 0 0 rgb(167.3, 47.6, 47.6)  !important;
+}
+html[data-mode=dark] .dark\:bg-red-900 {
+  background-color: rgb(143.4, 40.8, 40.8)  !important;
+}
+html[data-mode=dark] .dark\:text-red-900 {
+  color: rgb(143.4, 40.8, 40.8)  !important;
+}
+html[data-mode=dark] .dark\:border-red-900 {
+  border-color: rgb(143.4, 40.8, 40.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-red-900 {
+  outline-color: rgb(143.4, 40.8, 40.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-red-900 {
+  fill: rgb(143.4, 40.8, 40.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-red-900 {
+  stroke: rgb(143.4, 40.8, 40.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-red-900 {
+  text-decoration-color: rgb(143.4, 40.8, 40.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-red-900 {
+  caret-color: rgb(143.4, 40.8, 40.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-red-900 {
+  text-emphasis-color: rgb(143.4, 40.8, 40.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-red-900 {
+  accent-color: rgb(143.4, 40.8, 40.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-red-900 {
+  column-rule-color: rgb(143.4, 40.8, 40.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-red-900 {
   box-shadow: 0 0 0 0 rgb(143.4, 40.8, 40.8)  !important;
 }
 
@@ -963,6 +1324,367 @@
   box-shadow: 0 0 0 0 rgb(20.4, 118.2, 56.4)  !important;
 }
 
+html[data-mode=dark] .dark\:bg-green-50 {
+  background-color: rgb(232.9, 249.2, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:text-green-50 {
+  color: rgb(232.9, 249.2, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:border-green-50 {
+  border-color: rgb(232.9, 249.2, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:outline-green-50 {
+  outline-color: rgb(232.9, 249.2, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:fill-green-50 {
+  fill: rgb(232.9, 249.2, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:stroke-green-50 {
+  stroke: rgb(232.9, 249.2, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-green-50 {
+  text-decoration-color: rgb(232.9, 249.2, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:caret-green-50 {
+  caret-color: rgb(232.9, 249.2, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-green-50 {
+  text-emphasis-color: rgb(232.9, 249.2, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:accent-green-50 {
+  accent-color: rgb(232.9, 249.2, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-green-50 {
+  column-rule-color: rgb(232.9, 249.2, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:shadow-green-50 {
+  box-shadow: 0 0 0 0 rgb(232.9, 249.2, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:bg-green-100 {
+  background-color: rgb(210.8, 243.4, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:text-green-100 {
+  color: rgb(210.8, 243.4, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:border-green-100 {
+  border-color: rgb(210.8, 243.4, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-green-100 {
+  outline-color: rgb(210.8, 243.4, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-green-100 {
+  fill: rgb(210.8, 243.4, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-green-100 {
+  stroke: rgb(210.8, 243.4, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-green-100 {
+  text-decoration-color: rgb(210.8, 243.4, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-green-100 {
+  caret-color: rgb(210.8, 243.4, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-green-100 {
+  text-emphasis-color: rgb(210.8, 243.4, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-green-100 {
+  accent-color: rgb(210.8, 243.4, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-green-100 {
+  column-rule-color: rgb(210.8, 243.4, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-green-100 {
+  box-shadow: 0 0 0 0 rgb(210.8, 243.4, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:bg-green-200 {
+  background-color: rgb(188.7, 237.6, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:text-green-200 {
+  color: rgb(188.7, 237.6, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:border-green-200 {
+  border-color: rgb(188.7, 237.6, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:outline-green-200 {
+  outline-color: rgb(188.7, 237.6, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:fill-green-200 {
+  fill: rgb(188.7, 237.6, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:stroke-green-200 {
+  stroke: rgb(188.7, 237.6, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-green-200 {
+  text-decoration-color: rgb(188.7, 237.6, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:caret-green-200 {
+  caret-color: rgb(188.7, 237.6, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-green-200 {
+  text-emphasis-color: rgb(188.7, 237.6, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:accent-green-200 {
+  accent-color: rgb(188.7, 237.6, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-green-200 {
+  column-rule-color: rgb(188.7, 237.6, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:shadow-green-200 {
+  box-shadow: 0 0 0 0 rgb(188.7, 237.6, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:bg-green-300 {
+  background-color: rgb(166.6, 231.8, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:text-green-300 {
+  color: rgb(166.6, 231.8, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:border-green-300 {
+  border-color: rgb(166.6, 231.8, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:outline-green-300 {
+  outline-color: rgb(166.6, 231.8, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:fill-green-300 {
+  fill: rgb(166.6, 231.8, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:stroke-green-300 {
+  stroke: rgb(166.6, 231.8, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-green-300 {
+  text-decoration-color: rgb(166.6, 231.8, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:caret-green-300 {
+  caret-color: rgb(166.6, 231.8, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-green-300 {
+  text-emphasis-color: rgb(166.6, 231.8, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:accent-green-300 {
+  accent-color: rgb(166.6, 231.8, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-green-300 {
+  column-rule-color: rgb(166.6, 231.8, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:shadow-green-300 {
+  box-shadow: 0 0 0 0 rgb(166.6, 231.8, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:bg-green-400 {
+  background-color: rgb(144.5, 226, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:text-green-400 {
+  color: rgb(144.5, 226, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:border-green-400 {
+  border-color: rgb(144.5, 226, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:outline-green-400 {
+  outline-color: rgb(144.5, 226, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:fill-green-400 {
+  fill: rgb(144.5, 226, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:stroke-green-400 {
+  stroke: rgb(144.5, 226, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-green-400 {
+  text-decoration-color: rgb(144.5, 226, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:caret-green-400 {
+  caret-color: rgb(144.5, 226, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-green-400 {
+  text-emphasis-color: rgb(144.5, 226, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:accent-green-400 {
+  accent-color: rgb(144.5, 226, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-green-400 {
+  column-rule-color: rgb(144.5, 226, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:shadow-green-400 {
+  box-shadow: 0 0 0 0 rgb(144.5, 226, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:bg-green-500 {
+  background-color: #22c55e  !important;
+}
+html[data-mode=dark] .dark\:text-green-500 {
+  color: #22c55e  !important;
+}
+html[data-mode=dark] .dark\:border-green-500 {
+  border-color: #22c55e  !important;
+}
+html[data-mode=dark] .dark\:outline-green-500 {
+  outline-color: #22c55e  !important;
+}
+html[data-mode=dark] .dark\:fill-green-500 {
+  fill: #22c55e  !important;
+}
+html[data-mode=dark] .dark\:stroke-green-500 {
+  stroke: #22c55e  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-green-500 {
+  text-decoration-color: #22c55e  !important;
+}
+html[data-mode=dark] .dark\:caret-green-500 {
+  caret-color: #22c55e  !important;
+}
+html[data-mode=dark] .dark\:emphasis-green-500 {
+  text-emphasis-color: #22c55e  !important;
+}
+html[data-mode=dark] .dark\:accent-green-500 {
+  accent-color: #22c55e  !important;
+}
+html[data-mode=dark] .dark\:column-rule-green-500 {
+  column-rule-color: #22c55e  !important;
+}
+html[data-mode=dark] .dark\:shadow-green-500 {
+  box-shadow: 0 0 0 0 #22c55e  !important;
+}
+html[data-mode=dark] .dark\:bg-green-600 {
+  background-color: rgb(30.6, 177.3, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:text-green-600 {
+  color: rgb(30.6, 177.3, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:border-green-600 {
+  border-color: rgb(30.6, 177.3, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:outline-green-600 {
+  outline-color: rgb(30.6, 177.3, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:fill-green-600 {
+  fill: rgb(30.6, 177.3, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:stroke-green-600 {
+  stroke: rgb(30.6, 177.3, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-green-600 {
+  text-decoration-color: rgb(30.6, 177.3, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:caret-green-600 {
+  caret-color: rgb(30.6, 177.3, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-green-600 {
+  text-emphasis-color: rgb(30.6, 177.3, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:accent-green-600 {
+  accent-color: rgb(30.6, 177.3, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-green-600 {
+  column-rule-color: rgb(30.6, 177.3, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:shadow-green-600 {
+  box-shadow: 0 0 0 0 rgb(30.6, 177.3, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:bg-green-700 {
+  background-color: rgb(27.2, 157.6, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:text-green-700 {
+  color: rgb(27.2, 157.6, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:border-green-700 {
+  border-color: rgb(27.2, 157.6, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:outline-green-700 {
+  outline-color: rgb(27.2, 157.6, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:fill-green-700 {
+  fill: rgb(27.2, 157.6, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:stroke-green-700 {
+  stroke: rgb(27.2, 157.6, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-green-700 {
+  text-decoration-color: rgb(27.2, 157.6, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:caret-green-700 {
+  caret-color: rgb(27.2, 157.6, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-green-700 {
+  text-emphasis-color: rgb(27.2, 157.6, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:accent-green-700 {
+  accent-color: rgb(27.2, 157.6, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-green-700 {
+  column-rule-color: rgb(27.2, 157.6, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:shadow-green-700 {
+  box-shadow: 0 0 0 0 rgb(27.2, 157.6, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:bg-green-800 {
+  background-color: rgb(23.8, 137.9, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:text-green-800 {
+  color: rgb(23.8, 137.9, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:border-green-800 {
+  border-color: rgb(23.8, 137.9, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-green-800 {
+  outline-color: rgb(23.8, 137.9, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-green-800 {
+  fill: rgb(23.8, 137.9, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-green-800 {
+  stroke: rgb(23.8, 137.9, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-green-800 {
+  text-decoration-color: rgb(23.8, 137.9, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-green-800 {
+  caret-color: rgb(23.8, 137.9, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-green-800 {
+  text-emphasis-color: rgb(23.8, 137.9, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-green-800 {
+  accent-color: rgb(23.8, 137.9, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-green-800 {
+  column-rule-color: rgb(23.8, 137.9, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-green-800 {
+  box-shadow: 0 0 0 0 rgb(23.8, 137.9, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:bg-green-900 {
+  background-color: rgb(20.4, 118.2, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:text-green-900 {
+  color: rgb(20.4, 118.2, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:border-green-900 {
+  border-color: rgb(20.4, 118.2, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-green-900 {
+  outline-color: rgb(20.4, 118.2, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-green-900 {
+  fill: rgb(20.4, 118.2, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-green-900 {
+  stroke: rgb(20.4, 118.2, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-green-900 {
+  text-decoration-color: rgb(20.4, 118.2, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-green-900 {
+  caret-color: rgb(20.4, 118.2, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-green-900 {
+  text-emphasis-color: rgb(20.4, 118.2, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-green-900 {
+  accent-color: rgb(20.4, 118.2, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-green-900 {
+  column-rule-color: rgb(20.4, 118.2, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-green-900 {
+  box-shadow: 0 0 0 0 rgb(20.4, 118.2, 56.4)  !important;
+}
+
 .bg-blue-50 {
   background-color: rgb(235.4, 242.5, 254.1)  !important;
 }
@@ -1440,6 +2162,367 @@
 }
 
 .shadow-blue-900 {
+  box-shadow: 0 0 0 0 rgb(35.4, 78, 147.6)  !important;
+}
+
+html[data-mode=dark] .dark\:bg-blue-50 {
+  background-color: rgb(235.4, 242.5, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:text-blue-50 {
+  color: rgb(235.4, 242.5, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:border-blue-50 {
+  border-color: rgb(235.4, 242.5, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:outline-blue-50 {
+  outline-color: rgb(235.4, 242.5, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:fill-blue-50 {
+  fill: rgb(235.4, 242.5, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:stroke-blue-50 {
+  stroke: rgb(235.4, 242.5, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-blue-50 {
+  text-decoration-color: rgb(235.4, 242.5, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:caret-blue-50 {
+  caret-color: rgb(235.4, 242.5, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-blue-50 {
+  text-emphasis-color: rgb(235.4, 242.5, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:accent-blue-50 {
+  accent-color: rgb(235.4, 242.5, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-blue-50 {
+  column-rule-color: rgb(235.4, 242.5, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:shadow-blue-50 {
+  box-shadow: 0 0 0 0 rgb(235.4, 242.5, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:bg-blue-100 {
+  background-color: rgb(215.8, 230, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:text-blue-100 {
+  color: rgb(215.8, 230, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:border-blue-100 {
+  border-color: rgb(215.8, 230, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:outline-blue-100 {
+  outline-color: rgb(215.8, 230, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:fill-blue-100 {
+  fill: rgb(215.8, 230, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:stroke-blue-100 {
+  stroke: rgb(215.8, 230, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-blue-100 {
+  text-decoration-color: rgb(215.8, 230, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:caret-blue-100 {
+  caret-color: rgb(215.8, 230, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-blue-100 {
+  text-emphasis-color: rgb(215.8, 230, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:accent-blue-100 {
+  accent-color: rgb(215.8, 230, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-blue-100 {
+  column-rule-color: rgb(215.8, 230, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:shadow-blue-100 {
+  box-shadow: 0 0 0 0 rgb(215.8, 230, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:bg-blue-200 {
+  background-color: rgb(196.2, 217.5, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:text-blue-200 {
+  color: rgb(196.2, 217.5, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:border-blue-200 {
+  border-color: rgb(196.2, 217.5, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:outline-blue-200 {
+  outline-color: rgb(196.2, 217.5, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:fill-blue-200 {
+  fill: rgb(196.2, 217.5, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:stroke-blue-200 {
+  stroke: rgb(196.2, 217.5, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-blue-200 {
+  text-decoration-color: rgb(196.2, 217.5, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:caret-blue-200 {
+  caret-color: rgb(196.2, 217.5, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-blue-200 {
+  text-emphasis-color: rgb(196.2, 217.5, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:accent-blue-200 {
+  accent-color: rgb(196.2, 217.5, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-blue-200 {
+  column-rule-color: rgb(196.2, 217.5, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:shadow-blue-200 {
+  box-shadow: 0 0 0 0 rgb(196.2, 217.5, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:bg-blue-300 {
+  background-color: rgb(176.6, 205, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:text-blue-300 {
+  color: rgb(176.6, 205, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:border-blue-300 {
+  border-color: rgb(176.6, 205, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-blue-300 {
+  outline-color: rgb(176.6, 205, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-blue-300 {
+  fill: rgb(176.6, 205, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-blue-300 {
+  stroke: rgb(176.6, 205, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-blue-300 {
+  text-decoration-color: rgb(176.6, 205, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-blue-300 {
+  caret-color: rgb(176.6, 205, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-blue-300 {
+  text-emphasis-color: rgb(176.6, 205, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-blue-300 {
+  accent-color: rgb(176.6, 205, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-blue-300 {
+  column-rule-color: rgb(176.6, 205, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-blue-300 {
+  box-shadow: 0 0 0 0 rgb(176.6, 205, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:bg-blue-400 {
+  background-color: rgb(157, 192.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:text-blue-400 {
+  color: rgb(157, 192.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:border-blue-400 {
+  border-color: rgb(157, 192.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:outline-blue-400 {
+  outline-color: rgb(157, 192.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:fill-blue-400 {
+  fill: rgb(157, 192.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:stroke-blue-400 {
+  stroke: rgb(157, 192.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-blue-400 {
+  text-decoration-color: rgb(157, 192.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:caret-blue-400 {
+  caret-color: rgb(157, 192.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-blue-400 {
+  text-emphasis-color: rgb(157, 192.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:accent-blue-400 {
+  accent-color: rgb(157, 192.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-blue-400 {
+  column-rule-color: rgb(157, 192.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:shadow-blue-400 {
+  box-shadow: 0 0 0 0 rgb(157, 192.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:bg-blue-500 {
+  background-color: #3b82f6  !important;
+}
+html[data-mode=dark] .dark\:text-blue-500 {
+  color: #3b82f6  !important;
+}
+html[data-mode=dark] .dark\:border-blue-500 {
+  border-color: #3b82f6  !important;
+}
+html[data-mode=dark] .dark\:outline-blue-500 {
+  outline-color: #3b82f6  !important;
+}
+html[data-mode=dark] .dark\:fill-blue-500 {
+  fill: #3b82f6  !important;
+}
+html[data-mode=dark] .dark\:stroke-blue-500 {
+  stroke: #3b82f6  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-blue-500 {
+  text-decoration-color: #3b82f6  !important;
+}
+html[data-mode=dark] .dark\:caret-blue-500 {
+  caret-color: #3b82f6  !important;
+}
+html[data-mode=dark] .dark\:emphasis-blue-500 {
+  text-emphasis-color: #3b82f6  !important;
+}
+html[data-mode=dark] .dark\:accent-blue-500 {
+  accent-color: #3b82f6  !important;
+}
+html[data-mode=dark] .dark\:column-rule-blue-500 {
+  column-rule-color: #3b82f6  !important;
+}
+html[data-mode=dark] .dark\:shadow-blue-500 {
+  box-shadow: 0 0 0 0 #3b82f6  !important;
+}
+html[data-mode=dark] .dark\:bg-blue-600 {
+  background-color: rgb(53.1, 117, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:text-blue-600 {
+  color: rgb(53.1, 117, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:border-blue-600 {
+  border-color: rgb(53.1, 117, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-blue-600 {
+  outline-color: rgb(53.1, 117, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-blue-600 {
+  fill: rgb(53.1, 117, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-blue-600 {
+  stroke: rgb(53.1, 117, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-blue-600 {
+  text-decoration-color: rgb(53.1, 117, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-blue-600 {
+  caret-color: rgb(53.1, 117, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-blue-600 {
+  text-emphasis-color: rgb(53.1, 117, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-blue-600 {
+  accent-color: rgb(53.1, 117, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-blue-600 {
+  column-rule-color: rgb(53.1, 117, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-blue-600 {
+  box-shadow: 0 0 0 0 rgb(53.1, 117, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:bg-blue-700 {
+  background-color: rgb(47.2, 104, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:text-blue-700 {
+  color: rgb(47.2, 104, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:border-blue-700 {
+  border-color: rgb(47.2, 104, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-blue-700 {
+  outline-color: rgb(47.2, 104, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-blue-700 {
+  fill: rgb(47.2, 104, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-blue-700 {
+  stroke: rgb(47.2, 104, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-blue-700 {
+  text-decoration-color: rgb(47.2, 104, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-blue-700 {
+  caret-color: rgb(47.2, 104, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-blue-700 {
+  text-emphasis-color: rgb(47.2, 104, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-blue-700 {
+  accent-color: rgb(47.2, 104, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-blue-700 {
+  column-rule-color: rgb(47.2, 104, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-blue-700 {
+  box-shadow: 0 0 0 0 rgb(47.2, 104, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:bg-blue-800 {
+  background-color: rgb(41.3, 91, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:text-blue-800 {
+  color: rgb(41.3, 91, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:border-blue-800 {
+  border-color: rgb(41.3, 91, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:outline-blue-800 {
+  outline-color: rgb(41.3, 91, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:fill-blue-800 {
+  fill: rgb(41.3, 91, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:stroke-blue-800 {
+  stroke: rgb(41.3, 91, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-blue-800 {
+  text-decoration-color: rgb(41.3, 91, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:caret-blue-800 {
+  caret-color: rgb(41.3, 91, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-blue-800 {
+  text-emphasis-color: rgb(41.3, 91, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:accent-blue-800 {
+  accent-color: rgb(41.3, 91, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-blue-800 {
+  column-rule-color: rgb(41.3, 91, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:shadow-blue-800 {
+  box-shadow: 0 0 0 0 rgb(41.3, 91, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:bg-blue-900 {
+  background-color: rgb(35.4, 78, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:text-blue-900 {
+  color: rgb(35.4, 78, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:border-blue-900 {
+  border-color: rgb(35.4, 78, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:outline-blue-900 {
+  outline-color: rgb(35.4, 78, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:fill-blue-900 {
+  fill: rgb(35.4, 78, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:stroke-blue-900 {
+  stroke: rgb(35.4, 78, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-blue-900 {
+  text-decoration-color: rgb(35.4, 78, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:caret-blue-900 {
+  caret-color: rgb(35.4, 78, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-blue-900 {
+  text-emphasis-color: rgb(35.4, 78, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:accent-blue-900 {
+  accent-color: rgb(35.4, 78, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-blue-900 {
+  column-rule-color: rgb(35.4, 78, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:shadow-blue-900 {
   box-shadow: 0 0 0 0 rgb(35.4, 78, 147.6)  !important;
 }
 
@@ -1923,6 +3006,367 @@
   box-shadow: 0 0 0 0 rgb(147, 94.8, 6.6)  !important;
 }
 
+html[data-mode=dark] .dark\:bg-yellow-50 {
+  background-color: rgb(254, 245.3, 230.6)  !important;
+}
+html[data-mode=dark] .dark\:text-yellow-50 {
+  color: rgb(254, 245.3, 230.6)  !important;
+}
+html[data-mode=dark] .dark\:border-yellow-50 {
+  border-color: rgb(254, 245.3, 230.6)  !important;
+}
+html[data-mode=dark] .dark\:outline-yellow-50 {
+  outline-color: rgb(254, 245.3, 230.6)  !important;
+}
+html[data-mode=dark] .dark\:fill-yellow-50 {
+  fill: rgb(254, 245.3, 230.6)  !important;
+}
+html[data-mode=dark] .dark\:stroke-yellow-50 {
+  stroke: rgb(254, 245.3, 230.6)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-yellow-50 {
+  text-decoration-color: rgb(254, 245.3, 230.6)  !important;
+}
+html[data-mode=dark] .dark\:caret-yellow-50 {
+  caret-color: rgb(254, 245.3, 230.6)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-yellow-50 {
+  text-emphasis-color: rgb(254, 245.3, 230.6)  !important;
+}
+html[data-mode=dark] .dark\:accent-yellow-50 {
+  accent-color: rgb(254, 245.3, 230.6)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-yellow-50 {
+  column-rule-color: rgb(254, 245.3, 230.6)  !important;
+}
+html[data-mode=dark] .dark\:shadow-yellow-50 {
+  box-shadow: 0 0 0 0 rgb(254, 245.3, 230.6)  !important;
+}
+html[data-mode=dark] .dark\:bg-yellow-100 {
+  background-color: rgb(253, 235.6, 206.2)  !important;
+}
+html[data-mode=dark] .dark\:text-yellow-100 {
+  color: rgb(253, 235.6, 206.2)  !important;
+}
+html[data-mode=dark] .dark\:border-yellow-100 {
+  border-color: rgb(253, 235.6, 206.2)  !important;
+}
+html[data-mode=dark] .dark\:outline-yellow-100 {
+  outline-color: rgb(253, 235.6, 206.2)  !important;
+}
+html[data-mode=dark] .dark\:fill-yellow-100 {
+  fill: rgb(253, 235.6, 206.2)  !important;
+}
+html[data-mode=dark] .dark\:stroke-yellow-100 {
+  stroke: rgb(253, 235.6, 206.2)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-yellow-100 {
+  text-decoration-color: rgb(253, 235.6, 206.2)  !important;
+}
+html[data-mode=dark] .dark\:caret-yellow-100 {
+  caret-color: rgb(253, 235.6, 206.2)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-yellow-100 {
+  text-emphasis-color: rgb(253, 235.6, 206.2)  !important;
+}
+html[data-mode=dark] .dark\:accent-yellow-100 {
+  accent-color: rgb(253, 235.6, 206.2)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-yellow-100 {
+  column-rule-color: rgb(253, 235.6, 206.2)  !important;
+}
+html[data-mode=dark] .dark\:shadow-yellow-100 {
+  box-shadow: 0 0 0 0 rgb(253, 235.6, 206.2)  !important;
+}
+html[data-mode=dark] .dark\:bg-yellow-200 {
+  background-color: rgb(252, 225.9, 181.8)  !important;
+}
+html[data-mode=dark] .dark\:text-yellow-200 {
+  color: rgb(252, 225.9, 181.8)  !important;
+}
+html[data-mode=dark] .dark\:border-yellow-200 {
+  border-color: rgb(252, 225.9, 181.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-yellow-200 {
+  outline-color: rgb(252, 225.9, 181.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-yellow-200 {
+  fill: rgb(252, 225.9, 181.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-yellow-200 {
+  stroke: rgb(252, 225.9, 181.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-yellow-200 {
+  text-decoration-color: rgb(252, 225.9, 181.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-yellow-200 {
+  caret-color: rgb(252, 225.9, 181.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-yellow-200 {
+  text-emphasis-color: rgb(252, 225.9, 181.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-yellow-200 {
+  accent-color: rgb(252, 225.9, 181.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-yellow-200 {
+  column-rule-color: rgb(252, 225.9, 181.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-yellow-200 {
+  box-shadow: 0 0 0 0 rgb(252, 225.9, 181.8)  !important;
+}
+html[data-mode=dark] .dark\:bg-yellow-300 {
+  background-color: rgb(251, 216.2, 157.4)  !important;
+}
+html[data-mode=dark] .dark\:text-yellow-300 {
+  color: rgb(251, 216.2, 157.4)  !important;
+}
+html[data-mode=dark] .dark\:border-yellow-300 {
+  border-color: rgb(251, 216.2, 157.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-yellow-300 {
+  outline-color: rgb(251, 216.2, 157.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-yellow-300 {
+  fill: rgb(251, 216.2, 157.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-yellow-300 {
+  stroke: rgb(251, 216.2, 157.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-yellow-300 {
+  text-decoration-color: rgb(251, 216.2, 157.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-yellow-300 {
+  caret-color: rgb(251, 216.2, 157.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-yellow-300 {
+  text-emphasis-color: rgb(251, 216.2, 157.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-yellow-300 {
+  accent-color: rgb(251, 216.2, 157.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-yellow-300 {
+  column-rule-color: rgb(251, 216.2, 157.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-yellow-300 {
+  box-shadow: 0 0 0 0 rgb(251, 216.2, 157.4)  !important;
+}
+html[data-mode=dark] .dark\:bg-yellow-400 {
+  background-color: rgb(250, 206.5, 133)  !important;
+}
+html[data-mode=dark] .dark\:text-yellow-400 {
+  color: rgb(250, 206.5, 133)  !important;
+}
+html[data-mode=dark] .dark\:border-yellow-400 {
+  border-color: rgb(250, 206.5, 133)  !important;
+}
+html[data-mode=dark] .dark\:outline-yellow-400 {
+  outline-color: rgb(250, 206.5, 133)  !important;
+}
+html[data-mode=dark] .dark\:fill-yellow-400 {
+  fill: rgb(250, 206.5, 133)  !important;
+}
+html[data-mode=dark] .dark\:stroke-yellow-400 {
+  stroke: rgb(250, 206.5, 133)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-yellow-400 {
+  text-decoration-color: rgb(250, 206.5, 133)  !important;
+}
+html[data-mode=dark] .dark\:caret-yellow-400 {
+  caret-color: rgb(250, 206.5, 133)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-yellow-400 {
+  text-emphasis-color: rgb(250, 206.5, 133)  !important;
+}
+html[data-mode=dark] .dark\:accent-yellow-400 {
+  accent-color: rgb(250, 206.5, 133)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-yellow-400 {
+  column-rule-color: rgb(250, 206.5, 133)  !important;
+}
+html[data-mode=dark] .dark\:shadow-yellow-400 {
+  box-shadow: 0 0 0 0 rgb(250, 206.5, 133)  !important;
+}
+html[data-mode=dark] .dark\:bg-yellow-500 {
+  background-color: #f59e0b  !important;
+}
+html[data-mode=dark] .dark\:text-yellow-500 {
+  color: #f59e0b  !important;
+}
+html[data-mode=dark] .dark\:border-yellow-500 {
+  border-color: #f59e0b  !important;
+}
+html[data-mode=dark] .dark\:outline-yellow-500 {
+  outline-color: #f59e0b  !important;
+}
+html[data-mode=dark] .dark\:fill-yellow-500 {
+  fill: #f59e0b  !important;
+}
+html[data-mode=dark] .dark\:stroke-yellow-500 {
+  stroke: #f59e0b  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-yellow-500 {
+  text-decoration-color: #f59e0b  !important;
+}
+html[data-mode=dark] .dark\:caret-yellow-500 {
+  caret-color: #f59e0b  !important;
+}
+html[data-mode=dark] .dark\:emphasis-yellow-500 {
+  text-emphasis-color: #f59e0b  !important;
+}
+html[data-mode=dark] .dark\:accent-yellow-500 {
+  accent-color: #f59e0b  !important;
+}
+html[data-mode=dark] .dark\:column-rule-yellow-500 {
+  column-rule-color: #f59e0b  !important;
+}
+html[data-mode=dark] .dark\:shadow-yellow-500 {
+  box-shadow: 0 0 0 0 #f59e0b  !important;
+}
+html[data-mode=dark] .dark\:bg-yellow-600 {
+  background-color: rgb(220.5, 142.2, 9.9)  !important;
+}
+html[data-mode=dark] .dark\:text-yellow-600 {
+  color: rgb(220.5, 142.2, 9.9)  !important;
+}
+html[data-mode=dark] .dark\:border-yellow-600 {
+  border-color: rgb(220.5, 142.2, 9.9)  !important;
+}
+html[data-mode=dark] .dark\:outline-yellow-600 {
+  outline-color: rgb(220.5, 142.2, 9.9)  !important;
+}
+html[data-mode=dark] .dark\:fill-yellow-600 {
+  fill: rgb(220.5, 142.2, 9.9)  !important;
+}
+html[data-mode=dark] .dark\:stroke-yellow-600 {
+  stroke: rgb(220.5, 142.2, 9.9)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-yellow-600 {
+  text-decoration-color: rgb(220.5, 142.2, 9.9)  !important;
+}
+html[data-mode=dark] .dark\:caret-yellow-600 {
+  caret-color: rgb(220.5, 142.2, 9.9)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-yellow-600 {
+  text-emphasis-color: rgb(220.5, 142.2, 9.9)  !important;
+}
+html[data-mode=dark] .dark\:accent-yellow-600 {
+  accent-color: rgb(220.5, 142.2, 9.9)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-yellow-600 {
+  column-rule-color: rgb(220.5, 142.2, 9.9)  !important;
+}
+html[data-mode=dark] .dark\:shadow-yellow-600 {
+  box-shadow: 0 0 0 0 rgb(220.5, 142.2, 9.9)  !important;
+}
+html[data-mode=dark] .dark\:bg-yellow-700 {
+  background-color: rgb(196, 126.4, 8.8)  !important;
+}
+html[data-mode=dark] .dark\:text-yellow-700 {
+  color: rgb(196, 126.4, 8.8)  !important;
+}
+html[data-mode=dark] .dark\:border-yellow-700 {
+  border-color: rgb(196, 126.4, 8.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-yellow-700 {
+  outline-color: rgb(196, 126.4, 8.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-yellow-700 {
+  fill: rgb(196, 126.4, 8.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-yellow-700 {
+  stroke: rgb(196, 126.4, 8.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-yellow-700 {
+  text-decoration-color: rgb(196, 126.4, 8.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-yellow-700 {
+  caret-color: rgb(196, 126.4, 8.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-yellow-700 {
+  text-emphasis-color: rgb(196, 126.4, 8.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-yellow-700 {
+  accent-color: rgb(196, 126.4, 8.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-yellow-700 {
+  column-rule-color: rgb(196, 126.4, 8.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-yellow-700 {
+  box-shadow: 0 0 0 0 rgb(196, 126.4, 8.8)  !important;
+}
+html[data-mode=dark] .dark\:bg-yellow-800 {
+  background-color: rgb(171.5, 110.6, 7.7)  !important;
+}
+html[data-mode=dark] .dark\:text-yellow-800 {
+  color: rgb(171.5, 110.6, 7.7)  !important;
+}
+html[data-mode=dark] .dark\:border-yellow-800 {
+  border-color: rgb(171.5, 110.6, 7.7)  !important;
+}
+html[data-mode=dark] .dark\:outline-yellow-800 {
+  outline-color: rgb(171.5, 110.6, 7.7)  !important;
+}
+html[data-mode=dark] .dark\:fill-yellow-800 {
+  fill: rgb(171.5, 110.6, 7.7)  !important;
+}
+html[data-mode=dark] .dark\:stroke-yellow-800 {
+  stroke: rgb(171.5, 110.6, 7.7)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-yellow-800 {
+  text-decoration-color: rgb(171.5, 110.6, 7.7)  !important;
+}
+html[data-mode=dark] .dark\:caret-yellow-800 {
+  caret-color: rgb(171.5, 110.6, 7.7)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-yellow-800 {
+  text-emphasis-color: rgb(171.5, 110.6, 7.7)  !important;
+}
+html[data-mode=dark] .dark\:accent-yellow-800 {
+  accent-color: rgb(171.5, 110.6, 7.7)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-yellow-800 {
+  column-rule-color: rgb(171.5, 110.6, 7.7)  !important;
+}
+html[data-mode=dark] .dark\:shadow-yellow-800 {
+  box-shadow: 0 0 0 0 rgb(171.5, 110.6, 7.7)  !important;
+}
+html[data-mode=dark] .dark\:bg-yellow-900 {
+  background-color: rgb(147, 94.8, 6.6)  !important;
+}
+html[data-mode=dark] .dark\:text-yellow-900 {
+  color: rgb(147, 94.8, 6.6)  !important;
+}
+html[data-mode=dark] .dark\:border-yellow-900 {
+  border-color: rgb(147, 94.8, 6.6)  !important;
+}
+html[data-mode=dark] .dark\:outline-yellow-900 {
+  outline-color: rgb(147, 94.8, 6.6)  !important;
+}
+html[data-mode=dark] .dark\:fill-yellow-900 {
+  fill: rgb(147, 94.8, 6.6)  !important;
+}
+html[data-mode=dark] .dark\:stroke-yellow-900 {
+  stroke: rgb(147, 94.8, 6.6)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-yellow-900 {
+  text-decoration-color: rgb(147, 94.8, 6.6)  !important;
+}
+html[data-mode=dark] .dark\:caret-yellow-900 {
+  caret-color: rgb(147, 94.8, 6.6)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-yellow-900 {
+  text-emphasis-color: rgb(147, 94.8, 6.6)  !important;
+}
+html[data-mode=dark] .dark\:accent-yellow-900 {
+  accent-color: rgb(147, 94.8, 6.6)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-yellow-900 {
+  column-rule-color: rgb(147, 94.8, 6.6)  !important;
+}
+html[data-mode=dark] .dark\:shadow-yellow-900 {
+  box-shadow: 0 0 0 0 rgb(147, 94.8, 6.6)  !important;
+}
+
 .bg-purple-50 {
   background-color: rgb(243.4, 238.7, 254.1)  !important;
 }
@@ -2400,6 +3844,367 @@
 }
 
 .shadow-purple-900 {
+  box-shadow: 0 0 0 0 rgb(83.4, 55.2, 147.6)  !important;
+}
+
+html[data-mode=dark] .dark\:bg-purple-50 {
+  background-color: rgb(243.4, 238.7, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:text-purple-50 {
+  color: rgb(243.4, 238.7, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:border-purple-50 {
+  border-color: rgb(243.4, 238.7, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:outline-purple-50 {
+  outline-color: rgb(243.4, 238.7, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:fill-purple-50 {
+  fill: rgb(243.4, 238.7, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:stroke-purple-50 {
+  stroke: rgb(243.4, 238.7, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-purple-50 {
+  text-decoration-color: rgb(243.4, 238.7, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:caret-purple-50 {
+  caret-color: rgb(243.4, 238.7, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-purple-50 {
+  text-emphasis-color: rgb(243.4, 238.7, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:accent-purple-50 {
+  accent-color: rgb(243.4, 238.7, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-purple-50 {
+  column-rule-color: rgb(243.4, 238.7, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:shadow-purple-50 {
+  box-shadow: 0 0 0 0 rgb(243.4, 238.7, 254.1)  !important;
+}
+html[data-mode=dark] .dark\:bg-purple-100 {
+  background-color: rgb(231.8, 222.4, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:text-purple-100 {
+  color: rgb(231.8, 222.4, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:border-purple-100 {
+  border-color: rgb(231.8, 222.4, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:outline-purple-100 {
+  outline-color: rgb(231.8, 222.4, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:fill-purple-100 {
+  fill: rgb(231.8, 222.4, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:stroke-purple-100 {
+  stroke: rgb(231.8, 222.4, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-purple-100 {
+  text-decoration-color: rgb(231.8, 222.4, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:caret-purple-100 {
+  caret-color: rgb(231.8, 222.4, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-purple-100 {
+  text-emphasis-color: rgb(231.8, 222.4, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:accent-purple-100 {
+  accent-color: rgb(231.8, 222.4, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-purple-100 {
+  column-rule-color: rgb(231.8, 222.4, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:shadow-purple-100 {
+  box-shadow: 0 0 0 0 rgb(231.8, 222.4, 253.2)  !important;
+}
+html[data-mode=dark] .dark\:bg-purple-200 {
+  background-color: rgb(220.2, 206.1, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:text-purple-200 {
+  color: rgb(220.2, 206.1, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:border-purple-200 {
+  border-color: rgb(220.2, 206.1, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:outline-purple-200 {
+  outline-color: rgb(220.2, 206.1, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:fill-purple-200 {
+  fill: rgb(220.2, 206.1, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:stroke-purple-200 {
+  stroke: rgb(220.2, 206.1, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-purple-200 {
+  text-decoration-color: rgb(220.2, 206.1, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:caret-purple-200 {
+  caret-color: rgb(220.2, 206.1, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-purple-200 {
+  text-emphasis-color: rgb(220.2, 206.1, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:accent-purple-200 {
+  accent-color: rgb(220.2, 206.1, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-purple-200 {
+  column-rule-color: rgb(220.2, 206.1, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:shadow-purple-200 {
+  box-shadow: 0 0 0 0 rgb(220.2, 206.1, 252.3)  !important;
+}
+html[data-mode=dark] .dark\:bg-purple-300 {
+  background-color: rgb(208.6, 189.8, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:text-purple-300 {
+  color: rgb(208.6, 189.8, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:border-purple-300 {
+  border-color: rgb(208.6, 189.8, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-purple-300 {
+  outline-color: rgb(208.6, 189.8, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-purple-300 {
+  fill: rgb(208.6, 189.8, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-purple-300 {
+  stroke: rgb(208.6, 189.8, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-purple-300 {
+  text-decoration-color: rgb(208.6, 189.8, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-purple-300 {
+  caret-color: rgb(208.6, 189.8, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-purple-300 {
+  text-emphasis-color: rgb(208.6, 189.8, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-purple-300 {
+  accent-color: rgb(208.6, 189.8, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-purple-300 {
+  column-rule-color: rgb(208.6, 189.8, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-purple-300 {
+  box-shadow: 0 0 0 0 rgb(208.6, 189.8, 251.4)  !important;
+}
+html[data-mode=dark] .dark\:bg-purple-400 {
+  background-color: rgb(197, 173.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:text-purple-400 {
+  color: rgb(197, 173.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:border-purple-400 {
+  border-color: rgb(197, 173.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:outline-purple-400 {
+  outline-color: rgb(197, 173.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:fill-purple-400 {
+  fill: rgb(197, 173.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:stroke-purple-400 {
+  stroke: rgb(197, 173.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-purple-400 {
+  text-decoration-color: rgb(197, 173.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:caret-purple-400 {
+  caret-color: rgb(197, 173.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-purple-400 {
+  text-emphasis-color: rgb(197, 173.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:accent-purple-400 {
+  accent-color: rgb(197, 173.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-purple-400 {
+  column-rule-color: rgb(197, 173.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:shadow-purple-400 {
+  box-shadow: 0 0 0 0 rgb(197, 173.5, 250.5)  !important;
+}
+html[data-mode=dark] .dark\:bg-purple-500 {
+  background-color: #8b5cf6  !important;
+}
+html[data-mode=dark] .dark\:text-purple-500 {
+  color: #8b5cf6  !important;
+}
+html[data-mode=dark] .dark\:border-purple-500 {
+  border-color: #8b5cf6  !important;
+}
+html[data-mode=dark] .dark\:outline-purple-500 {
+  outline-color: #8b5cf6  !important;
+}
+html[data-mode=dark] .dark\:fill-purple-500 {
+  fill: #8b5cf6  !important;
+}
+html[data-mode=dark] .dark\:stroke-purple-500 {
+  stroke: #8b5cf6  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-purple-500 {
+  text-decoration-color: #8b5cf6  !important;
+}
+html[data-mode=dark] .dark\:caret-purple-500 {
+  caret-color: #8b5cf6  !important;
+}
+html[data-mode=dark] .dark\:emphasis-purple-500 {
+  text-emphasis-color: #8b5cf6  !important;
+}
+html[data-mode=dark] .dark\:accent-purple-500 {
+  accent-color: #8b5cf6  !important;
+}
+html[data-mode=dark] .dark\:column-rule-purple-500 {
+  column-rule-color: #8b5cf6  !important;
+}
+html[data-mode=dark] .dark\:shadow-purple-500 {
+  box-shadow: 0 0 0 0 #8b5cf6  !important;
+}
+html[data-mode=dark] .dark\:bg-purple-600 {
+  background-color: rgb(125.1, 82.8, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:text-purple-600 {
+  color: rgb(125.1, 82.8, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:border-purple-600 {
+  border-color: rgb(125.1, 82.8, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-purple-600 {
+  outline-color: rgb(125.1, 82.8, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-purple-600 {
+  fill: rgb(125.1, 82.8, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-purple-600 {
+  stroke: rgb(125.1, 82.8, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-purple-600 {
+  text-decoration-color: rgb(125.1, 82.8, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-purple-600 {
+  caret-color: rgb(125.1, 82.8, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-purple-600 {
+  text-emphasis-color: rgb(125.1, 82.8, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-purple-600 {
+  accent-color: rgb(125.1, 82.8, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-purple-600 {
+  column-rule-color: rgb(125.1, 82.8, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-purple-600 {
+  box-shadow: 0 0 0 0 rgb(125.1, 82.8, 221.4)  !important;
+}
+html[data-mode=dark] .dark\:bg-purple-700 {
+  background-color: rgb(111.2, 73.6, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:text-purple-700 {
+  color: rgb(111.2, 73.6, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:border-purple-700 {
+  border-color: rgb(111.2, 73.6, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-purple-700 {
+  outline-color: rgb(111.2, 73.6, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-purple-700 {
+  fill: rgb(111.2, 73.6, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-purple-700 {
+  stroke: rgb(111.2, 73.6, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-purple-700 {
+  text-decoration-color: rgb(111.2, 73.6, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-purple-700 {
+  caret-color: rgb(111.2, 73.6, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-purple-700 {
+  text-emphasis-color: rgb(111.2, 73.6, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-purple-700 {
+  accent-color: rgb(111.2, 73.6, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-purple-700 {
+  column-rule-color: rgb(111.2, 73.6, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-purple-700 {
+  box-shadow: 0 0 0 0 rgb(111.2, 73.6, 196.8)  !important;
+}
+html[data-mode=dark] .dark\:bg-purple-800 {
+  background-color: rgb(97.3, 64.4, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:text-purple-800 {
+  color: rgb(97.3, 64.4, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:border-purple-800 {
+  border-color: rgb(97.3, 64.4, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:outline-purple-800 {
+  outline-color: rgb(97.3, 64.4, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:fill-purple-800 {
+  fill: rgb(97.3, 64.4, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:stroke-purple-800 {
+  stroke: rgb(97.3, 64.4, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-purple-800 {
+  text-decoration-color: rgb(97.3, 64.4, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:caret-purple-800 {
+  caret-color: rgb(97.3, 64.4, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-purple-800 {
+  text-emphasis-color: rgb(97.3, 64.4, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:accent-purple-800 {
+  accent-color: rgb(97.3, 64.4, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-purple-800 {
+  column-rule-color: rgb(97.3, 64.4, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:shadow-purple-800 {
+  box-shadow: 0 0 0 0 rgb(97.3, 64.4, 172.2)  !important;
+}
+html[data-mode=dark] .dark\:bg-purple-900 {
+  background-color: rgb(83.4, 55.2, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:text-purple-900 {
+  color: rgb(83.4, 55.2, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:border-purple-900 {
+  border-color: rgb(83.4, 55.2, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:outline-purple-900 {
+  outline-color: rgb(83.4, 55.2, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:fill-purple-900 {
+  fill: rgb(83.4, 55.2, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:stroke-purple-900 {
+  stroke: rgb(83.4, 55.2, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-purple-900 {
+  text-decoration-color: rgb(83.4, 55.2, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:caret-purple-900 {
+  caret-color: rgb(83.4, 55.2, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-purple-900 {
+  text-emphasis-color: rgb(83.4, 55.2, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:accent-purple-900 {
+  accent-color: rgb(83.4, 55.2, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-purple-900 {
+  column-rule-color: rgb(83.4, 55.2, 147.6)  !important;
+}
+html[data-mode=dark] .dark\:shadow-purple-900 {
   box-shadow: 0 0 0 0 rgb(83.4, 55.2, 147.6)  !important;
 }
 
@@ -2883,6 +4688,367 @@
   box-shadow: 0 0 0 0 rgb(141.6, 43.2, 91.8)  !important;
 }
 
+html[data-mode=dark] .dark\:bg-pink-50 {
+  background-color: rgb(253.1, 236.7, 244.8)  !important;
+}
+html[data-mode=dark] .dark\:text-pink-50 {
+  color: rgb(253.1, 236.7, 244.8)  !important;
+}
+html[data-mode=dark] .dark\:border-pink-50 {
+  border-color: rgb(253.1, 236.7, 244.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-pink-50 {
+  outline-color: rgb(253.1, 236.7, 244.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-pink-50 {
+  fill: rgb(253.1, 236.7, 244.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-pink-50 {
+  stroke: rgb(253.1, 236.7, 244.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-pink-50 {
+  text-decoration-color: rgb(253.1, 236.7, 244.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-pink-50 {
+  caret-color: rgb(253.1, 236.7, 244.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-pink-50 {
+  text-emphasis-color: rgb(253.1, 236.7, 244.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-pink-50 {
+  accent-color: rgb(253.1, 236.7, 244.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-pink-50 {
+  column-rule-color: rgb(253.1, 236.7, 244.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-pink-50 {
+  box-shadow: 0 0 0 0 rgb(253.1, 236.7, 244.8)  !important;
+}
+html[data-mode=dark] .dark\:bg-pink-100 {
+  background-color: rgb(251.2, 218.4, 234.6)  !important;
+}
+html[data-mode=dark] .dark\:text-pink-100 {
+  color: rgb(251.2, 218.4, 234.6)  !important;
+}
+html[data-mode=dark] .dark\:border-pink-100 {
+  border-color: rgb(251.2, 218.4, 234.6)  !important;
+}
+html[data-mode=dark] .dark\:outline-pink-100 {
+  outline-color: rgb(251.2, 218.4, 234.6)  !important;
+}
+html[data-mode=dark] .dark\:fill-pink-100 {
+  fill: rgb(251.2, 218.4, 234.6)  !important;
+}
+html[data-mode=dark] .dark\:stroke-pink-100 {
+  stroke: rgb(251.2, 218.4, 234.6)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-pink-100 {
+  text-decoration-color: rgb(251.2, 218.4, 234.6)  !important;
+}
+html[data-mode=dark] .dark\:caret-pink-100 {
+  caret-color: rgb(251.2, 218.4, 234.6)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-pink-100 {
+  text-emphasis-color: rgb(251.2, 218.4, 234.6)  !important;
+}
+html[data-mode=dark] .dark\:accent-pink-100 {
+  accent-color: rgb(251.2, 218.4, 234.6)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-pink-100 {
+  column-rule-color: rgb(251.2, 218.4, 234.6)  !important;
+}
+html[data-mode=dark] .dark\:shadow-pink-100 {
+  box-shadow: 0 0 0 0 rgb(251.2, 218.4, 234.6)  !important;
+}
+html[data-mode=dark] .dark\:bg-pink-200 {
+  background-color: rgb(249.3, 200.1, 224.4)  !important;
+}
+html[data-mode=dark] .dark\:text-pink-200 {
+  color: rgb(249.3, 200.1, 224.4)  !important;
+}
+html[data-mode=dark] .dark\:border-pink-200 {
+  border-color: rgb(249.3, 200.1, 224.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-pink-200 {
+  outline-color: rgb(249.3, 200.1, 224.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-pink-200 {
+  fill: rgb(249.3, 200.1, 224.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-pink-200 {
+  stroke: rgb(249.3, 200.1, 224.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-pink-200 {
+  text-decoration-color: rgb(249.3, 200.1, 224.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-pink-200 {
+  caret-color: rgb(249.3, 200.1, 224.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-pink-200 {
+  text-emphasis-color: rgb(249.3, 200.1, 224.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-pink-200 {
+  accent-color: rgb(249.3, 200.1, 224.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-pink-200 {
+  column-rule-color: rgb(249.3, 200.1, 224.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-pink-200 {
+  box-shadow: 0 0 0 0 rgb(249.3, 200.1, 224.4)  !important;
+}
+html[data-mode=dark] .dark\:bg-pink-300 {
+  background-color: rgb(247.4, 181.8, 214.2)  !important;
+}
+html[data-mode=dark] .dark\:text-pink-300 {
+  color: rgb(247.4, 181.8, 214.2)  !important;
+}
+html[data-mode=dark] .dark\:border-pink-300 {
+  border-color: rgb(247.4, 181.8, 214.2)  !important;
+}
+html[data-mode=dark] .dark\:outline-pink-300 {
+  outline-color: rgb(247.4, 181.8, 214.2)  !important;
+}
+html[data-mode=dark] .dark\:fill-pink-300 {
+  fill: rgb(247.4, 181.8, 214.2)  !important;
+}
+html[data-mode=dark] .dark\:stroke-pink-300 {
+  stroke: rgb(247.4, 181.8, 214.2)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-pink-300 {
+  text-decoration-color: rgb(247.4, 181.8, 214.2)  !important;
+}
+html[data-mode=dark] .dark\:caret-pink-300 {
+  caret-color: rgb(247.4, 181.8, 214.2)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-pink-300 {
+  text-emphasis-color: rgb(247.4, 181.8, 214.2)  !important;
+}
+html[data-mode=dark] .dark\:accent-pink-300 {
+  accent-color: rgb(247.4, 181.8, 214.2)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-pink-300 {
+  column-rule-color: rgb(247.4, 181.8, 214.2)  !important;
+}
+html[data-mode=dark] .dark\:shadow-pink-300 {
+  box-shadow: 0 0 0 0 rgb(247.4, 181.8, 214.2)  !important;
+}
+html[data-mode=dark] .dark\:bg-pink-400 {
+  background-color: rgb(245.5, 163.5, 204)  !important;
+}
+html[data-mode=dark] .dark\:text-pink-400 {
+  color: rgb(245.5, 163.5, 204)  !important;
+}
+html[data-mode=dark] .dark\:border-pink-400 {
+  border-color: rgb(245.5, 163.5, 204)  !important;
+}
+html[data-mode=dark] .dark\:outline-pink-400 {
+  outline-color: rgb(245.5, 163.5, 204)  !important;
+}
+html[data-mode=dark] .dark\:fill-pink-400 {
+  fill: rgb(245.5, 163.5, 204)  !important;
+}
+html[data-mode=dark] .dark\:stroke-pink-400 {
+  stroke: rgb(245.5, 163.5, 204)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-pink-400 {
+  text-decoration-color: rgb(245.5, 163.5, 204)  !important;
+}
+html[data-mode=dark] .dark\:caret-pink-400 {
+  caret-color: rgb(245.5, 163.5, 204)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-pink-400 {
+  text-emphasis-color: rgb(245.5, 163.5, 204)  !important;
+}
+html[data-mode=dark] .dark\:accent-pink-400 {
+  accent-color: rgb(245.5, 163.5, 204)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-pink-400 {
+  column-rule-color: rgb(245.5, 163.5, 204)  !important;
+}
+html[data-mode=dark] .dark\:shadow-pink-400 {
+  box-shadow: 0 0 0 0 rgb(245.5, 163.5, 204)  !important;
+}
+html[data-mode=dark] .dark\:bg-pink-500 {
+  background-color: #ec4899  !important;
+}
+html[data-mode=dark] .dark\:text-pink-500 {
+  color: #ec4899  !important;
+}
+html[data-mode=dark] .dark\:border-pink-500 {
+  border-color: #ec4899  !important;
+}
+html[data-mode=dark] .dark\:outline-pink-500 {
+  outline-color: #ec4899  !important;
+}
+html[data-mode=dark] .dark\:fill-pink-500 {
+  fill: #ec4899  !important;
+}
+html[data-mode=dark] .dark\:stroke-pink-500 {
+  stroke: #ec4899  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-pink-500 {
+  text-decoration-color: #ec4899  !important;
+}
+html[data-mode=dark] .dark\:caret-pink-500 {
+  caret-color: #ec4899  !important;
+}
+html[data-mode=dark] .dark\:emphasis-pink-500 {
+  text-emphasis-color: #ec4899  !important;
+}
+html[data-mode=dark] .dark\:accent-pink-500 {
+  accent-color: #ec4899  !important;
+}
+html[data-mode=dark] .dark\:column-rule-pink-500 {
+  column-rule-color: #ec4899  !important;
+}
+html[data-mode=dark] .dark\:shadow-pink-500 {
+  box-shadow: 0 0 0 0 #ec4899  !important;
+}
+html[data-mode=dark] .dark\:bg-pink-600 {
+  background-color: rgb(212.4, 64.8, 137.7)  !important;
+}
+html[data-mode=dark] .dark\:text-pink-600 {
+  color: rgb(212.4, 64.8, 137.7)  !important;
+}
+html[data-mode=dark] .dark\:border-pink-600 {
+  border-color: rgb(212.4, 64.8, 137.7)  !important;
+}
+html[data-mode=dark] .dark\:outline-pink-600 {
+  outline-color: rgb(212.4, 64.8, 137.7)  !important;
+}
+html[data-mode=dark] .dark\:fill-pink-600 {
+  fill: rgb(212.4, 64.8, 137.7)  !important;
+}
+html[data-mode=dark] .dark\:stroke-pink-600 {
+  stroke: rgb(212.4, 64.8, 137.7)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-pink-600 {
+  text-decoration-color: rgb(212.4, 64.8, 137.7)  !important;
+}
+html[data-mode=dark] .dark\:caret-pink-600 {
+  caret-color: rgb(212.4, 64.8, 137.7)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-pink-600 {
+  text-emphasis-color: rgb(212.4, 64.8, 137.7)  !important;
+}
+html[data-mode=dark] .dark\:accent-pink-600 {
+  accent-color: rgb(212.4, 64.8, 137.7)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-pink-600 {
+  column-rule-color: rgb(212.4, 64.8, 137.7)  !important;
+}
+html[data-mode=dark] .dark\:shadow-pink-600 {
+  box-shadow: 0 0 0 0 rgb(212.4, 64.8, 137.7)  !important;
+}
+html[data-mode=dark] .dark\:bg-pink-700 {
+  background-color: rgb(188.8, 57.6, 122.4)  !important;
+}
+html[data-mode=dark] .dark\:text-pink-700 {
+  color: rgb(188.8, 57.6, 122.4)  !important;
+}
+html[data-mode=dark] .dark\:border-pink-700 {
+  border-color: rgb(188.8, 57.6, 122.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-pink-700 {
+  outline-color: rgb(188.8, 57.6, 122.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-pink-700 {
+  fill: rgb(188.8, 57.6, 122.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-pink-700 {
+  stroke: rgb(188.8, 57.6, 122.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-pink-700 {
+  text-decoration-color: rgb(188.8, 57.6, 122.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-pink-700 {
+  caret-color: rgb(188.8, 57.6, 122.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-pink-700 {
+  text-emphasis-color: rgb(188.8, 57.6, 122.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-pink-700 {
+  accent-color: rgb(188.8, 57.6, 122.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-pink-700 {
+  column-rule-color: rgb(188.8, 57.6, 122.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-pink-700 {
+  box-shadow: 0 0 0 0 rgb(188.8, 57.6, 122.4)  !important;
+}
+html[data-mode=dark] .dark\:bg-pink-800 {
+  background-color: rgb(165.2, 50.4, 107.1)  !important;
+}
+html[data-mode=dark] .dark\:text-pink-800 {
+  color: rgb(165.2, 50.4, 107.1)  !important;
+}
+html[data-mode=dark] .dark\:border-pink-800 {
+  border-color: rgb(165.2, 50.4, 107.1)  !important;
+}
+html[data-mode=dark] .dark\:outline-pink-800 {
+  outline-color: rgb(165.2, 50.4, 107.1)  !important;
+}
+html[data-mode=dark] .dark\:fill-pink-800 {
+  fill: rgb(165.2, 50.4, 107.1)  !important;
+}
+html[data-mode=dark] .dark\:stroke-pink-800 {
+  stroke: rgb(165.2, 50.4, 107.1)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-pink-800 {
+  text-decoration-color: rgb(165.2, 50.4, 107.1)  !important;
+}
+html[data-mode=dark] .dark\:caret-pink-800 {
+  caret-color: rgb(165.2, 50.4, 107.1)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-pink-800 {
+  text-emphasis-color: rgb(165.2, 50.4, 107.1)  !important;
+}
+html[data-mode=dark] .dark\:accent-pink-800 {
+  accent-color: rgb(165.2, 50.4, 107.1)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-pink-800 {
+  column-rule-color: rgb(165.2, 50.4, 107.1)  !important;
+}
+html[data-mode=dark] .dark\:shadow-pink-800 {
+  box-shadow: 0 0 0 0 rgb(165.2, 50.4, 107.1)  !important;
+}
+html[data-mode=dark] .dark\:bg-pink-900 {
+  background-color: rgb(141.6, 43.2, 91.8)  !important;
+}
+html[data-mode=dark] .dark\:text-pink-900 {
+  color: rgb(141.6, 43.2, 91.8)  !important;
+}
+html[data-mode=dark] .dark\:border-pink-900 {
+  border-color: rgb(141.6, 43.2, 91.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-pink-900 {
+  outline-color: rgb(141.6, 43.2, 91.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-pink-900 {
+  fill: rgb(141.6, 43.2, 91.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-pink-900 {
+  stroke: rgb(141.6, 43.2, 91.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-pink-900 {
+  text-decoration-color: rgb(141.6, 43.2, 91.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-pink-900 {
+  caret-color: rgb(141.6, 43.2, 91.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-pink-900 {
+  text-emphasis-color: rgb(141.6, 43.2, 91.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-pink-900 {
+  accent-color: rgb(141.6, 43.2, 91.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-pink-900 {
+  column-rule-color: rgb(141.6, 43.2, 91.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-pink-900 {
+  box-shadow: 0 0 0 0 rgb(141.6, 43.2, 91.8)  !important;
+}
+
 .bg-indigo-50 {
   background-color: rgb(239.4, 239.7, 253.6)  !important;
 }
@@ -3360,6 +5526,367 @@
 }
 
 .shadow-indigo-900 {
+  box-shadow: 0 0 0 0 rgb(59.4, 61.2, 144.6)  !important;
+}
+
+html[data-mode=dark] .dark\:bg-indigo-50 {
+  background-color: rgb(239.4, 239.7, 253.6)  !important;
+}
+html[data-mode=dark] .dark\:text-indigo-50 {
+  color: rgb(239.4, 239.7, 253.6)  !important;
+}
+html[data-mode=dark] .dark\:border-indigo-50 {
+  border-color: rgb(239.4, 239.7, 253.6)  !important;
+}
+html[data-mode=dark] .dark\:outline-indigo-50 {
+  outline-color: rgb(239.4, 239.7, 253.6)  !important;
+}
+html[data-mode=dark] .dark\:fill-indigo-50 {
+  fill: rgb(239.4, 239.7, 253.6)  !important;
+}
+html[data-mode=dark] .dark\:stroke-indigo-50 {
+  stroke: rgb(239.4, 239.7, 253.6)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-indigo-50 {
+  text-decoration-color: rgb(239.4, 239.7, 253.6)  !important;
+}
+html[data-mode=dark] .dark\:caret-indigo-50 {
+  caret-color: rgb(239.4, 239.7, 253.6)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-indigo-50 {
+  text-emphasis-color: rgb(239.4, 239.7, 253.6)  !important;
+}
+html[data-mode=dark] .dark\:accent-indigo-50 {
+  accent-color: rgb(239.4, 239.7, 253.6)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-indigo-50 {
+  column-rule-color: rgb(239.4, 239.7, 253.6)  !important;
+}
+html[data-mode=dark] .dark\:shadow-indigo-50 {
+  box-shadow: 0 0 0 0 rgb(239.4, 239.7, 253.6)  !important;
+}
+html[data-mode=dark] .dark\:bg-indigo-100 {
+  background-color: rgb(223.8, 224.4, 252.2)  !important;
+}
+html[data-mode=dark] .dark\:text-indigo-100 {
+  color: rgb(223.8, 224.4, 252.2)  !important;
+}
+html[data-mode=dark] .dark\:border-indigo-100 {
+  border-color: rgb(223.8, 224.4, 252.2)  !important;
+}
+html[data-mode=dark] .dark\:outline-indigo-100 {
+  outline-color: rgb(223.8, 224.4, 252.2)  !important;
+}
+html[data-mode=dark] .dark\:fill-indigo-100 {
+  fill: rgb(223.8, 224.4, 252.2)  !important;
+}
+html[data-mode=dark] .dark\:stroke-indigo-100 {
+  stroke: rgb(223.8, 224.4, 252.2)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-indigo-100 {
+  text-decoration-color: rgb(223.8, 224.4, 252.2)  !important;
+}
+html[data-mode=dark] .dark\:caret-indigo-100 {
+  caret-color: rgb(223.8, 224.4, 252.2)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-indigo-100 {
+  text-emphasis-color: rgb(223.8, 224.4, 252.2)  !important;
+}
+html[data-mode=dark] .dark\:accent-indigo-100 {
+  accent-color: rgb(223.8, 224.4, 252.2)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-indigo-100 {
+  column-rule-color: rgb(223.8, 224.4, 252.2)  !important;
+}
+html[data-mode=dark] .dark\:shadow-indigo-100 {
+  box-shadow: 0 0 0 0 rgb(223.8, 224.4, 252.2)  !important;
+}
+html[data-mode=dark] .dark\:bg-indigo-200 {
+  background-color: rgb(208.2, 209.1, 250.8)  !important;
+}
+html[data-mode=dark] .dark\:text-indigo-200 {
+  color: rgb(208.2, 209.1, 250.8)  !important;
+}
+html[data-mode=dark] .dark\:border-indigo-200 {
+  border-color: rgb(208.2, 209.1, 250.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-indigo-200 {
+  outline-color: rgb(208.2, 209.1, 250.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-indigo-200 {
+  fill: rgb(208.2, 209.1, 250.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-indigo-200 {
+  stroke: rgb(208.2, 209.1, 250.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-indigo-200 {
+  text-decoration-color: rgb(208.2, 209.1, 250.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-indigo-200 {
+  caret-color: rgb(208.2, 209.1, 250.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-indigo-200 {
+  text-emphasis-color: rgb(208.2, 209.1, 250.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-indigo-200 {
+  accent-color: rgb(208.2, 209.1, 250.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-indigo-200 {
+  column-rule-color: rgb(208.2, 209.1, 250.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-indigo-200 {
+  box-shadow: 0 0 0 0 rgb(208.2, 209.1, 250.8)  !important;
+}
+html[data-mode=dark] .dark\:bg-indigo-300 {
+  background-color: rgb(192.6, 193.8, 249.4)  !important;
+}
+html[data-mode=dark] .dark\:text-indigo-300 {
+  color: rgb(192.6, 193.8, 249.4)  !important;
+}
+html[data-mode=dark] .dark\:border-indigo-300 {
+  border-color: rgb(192.6, 193.8, 249.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-indigo-300 {
+  outline-color: rgb(192.6, 193.8, 249.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-indigo-300 {
+  fill: rgb(192.6, 193.8, 249.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-indigo-300 {
+  stroke: rgb(192.6, 193.8, 249.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-indigo-300 {
+  text-decoration-color: rgb(192.6, 193.8, 249.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-indigo-300 {
+  caret-color: rgb(192.6, 193.8, 249.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-indigo-300 {
+  text-emphasis-color: rgb(192.6, 193.8, 249.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-indigo-300 {
+  accent-color: rgb(192.6, 193.8, 249.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-indigo-300 {
+  column-rule-color: rgb(192.6, 193.8, 249.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-indigo-300 {
+  box-shadow: 0 0 0 0 rgb(192.6, 193.8, 249.4)  !important;
+}
+html[data-mode=dark] .dark\:bg-indigo-400 {
+  background-color: rgb(177, 178.5, 248)  !important;
+}
+html[data-mode=dark] .dark\:text-indigo-400 {
+  color: rgb(177, 178.5, 248)  !important;
+}
+html[data-mode=dark] .dark\:border-indigo-400 {
+  border-color: rgb(177, 178.5, 248)  !important;
+}
+html[data-mode=dark] .dark\:outline-indigo-400 {
+  outline-color: rgb(177, 178.5, 248)  !important;
+}
+html[data-mode=dark] .dark\:fill-indigo-400 {
+  fill: rgb(177, 178.5, 248)  !important;
+}
+html[data-mode=dark] .dark\:stroke-indigo-400 {
+  stroke: rgb(177, 178.5, 248)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-indigo-400 {
+  text-decoration-color: rgb(177, 178.5, 248)  !important;
+}
+html[data-mode=dark] .dark\:caret-indigo-400 {
+  caret-color: rgb(177, 178.5, 248)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-indigo-400 {
+  text-emphasis-color: rgb(177, 178.5, 248)  !important;
+}
+html[data-mode=dark] .dark\:accent-indigo-400 {
+  accent-color: rgb(177, 178.5, 248)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-indigo-400 {
+  column-rule-color: rgb(177, 178.5, 248)  !important;
+}
+html[data-mode=dark] .dark\:shadow-indigo-400 {
+  box-shadow: 0 0 0 0 rgb(177, 178.5, 248)  !important;
+}
+html[data-mode=dark] .dark\:bg-indigo-500 {
+  background-color: #6366f1  !important;
+}
+html[data-mode=dark] .dark\:text-indigo-500 {
+  color: #6366f1  !important;
+}
+html[data-mode=dark] .dark\:border-indigo-500 {
+  border-color: #6366f1  !important;
+}
+html[data-mode=dark] .dark\:outline-indigo-500 {
+  outline-color: #6366f1  !important;
+}
+html[data-mode=dark] .dark\:fill-indigo-500 {
+  fill: #6366f1  !important;
+}
+html[data-mode=dark] .dark\:stroke-indigo-500 {
+  stroke: #6366f1  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-indigo-500 {
+  text-decoration-color: #6366f1  !important;
+}
+html[data-mode=dark] .dark\:caret-indigo-500 {
+  caret-color: #6366f1  !important;
+}
+html[data-mode=dark] .dark\:emphasis-indigo-500 {
+  text-emphasis-color: #6366f1  !important;
+}
+html[data-mode=dark] .dark\:accent-indigo-500 {
+  accent-color: #6366f1  !important;
+}
+html[data-mode=dark] .dark\:column-rule-indigo-500 {
+  column-rule-color: #6366f1  !important;
+}
+html[data-mode=dark] .dark\:shadow-indigo-500 {
+  box-shadow: 0 0 0 0 #6366f1  !important;
+}
+html[data-mode=dark] .dark\:bg-indigo-600 {
+  background-color: rgb(89.1, 91.8, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:text-indigo-600 {
+  color: rgb(89.1, 91.8, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:border-indigo-600 {
+  border-color: rgb(89.1, 91.8, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:outline-indigo-600 {
+  outline-color: rgb(89.1, 91.8, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:fill-indigo-600 {
+  fill: rgb(89.1, 91.8, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:stroke-indigo-600 {
+  stroke: rgb(89.1, 91.8, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-indigo-600 {
+  text-decoration-color: rgb(89.1, 91.8, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:caret-indigo-600 {
+  caret-color: rgb(89.1, 91.8, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-indigo-600 {
+  text-emphasis-color: rgb(89.1, 91.8, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:accent-indigo-600 {
+  accent-color: rgb(89.1, 91.8, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-indigo-600 {
+  column-rule-color: rgb(89.1, 91.8, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:shadow-indigo-600 {
+  box-shadow: 0 0 0 0 rgb(89.1, 91.8, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:bg-indigo-700 {
+  background-color: rgb(79.2, 81.6, 192.8)  !important;
+}
+html[data-mode=dark] .dark\:text-indigo-700 {
+  color: rgb(79.2, 81.6, 192.8)  !important;
+}
+html[data-mode=dark] .dark\:border-indigo-700 {
+  border-color: rgb(79.2, 81.6, 192.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-indigo-700 {
+  outline-color: rgb(79.2, 81.6, 192.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-indigo-700 {
+  fill: rgb(79.2, 81.6, 192.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-indigo-700 {
+  stroke: rgb(79.2, 81.6, 192.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-indigo-700 {
+  text-decoration-color: rgb(79.2, 81.6, 192.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-indigo-700 {
+  caret-color: rgb(79.2, 81.6, 192.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-indigo-700 {
+  text-emphasis-color: rgb(79.2, 81.6, 192.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-indigo-700 {
+  accent-color: rgb(79.2, 81.6, 192.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-indigo-700 {
+  column-rule-color: rgb(79.2, 81.6, 192.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-indigo-700 {
+  box-shadow: 0 0 0 0 rgb(79.2, 81.6, 192.8)  !important;
+}
+html[data-mode=dark] .dark\:bg-indigo-800 {
+  background-color: rgb(69.3, 71.4, 168.7)  !important;
+}
+html[data-mode=dark] .dark\:text-indigo-800 {
+  color: rgb(69.3, 71.4, 168.7)  !important;
+}
+html[data-mode=dark] .dark\:border-indigo-800 {
+  border-color: rgb(69.3, 71.4, 168.7)  !important;
+}
+html[data-mode=dark] .dark\:outline-indigo-800 {
+  outline-color: rgb(69.3, 71.4, 168.7)  !important;
+}
+html[data-mode=dark] .dark\:fill-indigo-800 {
+  fill: rgb(69.3, 71.4, 168.7)  !important;
+}
+html[data-mode=dark] .dark\:stroke-indigo-800 {
+  stroke: rgb(69.3, 71.4, 168.7)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-indigo-800 {
+  text-decoration-color: rgb(69.3, 71.4, 168.7)  !important;
+}
+html[data-mode=dark] .dark\:caret-indigo-800 {
+  caret-color: rgb(69.3, 71.4, 168.7)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-indigo-800 {
+  text-emphasis-color: rgb(69.3, 71.4, 168.7)  !important;
+}
+html[data-mode=dark] .dark\:accent-indigo-800 {
+  accent-color: rgb(69.3, 71.4, 168.7)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-indigo-800 {
+  column-rule-color: rgb(69.3, 71.4, 168.7)  !important;
+}
+html[data-mode=dark] .dark\:shadow-indigo-800 {
+  box-shadow: 0 0 0 0 rgb(69.3, 71.4, 168.7)  !important;
+}
+html[data-mode=dark] .dark\:bg-indigo-900 {
+  background-color: rgb(59.4, 61.2, 144.6)  !important;
+}
+html[data-mode=dark] .dark\:text-indigo-900 {
+  color: rgb(59.4, 61.2, 144.6)  !important;
+}
+html[data-mode=dark] .dark\:border-indigo-900 {
+  border-color: rgb(59.4, 61.2, 144.6)  !important;
+}
+html[data-mode=dark] .dark\:outline-indigo-900 {
+  outline-color: rgb(59.4, 61.2, 144.6)  !important;
+}
+html[data-mode=dark] .dark\:fill-indigo-900 {
+  fill: rgb(59.4, 61.2, 144.6)  !important;
+}
+html[data-mode=dark] .dark\:stroke-indigo-900 {
+  stroke: rgb(59.4, 61.2, 144.6)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-indigo-900 {
+  text-decoration-color: rgb(59.4, 61.2, 144.6)  !important;
+}
+html[data-mode=dark] .dark\:caret-indigo-900 {
+  caret-color: rgb(59.4, 61.2, 144.6)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-indigo-900 {
+  text-emphasis-color: rgb(59.4, 61.2, 144.6)  !important;
+}
+html[data-mode=dark] .dark\:accent-indigo-900 {
+  accent-color: rgb(59.4, 61.2, 144.6)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-indigo-900 {
+  column-rule-color: rgb(59.4, 61.2, 144.6)  !important;
+}
+html[data-mode=dark] .dark\:shadow-indigo-900 {
   box-shadow: 0 0 0 0 rgb(59.4, 61.2, 144.6)  !important;
 }
 
@@ -3843,6 +6370,367 @@
   box-shadow: 0 0 0 0 rgb(149.4, 69, 13.2)  !important;
 }
 
+html[data-mode=dark] .dark\:bg-orange-50 {
+  background-color: rgb(254.4, 241, 231.7)  !important;
+}
+html[data-mode=dark] .dark\:text-orange-50 {
+  color: rgb(254.4, 241, 231.7)  !important;
+}
+html[data-mode=dark] .dark\:border-orange-50 {
+  border-color: rgb(254.4, 241, 231.7)  !important;
+}
+html[data-mode=dark] .dark\:outline-orange-50 {
+  outline-color: rgb(254.4, 241, 231.7)  !important;
+}
+html[data-mode=dark] .dark\:fill-orange-50 {
+  fill: rgb(254.4, 241, 231.7)  !important;
+}
+html[data-mode=dark] .dark\:stroke-orange-50 {
+  stroke: rgb(254.4, 241, 231.7)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-orange-50 {
+  text-decoration-color: rgb(254.4, 241, 231.7)  !important;
+}
+html[data-mode=dark] .dark\:caret-orange-50 {
+  caret-color: rgb(254.4, 241, 231.7)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-orange-50 {
+  text-emphasis-color: rgb(254.4, 241, 231.7)  !important;
+}
+html[data-mode=dark] .dark\:accent-orange-50 {
+  accent-color: rgb(254.4, 241, 231.7)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-orange-50 {
+  column-rule-color: rgb(254.4, 241, 231.7)  !important;
+}
+html[data-mode=dark] .dark\:shadow-orange-50 {
+  box-shadow: 0 0 0 0 rgb(254.4, 241, 231.7)  !important;
+}
+html[data-mode=dark] .dark\:bg-orange-100 {
+  background-color: rgb(253.8, 227, 208.4)  !important;
+}
+html[data-mode=dark] .dark\:text-orange-100 {
+  color: rgb(253.8, 227, 208.4)  !important;
+}
+html[data-mode=dark] .dark\:border-orange-100 {
+  border-color: rgb(253.8, 227, 208.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-orange-100 {
+  outline-color: rgb(253.8, 227, 208.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-orange-100 {
+  fill: rgb(253.8, 227, 208.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-orange-100 {
+  stroke: rgb(253.8, 227, 208.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-orange-100 {
+  text-decoration-color: rgb(253.8, 227, 208.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-orange-100 {
+  caret-color: rgb(253.8, 227, 208.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-orange-100 {
+  text-emphasis-color: rgb(253.8, 227, 208.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-orange-100 {
+  accent-color: rgb(253.8, 227, 208.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-orange-100 {
+  column-rule-color: rgb(253.8, 227, 208.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-orange-100 {
+  box-shadow: 0 0 0 0 rgb(253.8, 227, 208.4)  !important;
+}
+html[data-mode=dark] .dark\:bg-orange-200 {
+  background-color: rgb(253.2, 213, 185.1)  !important;
+}
+html[data-mode=dark] .dark\:text-orange-200 {
+  color: rgb(253.2, 213, 185.1)  !important;
+}
+html[data-mode=dark] .dark\:border-orange-200 {
+  border-color: rgb(253.2, 213, 185.1)  !important;
+}
+html[data-mode=dark] .dark\:outline-orange-200 {
+  outline-color: rgb(253.2, 213, 185.1)  !important;
+}
+html[data-mode=dark] .dark\:fill-orange-200 {
+  fill: rgb(253.2, 213, 185.1)  !important;
+}
+html[data-mode=dark] .dark\:stroke-orange-200 {
+  stroke: rgb(253.2, 213, 185.1)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-orange-200 {
+  text-decoration-color: rgb(253.2, 213, 185.1)  !important;
+}
+html[data-mode=dark] .dark\:caret-orange-200 {
+  caret-color: rgb(253.2, 213, 185.1)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-orange-200 {
+  text-emphasis-color: rgb(253.2, 213, 185.1)  !important;
+}
+html[data-mode=dark] .dark\:accent-orange-200 {
+  accent-color: rgb(253.2, 213, 185.1)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-orange-200 {
+  column-rule-color: rgb(253.2, 213, 185.1)  !important;
+}
+html[data-mode=dark] .dark\:shadow-orange-200 {
+  box-shadow: 0 0 0 0 rgb(253.2, 213, 185.1)  !important;
+}
+html[data-mode=dark] .dark\:bg-orange-300 {
+  background-color: rgb(252.6, 199, 161.8)  !important;
+}
+html[data-mode=dark] .dark\:text-orange-300 {
+  color: rgb(252.6, 199, 161.8)  !important;
+}
+html[data-mode=dark] .dark\:border-orange-300 {
+  border-color: rgb(252.6, 199, 161.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-orange-300 {
+  outline-color: rgb(252.6, 199, 161.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-orange-300 {
+  fill: rgb(252.6, 199, 161.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-orange-300 {
+  stroke: rgb(252.6, 199, 161.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-orange-300 {
+  text-decoration-color: rgb(252.6, 199, 161.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-orange-300 {
+  caret-color: rgb(252.6, 199, 161.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-orange-300 {
+  text-emphasis-color: rgb(252.6, 199, 161.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-orange-300 {
+  accent-color: rgb(252.6, 199, 161.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-orange-300 {
+  column-rule-color: rgb(252.6, 199, 161.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-orange-300 {
+  box-shadow: 0 0 0 0 rgb(252.6, 199, 161.8)  !important;
+}
+html[data-mode=dark] .dark\:bg-orange-400 {
+  background-color: rgb(252, 185, 138.5)  !important;
+}
+html[data-mode=dark] .dark\:text-orange-400 {
+  color: rgb(252, 185, 138.5)  !important;
+}
+html[data-mode=dark] .dark\:border-orange-400 {
+  border-color: rgb(252, 185, 138.5)  !important;
+}
+html[data-mode=dark] .dark\:outline-orange-400 {
+  outline-color: rgb(252, 185, 138.5)  !important;
+}
+html[data-mode=dark] .dark\:fill-orange-400 {
+  fill: rgb(252, 185, 138.5)  !important;
+}
+html[data-mode=dark] .dark\:stroke-orange-400 {
+  stroke: rgb(252, 185, 138.5)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-orange-400 {
+  text-decoration-color: rgb(252, 185, 138.5)  !important;
+}
+html[data-mode=dark] .dark\:caret-orange-400 {
+  caret-color: rgb(252, 185, 138.5)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-orange-400 {
+  text-emphasis-color: rgb(252, 185, 138.5)  !important;
+}
+html[data-mode=dark] .dark\:accent-orange-400 {
+  accent-color: rgb(252, 185, 138.5)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-orange-400 {
+  column-rule-color: rgb(252, 185, 138.5)  !important;
+}
+html[data-mode=dark] .dark\:shadow-orange-400 {
+  box-shadow: 0 0 0 0 rgb(252, 185, 138.5)  !important;
+}
+html[data-mode=dark] .dark\:bg-orange-500 {
+  background-color: #f97316  !important;
+}
+html[data-mode=dark] .dark\:text-orange-500 {
+  color: #f97316  !important;
+}
+html[data-mode=dark] .dark\:border-orange-500 {
+  border-color: #f97316  !important;
+}
+html[data-mode=dark] .dark\:outline-orange-500 {
+  outline-color: #f97316  !important;
+}
+html[data-mode=dark] .dark\:fill-orange-500 {
+  fill: #f97316  !important;
+}
+html[data-mode=dark] .dark\:stroke-orange-500 {
+  stroke: #f97316  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-orange-500 {
+  text-decoration-color: #f97316  !important;
+}
+html[data-mode=dark] .dark\:caret-orange-500 {
+  caret-color: #f97316  !important;
+}
+html[data-mode=dark] .dark\:emphasis-orange-500 {
+  text-emphasis-color: #f97316  !important;
+}
+html[data-mode=dark] .dark\:accent-orange-500 {
+  accent-color: #f97316  !important;
+}
+html[data-mode=dark] .dark\:column-rule-orange-500 {
+  column-rule-color: #f97316  !important;
+}
+html[data-mode=dark] .dark\:shadow-orange-500 {
+  box-shadow: 0 0 0 0 #f97316  !important;
+}
+html[data-mode=dark] .dark\:bg-orange-600 {
+  background-color: rgb(224.1, 103.5, 19.8)  !important;
+}
+html[data-mode=dark] .dark\:text-orange-600 {
+  color: rgb(224.1, 103.5, 19.8)  !important;
+}
+html[data-mode=dark] .dark\:border-orange-600 {
+  border-color: rgb(224.1, 103.5, 19.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-orange-600 {
+  outline-color: rgb(224.1, 103.5, 19.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-orange-600 {
+  fill: rgb(224.1, 103.5, 19.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-orange-600 {
+  stroke: rgb(224.1, 103.5, 19.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-orange-600 {
+  text-decoration-color: rgb(224.1, 103.5, 19.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-orange-600 {
+  caret-color: rgb(224.1, 103.5, 19.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-orange-600 {
+  text-emphasis-color: rgb(224.1, 103.5, 19.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-orange-600 {
+  accent-color: rgb(224.1, 103.5, 19.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-orange-600 {
+  column-rule-color: rgb(224.1, 103.5, 19.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-orange-600 {
+  box-shadow: 0 0 0 0 rgb(224.1, 103.5, 19.8)  !important;
+}
+html[data-mode=dark] .dark\:bg-orange-700 {
+  background-color: rgb(199.2, 92, 17.6)  !important;
+}
+html[data-mode=dark] .dark\:text-orange-700 {
+  color: rgb(199.2, 92, 17.6)  !important;
+}
+html[data-mode=dark] .dark\:border-orange-700 {
+  border-color: rgb(199.2, 92, 17.6)  !important;
+}
+html[data-mode=dark] .dark\:outline-orange-700 {
+  outline-color: rgb(199.2, 92, 17.6)  !important;
+}
+html[data-mode=dark] .dark\:fill-orange-700 {
+  fill: rgb(199.2, 92, 17.6)  !important;
+}
+html[data-mode=dark] .dark\:stroke-orange-700 {
+  stroke: rgb(199.2, 92, 17.6)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-orange-700 {
+  text-decoration-color: rgb(199.2, 92, 17.6)  !important;
+}
+html[data-mode=dark] .dark\:caret-orange-700 {
+  caret-color: rgb(199.2, 92, 17.6)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-orange-700 {
+  text-emphasis-color: rgb(199.2, 92, 17.6)  !important;
+}
+html[data-mode=dark] .dark\:accent-orange-700 {
+  accent-color: rgb(199.2, 92, 17.6)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-orange-700 {
+  column-rule-color: rgb(199.2, 92, 17.6)  !important;
+}
+html[data-mode=dark] .dark\:shadow-orange-700 {
+  box-shadow: 0 0 0 0 rgb(199.2, 92, 17.6)  !important;
+}
+html[data-mode=dark] .dark\:bg-orange-800 {
+  background-color: rgb(174.3, 80.5, 15.4)  !important;
+}
+html[data-mode=dark] .dark\:text-orange-800 {
+  color: rgb(174.3, 80.5, 15.4)  !important;
+}
+html[data-mode=dark] .dark\:border-orange-800 {
+  border-color: rgb(174.3, 80.5, 15.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-orange-800 {
+  outline-color: rgb(174.3, 80.5, 15.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-orange-800 {
+  fill: rgb(174.3, 80.5, 15.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-orange-800 {
+  stroke: rgb(174.3, 80.5, 15.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-orange-800 {
+  text-decoration-color: rgb(174.3, 80.5, 15.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-orange-800 {
+  caret-color: rgb(174.3, 80.5, 15.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-orange-800 {
+  text-emphasis-color: rgb(174.3, 80.5, 15.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-orange-800 {
+  accent-color: rgb(174.3, 80.5, 15.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-orange-800 {
+  column-rule-color: rgb(174.3, 80.5, 15.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-orange-800 {
+  box-shadow: 0 0 0 0 rgb(174.3, 80.5, 15.4)  !important;
+}
+html[data-mode=dark] .dark\:bg-orange-900 {
+  background-color: rgb(149.4, 69, 13.2)  !important;
+}
+html[data-mode=dark] .dark\:text-orange-900 {
+  color: rgb(149.4, 69, 13.2)  !important;
+}
+html[data-mode=dark] .dark\:border-orange-900 {
+  border-color: rgb(149.4, 69, 13.2)  !important;
+}
+html[data-mode=dark] .dark\:outline-orange-900 {
+  outline-color: rgb(149.4, 69, 13.2)  !important;
+}
+html[data-mode=dark] .dark\:fill-orange-900 {
+  fill: rgb(149.4, 69, 13.2)  !important;
+}
+html[data-mode=dark] .dark\:stroke-orange-900 {
+  stroke: rgb(149.4, 69, 13.2)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-orange-900 {
+  text-decoration-color: rgb(149.4, 69, 13.2)  !important;
+}
+html[data-mode=dark] .dark\:caret-orange-900 {
+  caret-color: rgb(149.4, 69, 13.2)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-orange-900 {
+  text-emphasis-color: rgb(149.4, 69, 13.2)  !important;
+}
+html[data-mode=dark] .dark\:accent-orange-900 {
+  accent-color: rgb(149.4, 69, 13.2)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-orange-900 {
+  column-rule-color: rgb(149.4, 69, 13.2)  !important;
+}
+html[data-mode=dark] .dark\:shadow-orange-900 {
+  box-shadow: 0 0 0 0 rgb(149.4, 69, 13.2)  !important;
+}
+
 .bg-teal-50 {
   background-color: rgb(231.5, 247.9, 246.1)  !important;
 }
@@ -4320,6 +7208,367 @@
 }
 
 .shadow-teal-900 {
+  box-shadow: 0 0 0 0 rgb(12, 110.4, 99.6)  !important;
+}
+
+html[data-mode=dark] .dark\:bg-teal-50 {
+  background-color: rgb(231.5, 247.9, 246.1)  !important;
+}
+html[data-mode=dark] .dark\:text-teal-50 {
+  color: rgb(231.5, 247.9, 246.1)  !important;
+}
+html[data-mode=dark] .dark\:border-teal-50 {
+  border-color: rgb(231.5, 247.9, 246.1)  !important;
+}
+html[data-mode=dark] .dark\:outline-teal-50 {
+  outline-color: rgb(231.5, 247.9, 246.1)  !important;
+}
+html[data-mode=dark] .dark\:fill-teal-50 {
+  fill: rgb(231.5, 247.9, 246.1)  !important;
+}
+html[data-mode=dark] .dark\:stroke-teal-50 {
+  stroke: rgb(231.5, 247.9, 246.1)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-teal-50 {
+  text-decoration-color: rgb(231.5, 247.9, 246.1)  !important;
+}
+html[data-mode=dark] .dark\:caret-teal-50 {
+  caret-color: rgb(231.5, 247.9, 246.1)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-teal-50 {
+  text-emphasis-color: rgb(231.5, 247.9, 246.1)  !important;
+}
+html[data-mode=dark] .dark\:accent-teal-50 {
+  accent-color: rgb(231.5, 247.9, 246.1)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-teal-50 {
+  column-rule-color: rgb(231.5, 247.9, 246.1)  !important;
+}
+html[data-mode=dark] .dark\:shadow-teal-50 {
+  box-shadow: 0 0 0 0 rgb(231.5, 247.9, 246.1)  !important;
+}
+html[data-mode=dark] .dark\:bg-teal-100 {
+  background-color: rgb(208, 240.8, 237.2)  !important;
+}
+html[data-mode=dark] .dark\:text-teal-100 {
+  color: rgb(208, 240.8, 237.2)  !important;
+}
+html[data-mode=dark] .dark\:border-teal-100 {
+  border-color: rgb(208, 240.8, 237.2)  !important;
+}
+html[data-mode=dark] .dark\:outline-teal-100 {
+  outline-color: rgb(208, 240.8, 237.2)  !important;
+}
+html[data-mode=dark] .dark\:fill-teal-100 {
+  fill: rgb(208, 240.8, 237.2)  !important;
+}
+html[data-mode=dark] .dark\:stroke-teal-100 {
+  stroke: rgb(208, 240.8, 237.2)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-teal-100 {
+  text-decoration-color: rgb(208, 240.8, 237.2)  !important;
+}
+html[data-mode=dark] .dark\:caret-teal-100 {
+  caret-color: rgb(208, 240.8, 237.2)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-teal-100 {
+  text-emphasis-color: rgb(208, 240.8, 237.2)  !important;
+}
+html[data-mode=dark] .dark\:accent-teal-100 {
+  accent-color: rgb(208, 240.8, 237.2)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-teal-100 {
+  column-rule-color: rgb(208, 240.8, 237.2)  !important;
+}
+html[data-mode=dark] .dark\:shadow-teal-100 {
+  box-shadow: 0 0 0 0 rgb(208, 240.8, 237.2)  !important;
+}
+html[data-mode=dark] .dark\:bg-teal-200 {
+  background-color: rgb(184.5, 233.7, 228.3)  !important;
+}
+html[data-mode=dark] .dark\:text-teal-200 {
+  color: rgb(184.5, 233.7, 228.3)  !important;
+}
+html[data-mode=dark] .dark\:border-teal-200 {
+  border-color: rgb(184.5, 233.7, 228.3)  !important;
+}
+html[data-mode=dark] .dark\:outline-teal-200 {
+  outline-color: rgb(184.5, 233.7, 228.3)  !important;
+}
+html[data-mode=dark] .dark\:fill-teal-200 {
+  fill: rgb(184.5, 233.7, 228.3)  !important;
+}
+html[data-mode=dark] .dark\:stroke-teal-200 {
+  stroke: rgb(184.5, 233.7, 228.3)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-teal-200 {
+  text-decoration-color: rgb(184.5, 233.7, 228.3)  !important;
+}
+html[data-mode=dark] .dark\:caret-teal-200 {
+  caret-color: rgb(184.5, 233.7, 228.3)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-teal-200 {
+  text-emphasis-color: rgb(184.5, 233.7, 228.3)  !important;
+}
+html[data-mode=dark] .dark\:accent-teal-200 {
+  accent-color: rgb(184.5, 233.7, 228.3)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-teal-200 {
+  column-rule-color: rgb(184.5, 233.7, 228.3)  !important;
+}
+html[data-mode=dark] .dark\:shadow-teal-200 {
+  box-shadow: 0 0 0 0 rgb(184.5, 233.7, 228.3)  !important;
+}
+html[data-mode=dark] .dark\:bg-teal-300 {
+  background-color: rgb(161, 226.6, 219.4)  !important;
+}
+html[data-mode=dark] .dark\:text-teal-300 {
+  color: rgb(161, 226.6, 219.4)  !important;
+}
+html[data-mode=dark] .dark\:border-teal-300 {
+  border-color: rgb(161, 226.6, 219.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-teal-300 {
+  outline-color: rgb(161, 226.6, 219.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-teal-300 {
+  fill: rgb(161, 226.6, 219.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-teal-300 {
+  stroke: rgb(161, 226.6, 219.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-teal-300 {
+  text-decoration-color: rgb(161, 226.6, 219.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-teal-300 {
+  caret-color: rgb(161, 226.6, 219.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-teal-300 {
+  text-emphasis-color: rgb(161, 226.6, 219.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-teal-300 {
+  accent-color: rgb(161, 226.6, 219.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-teal-300 {
+  column-rule-color: rgb(161, 226.6, 219.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-teal-300 {
+  box-shadow: 0 0 0 0 rgb(161, 226.6, 219.4)  !important;
+}
+html[data-mode=dark] .dark\:bg-teal-400 {
+  background-color: rgb(137.5, 219.5, 210.5)  !important;
+}
+html[data-mode=dark] .dark\:text-teal-400 {
+  color: rgb(137.5, 219.5, 210.5)  !important;
+}
+html[data-mode=dark] .dark\:border-teal-400 {
+  border-color: rgb(137.5, 219.5, 210.5)  !important;
+}
+html[data-mode=dark] .dark\:outline-teal-400 {
+  outline-color: rgb(137.5, 219.5, 210.5)  !important;
+}
+html[data-mode=dark] .dark\:fill-teal-400 {
+  fill: rgb(137.5, 219.5, 210.5)  !important;
+}
+html[data-mode=dark] .dark\:stroke-teal-400 {
+  stroke: rgb(137.5, 219.5, 210.5)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-teal-400 {
+  text-decoration-color: rgb(137.5, 219.5, 210.5)  !important;
+}
+html[data-mode=dark] .dark\:caret-teal-400 {
+  caret-color: rgb(137.5, 219.5, 210.5)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-teal-400 {
+  text-emphasis-color: rgb(137.5, 219.5, 210.5)  !important;
+}
+html[data-mode=dark] .dark\:accent-teal-400 {
+  accent-color: rgb(137.5, 219.5, 210.5)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-teal-400 {
+  column-rule-color: rgb(137.5, 219.5, 210.5)  !important;
+}
+html[data-mode=dark] .dark\:shadow-teal-400 {
+  box-shadow: 0 0 0 0 rgb(137.5, 219.5, 210.5)  !important;
+}
+html[data-mode=dark] .dark\:bg-teal-500 {
+  background-color: #14b8a6  !important;
+}
+html[data-mode=dark] .dark\:text-teal-500 {
+  color: #14b8a6  !important;
+}
+html[data-mode=dark] .dark\:border-teal-500 {
+  border-color: #14b8a6  !important;
+}
+html[data-mode=dark] .dark\:outline-teal-500 {
+  outline-color: #14b8a6  !important;
+}
+html[data-mode=dark] .dark\:fill-teal-500 {
+  fill: #14b8a6  !important;
+}
+html[data-mode=dark] .dark\:stroke-teal-500 {
+  stroke: #14b8a6  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-teal-500 {
+  text-decoration-color: #14b8a6  !important;
+}
+html[data-mode=dark] .dark\:caret-teal-500 {
+  caret-color: #14b8a6  !important;
+}
+html[data-mode=dark] .dark\:emphasis-teal-500 {
+  text-emphasis-color: #14b8a6  !important;
+}
+html[data-mode=dark] .dark\:accent-teal-500 {
+  accent-color: #14b8a6  !important;
+}
+html[data-mode=dark] .dark\:column-rule-teal-500 {
+  column-rule-color: #14b8a6  !important;
+}
+html[data-mode=dark] .dark\:shadow-teal-500 {
+  box-shadow: 0 0 0 0 #14b8a6  !important;
+}
+html[data-mode=dark] .dark\:bg-teal-600 {
+  background-color: rgb(18, 165.6, 149.4)  !important;
+}
+html[data-mode=dark] .dark\:text-teal-600 {
+  color: rgb(18, 165.6, 149.4)  !important;
+}
+html[data-mode=dark] .dark\:border-teal-600 {
+  border-color: rgb(18, 165.6, 149.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-teal-600 {
+  outline-color: rgb(18, 165.6, 149.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-teal-600 {
+  fill: rgb(18, 165.6, 149.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-teal-600 {
+  stroke: rgb(18, 165.6, 149.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-teal-600 {
+  text-decoration-color: rgb(18, 165.6, 149.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-teal-600 {
+  caret-color: rgb(18, 165.6, 149.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-teal-600 {
+  text-emphasis-color: rgb(18, 165.6, 149.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-teal-600 {
+  accent-color: rgb(18, 165.6, 149.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-teal-600 {
+  column-rule-color: rgb(18, 165.6, 149.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-teal-600 {
+  box-shadow: 0 0 0 0 rgb(18, 165.6, 149.4)  !important;
+}
+html[data-mode=dark] .dark\:bg-teal-700 {
+  background-color: rgb(16, 147.2, 132.8)  !important;
+}
+html[data-mode=dark] .dark\:text-teal-700 {
+  color: rgb(16, 147.2, 132.8)  !important;
+}
+html[data-mode=dark] .dark\:border-teal-700 {
+  border-color: rgb(16, 147.2, 132.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-teal-700 {
+  outline-color: rgb(16, 147.2, 132.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-teal-700 {
+  fill: rgb(16, 147.2, 132.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-teal-700 {
+  stroke: rgb(16, 147.2, 132.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-teal-700 {
+  text-decoration-color: rgb(16, 147.2, 132.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-teal-700 {
+  caret-color: rgb(16, 147.2, 132.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-teal-700 {
+  text-emphasis-color: rgb(16, 147.2, 132.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-teal-700 {
+  accent-color: rgb(16, 147.2, 132.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-teal-700 {
+  column-rule-color: rgb(16, 147.2, 132.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-teal-700 {
+  box-shadow: 0 0 0 0 rgb(16, 147.2, 132.8)  !important;
+}
+html[data-mode=dark] .dark\:bg-teal-800 {
+  background-color: rgb(14, 128.8, 116.2)  !important;
+}
+html[data-mode=dark] .dark\:text-teal-800 {
+  color: rgb(14, 128.8, 116.2)  !important;
+}
+html[data-mode=dark] .dark\:border-teal-800 {
+  border-color: rgb(14, 128.8, 116.2)  !important;
+}
+html[data-mode=dark] .dark\:outline-teal-800 {
+  outline-color: rgb(14, 128.8, 116.2)  !important;
+}
+html[data-mode=dark] .dark\:fill-teal-800 {
+  fill: rgb(14, 128.8, 116.2)  !important;
+}
+html[data-mode=dark] .dark\:stroke-teal-800 {
+  stroke: rgb(14, 128.8, 116.2)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-teal-800 {
+  text-decoration-color: rgb(14, 128.8, 116.2)  !important;
+}
+html[data-mode=dark] .dark\:caret-teal-800 {
+  caret-color: rgb(14, 128.8, 116.2)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-teal-800 {
+  text-emphasis-color: rgb(14, 128.8, 116.2)  !important;
+}
+html[data-mode=dark] .dark\:accent-teal-800 {
+  accent-color: rgb(14, 128.8, 116.2)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-teal-800 {
+  column-rule-color: rgb(14, 128.8, 116.2)  !important;
+}
+html[data-mode=dark] .dark\:shadow-teal-800 {
+  box-shadow: 0 0 0 0 rgb(14, 128.8, 116.2)  !important;
+}
+html[data-mode=dark] .dark\:bg-teal-900 {
+  background-color: rgb(12, 110.4, 99.6)  !important;
+}
+html[data-mode=dark] .dark\:text-teal-900 {
+  color: rgb(12, 110.4, 99.6)  !important;
+}
+html[data-mode=dark] .dark\:border-teal-900 {
+  border-color: rgb(12, 110.4, 99.6)  !important;
+}
+html[data-mode=dark] .dark\:outline-teal-900 {
+  outline-color: rgb(12, 110.4, 99.6)  !important;
+}
+html[data-mode=dark] .dark\:fill-teal-900 {
+  fill: rgb(12, 110.4, 99.6)  !important;
+}
+html[data-mode=dark] .dark\:stroke-teal-900 {
+  stroke: rgb(12, 110.4, 99.6)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-teal-900 {
+  text-decoration-color: rgb(12, 110.4, 99.6)  !important;
+}
+html[data-mode=dark] .dark\:caret-teal-900 {
+  caret-color: rgb(12, 110.4, 99.6)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-teal-900 {
+  text-emphasis-color: rgb(12, 110.4, 99.6)  !important;
+}
+html[data-mode=dark] .dark\:accent-teal-900 {
+  accent-color: rgb(12, 110.4, 99.6)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-teal-900 {
+  column-rule-color: rgb(12, 110.4, 99.6)  !important;
+}
+html[data-mode=dark] .dark\:shadow-teal-900 {
   box-shadow: 0 0 0 0 rgb(12, 110.4, 99.6)  !important;
 }
 
@@ -4803,6 +8052,367 @@
   box-shadow: 0 0 0 0 rgb(3.6, 109.2, 127.2)  !important;
 }
 
+html[data-mode=dark] .dark\:bg-cyan-50 {
+  background-color: rgb(230.1, 247.7, 250.7)  !important;
+}
+html[data-mode=dark] .dark\:text-cyan-50 {
+  color: rgb(230.1, 247.7, 250.7)  !important;
+}
+html[data-mode=dark] .dark\:border-cyan-50 {
+  border-color: rgb(230.1, 247.7, 250.7)  !important;
+}
+html[data-mode=dark] .dark\:outline-cyan-50 {
+  outline-color: rgb(230.1, 247.7, 250.7)  !important;
+}
+html[data-mode=dark] .dark\:fill-cyan-50 {
+  fill: rgb(230.1, 247.7, 250.7)  !important;
+}
+html[data-mode=dark] .dark\:stroke-cyan-50 {
+  stroke: rgb(230.1, 247.7, 250.7)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-cyan-50 {
+  text-decoration-color: rgb(230.1, 247.7, 250.7)  !important;
+}
+html[data-mode=dark] .dark\:caret-cyan-50 {
+  caret-color: rgb(230.1, 247.7, 250.7)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-cyan-50 {
+  text-emphasis-color: rgb(230.1, 247.7, 250.7)  !important;
+}
+html[data-mode=dark] .dark\:accent-cyan-50 {
+  accent-color: rgb(230.1, 247.7, 250.7)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-cyan-50 {
+  column-rule-color: rgb(230.1, 247.7, 250.7)  !important;
+}
+html[data-mode=dark] .dark\:shadow-cyan-50 {
+  box-shadow: 0 0 0 0 rgb(230.1, 247.7, 250.7)  !important;
+}
+html[data-mode=dark] .dark\:bg-cyan-100 {
+  background-color: rgb(205.2, 240.4, 246.4)  !important;
+}
+html[data-mode=dark] .dark\:text-cyan-100 {
+  color: rgb(205.2, 240.4, 246.4)  !important;
+}
+html[data-mode=dark] .dark\:border-cyan-100 {
+  border-color: rgb(205.2, 240.4, 246.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-cyan-100 {
+  outline-color: rgb(205.2, 240.4, 246.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-cyan-100 {
+  fill: rgb(205.2, 240.4, 246.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-cyan-100 {
+  stroke: rgb(205.2, 240.4, 246.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-cyan-100 {
+  text-decoration-color: rgb(205.2, 240.4, 246.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-cyan-100 {
+  caret-color: rgb(205.2, 240.4, 246.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-cyan-100 {
+  text-emphasis-color: rgb(205.2, 240.4, 246.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-cyan-100 {
+  accent-color: rgb(205.2, 240.4, 246.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-cyan-100 {
+  column-rule-color: rgb(205.2, 240.4, 246.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-cyan-100 {
+  box-shadow: 0 0 0 0 rgb(205.2, 240.4, 246.4)  !important;
+}
+html[data-mode=dark] .dark\:bg-cyan-200 {
+  background-color: rgb(180.3, 233.1, 242.1)  !important;
+}
+html[data-mode=dark] .dark\:text-cyan-200 {
+  color: rgb(180.3, 233.1, 242.1)  !important;
+}
+html[data-mode=dark] .dark\:border-cyan-200 {
+  border-color: rgb(180.3, 233.1, 242.1)  !important;
+}
+html[data-mode=dark] .dark\:outline-cyan-200 {
+  outline-color: rgb(180.3, 233.1, 242.1)  !important;
+}
+html[data-mode=dark] .dark\:fill-cyan-200 {
+  fill: rgb(180.3, 233.1, 242.1)  !important;
+}
+html[data-mode=dark] .dark\:stroke-cyan-200 {
+  stroke: rgb(180.3, 233.1, 242.1)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-cyan-200 {
+  text-decoration-color: rgb(180.3, 233.1, 242.1)  !important;
+}
+html[data-mode=dark] .dark\:caret-cyan-200 {
+  caret-color: rgb(180.3, 233.1, 242.1)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-cyan-200 {
+  text-emphasis-color: rgb(180.3, 233.1, 242.1)  !important;
+}
+html[data-mode=dark] .dark\:accent-cyan-200 {
+  accent-color: rgb(180.3, 233.1, 242.1)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-cyan-200 {
+  column-rule-color: rgb(180.3, 233.1, 242.1)  !important;
+}
+html[data-mode=dark] .dark\:shadow-cyan-200 {
+  box-shadow: 0 0 0 0 rgb(180.3, 233.1, 242.1)  !important;
+}
+html[data-mode=dark] .dark\:bg-cyan-300 {
+  background-color: rgb(155.4, 225.8, 237.8)  !important;
+}
+html[data-mode=dark] .dark\:text-cyan-300 {
+  color: rgb(155.4, 225.8, 237.8)  !important;
+}
+html[data-mode=dark] .dark\:border-cyan-300 {
+  border-color: rgb(155.4, 225.8, 237.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-cyan-300 {
+  outline-color: rgb(155.4, 225.8, 237.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-cyan-300 {
+  fill: rgb(155.4, 225.8, 237.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-cyan-300 {
+  stroke: rgb(155.4, 225.8, 237.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-cyan-300 {
+  text-decoration-color: rgb(155.4, 225.8, 237.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-cyan-300 {
+  caret-color: rgb(155.4, 225.8, 237.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-cyan-300 {
+  text-emphasis-color: rgb(155.4, 225.8, 237.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-cyan-300 {
+  accent-color: rgb(155.4, 225.8, 237.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-cyan-300 {
+  column-rule-color: rgb(155.4, 225.8, 237.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-cyan-300 {
+  box-shadow: 0 0 0 0 rgb(155.4, 225.8, 237.8)  !important;
+}
+html[data-mode=dark] .dark\:bg-cyan-400 {
+  background-color: rgb(130.5, 218.5, 233.5)  !important;
+}
+html[data-mode=dark] .dark\:text-cyan-400 {
+  color: rgb(130.5, 218.5, 233.5)  !important;
+}
+html[data-mode=dark] .dark\:border-cyan-400 {
+  border-color: rgb(130.5, 218.5, 233.5)  !important;
+}
+html[data-mode=dark] .dark\:outline-cyan-400 {
+  outline-color: rgb(130.5, 218.5, 233.5)  !important;
+}
+html[data-mode=dark] .dark\:fill-cyan-400 {
+  fill: rgb(130.5, 218.5, 233.5)  !important;
+}
+html[data-mode=dark] .dark\:stroke-cyan-400 {
+  stroke: rgb(130.5, 218.5, 233.5)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-cyan-400 {
+  text-decoration-color: rgb(130.5, 218.5, 233.5)  !important;
+}
+html[data-mode=dark] .dark\:caret-cyan-400 {
+  caret-color: rgb(130.5, 218.5, 233.5)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-cyan-400 {
+  text-emphasis-color: rgb(130.5, 218.5, 233.5)  !important;
+}
+html[data-mode=dark] .dark\:accent-cyan-400 {
+  accent-color: rgb(130.5, 218.5, 233.5)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-cyan-400 {
+  column-rule-color: rgb(130.5, 218.5, 233.5)  !important;
+}
+html[data-mode=dark] .dark\:shadow-cyan-400 {
+  box-shadow: 0 0 0 0 rgb(130.5, 218.5, 233.5)  !important;
+}
+html[data-mode=dark] .dark\:bg-cyan-500 {
+  background-color: #06b6d4  !important;
+}
+html[data-mode=dark] .dark\:text-cyan-500 {
+  color: #06b6d4  !important;
+}
+html[data-mode=dark] .dark\:border-cyan-500 {
+  border-color: #06b6d4  !important;
+}
+html[data-mode=dark] .dark\:outline-cyan-500 {
+  outline-color: #06b6d4  !important;
+}
+html[data-mode=dark] .dark\:fill-cyan-500 {
+  fill: #06b6d4  !important;
+}
+html[data-mode=dark] .dark\:stroke-cyan-500 {
+  stroke: #06b6d4  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-cyan-500 {
+  text-decoration-color: #06b6d4  !important;
+}
+html[data-mode=dark] .dark\:caret-cyan-500 {
+  caret-color: #06b6d4  !important;
+}
+html[data-mode=dark] .dark\:emphasis-cyan-500 {
+  text-emphasis-color: #06b6d4  !important;
+}
+html[data-mode=dark] .dark\:accent-cyan-500 {
+  accent-color: #06b6d4  !important;
+}
+html[data-mode=dark] .dark\:column-rule-cyan-500 {
+  column-rule-color: #06b6d4  !important;
+}
+html[data-mode=dark] .dark\:shadow-cyan-500 {
+  box-shadow: 0 0 0 0 #06b6d4  !important;
+}
+html[data-mode=dark] .dark\:bg-cyan-600 {
+  background-color: rgb(5.4, 163.8, 190.8)  !important;
+}
+html[data-mode=dark] .dark\:text-cyan-600 {
+  color: rgb(5.4, 163.8, 190.8)  !important;
+}
+html[data-mode=dark] .dark\:border-cyan-600 {
+  border-color: rgb(5.4, 163.8, 190.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-cyan-600 {
+  outline-color: rgb(5.4, 163.8, 190.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-cyan-600 {
+  fill: rgb(5.4, 163.8, 190.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-cyan-600 {
+  stroke: rgb(5.4, 163.8, 190.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-cyan-600 {
+  text-decoration-color: rgb(5.4, 163.8, 190.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-cyan-600 {
+  caret-color: rgb(5.4, 163.8, 190.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-cyan-600 {
+  text-emphasis-color: rgb(5.4, 163.8, 190.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-cyan-600 {
+  accent-color: rgb(5.4, 163.8, 190.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-cyan-600 {
+  column-rule-color: rgb(5.4, 163.8, 190.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-cyan-600 {
+  box-shadow: 0 0 0 0 rgb(5.4, 163.8, 190.8)  !important;
+}
+html[data-mode=dark] .dark\:bg-cyan-700 {
+  background-color: rgb(4.8, 145.6, 169.6)  !important;
+}
+html[data-mode=dark] .dark\:text-cyan-700 {
+  color: rgb(4.8, 145.6, 169.6)  !important;
+}
+html[data-mode=dark] .dark\:border-cyan-700 {
+  border-color: rgb(4.8, 145.6, 169.6)  !important;
+}
+html[data-mode=dark] .dark\:outline-cyan-700 {
+  outline-color: rgb(4.8, 145.6, 169.6)  !important;
+}
+html[data-mode=dark] .dark\:fill-cyan-700 {
+  fill: rgb(4.8, 145.6, 169.6)  !important;
+}
+html[data-mode=dark] .dark\:stroke-cyan-700 {
+  stroke: rgb(4.8, 145.6, 169.6)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-cyan-700 {
+  text-decoration-color: rgb(4.8, 145.6, 169.6)  !important;
+}
+html[data-mode=dark] .dark\:caret-cyan-700 {
+  caret-color: rgb(4.8, 145.6, 169.6)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-cyan-700 {
+  text-emphasis-color: rgb(4.8, 145.6, 169.6)  !important;
+}
+html[data-mode=dark] .dark\:accent-cyan-700 {
+  accent-color: rgb(4.8, 145.6, 169.6)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-cyan-700 {
+  column-rule-color: rgb(4.8, 145.6, 169.6)  !important;
+}
+html[data-mode=dark] .dark\:shadow-cyan-700 {
+  box-shadow: 0 0 0 0 rgb(4.8, 145.6, 169.6)  !important;
+}
+html[data-mode=dark] .dark\:bg-cyan-800 {
+  background-color: rgb(4.2, 127.4, 148.4)  !important;
+}
+html[data-mode=dark] .dark\:text-cyan-800 {
+  color: rgb(4.2, 127.4, 148.4)  !important;
+}
+html[data-mode=dark] .dark\:border-cyan-800 {
+  border-color: rgb(4.2, 127.4, 148.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-cyan-800 {
+  outline-color: rgb(4.2, 127.4, 148.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-cyan-800 {
+  fill: rgb(4.2, 127.4, 148.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-cyan-800 {
+  stroke: rgb(4.2, 127.4, 148.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-cyan-800 {
+  text-decoration-color: rgb(4.2, 127.4, 148.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-cyan-800 {
+  caret-color: rgb(4.2, 127.4, 148.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-cyan-800 {
+  text-emphasis-color: rgb(4.2, 127.4, 148.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-cyan-800 {
+  accent-color: rgb(4.2, 127.4, 148.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-cyan-800 {
+  column-rule-color: rgb(4.2, 127.4, 148.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-cyan-800 {
+  box-shadow: 0 0 0 0 rgb(4.2, 127.4, 148.4)  !important;
+}
+html[data-mode=dark] .dark\:bg-cyan-900 {
+  background-color: rgb(3.6, 109.2, 127.2)  !important;
+}
+html[data-mode=dark] .dark\:text-cyan-900 {
+  color: rgb(3.6, 109.2, 127.2)  !important;
+}
+html[data-mode=dark] .dark\:border-cyan-900 {
+  border-color: rgb(3.6, 109.2, 127.2)  !important;
+}
+html[data-mode=dark] .dark\:outline-cyan-900 {
+  outline-color: rgb(3.6, 109.2, 127.2)  !important;
+}
+html[data-mode=dark] .dark\:fill-cyan-900 {
+  fill: rgb(3.6, 109.2, 127.2)  !important;
+}
+html[data-mode=dark] .dark\:stroke-cyan-900 {
+  stroke: rgb(3.6, 109.2, 127.2)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-cyan-900 {
+  text-decoration-color: rgb(3.6, 109.2, 127.2)  !important;
+}
+html[data-mode=dark] .dark\:caret-cyan-900 {
+  caret-color: rgb(3.6, 109.2, 127.2)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-cyan-900 {
+  text-emphasis-color: rgb(3.6, 109.2, 127.2)  !important;
+}
+html[data-mode=dark] .dark\:accent-cyan-900 {
+  accent-color: rgb(3.6, 109.2, 127.2)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-cyan-900 {
+  column-rule-color: rgb(3.6, 109.2, 127.2)  !important;
+}
+html[data-mode=dark] .dark\:shadow-cyan-900 {
+  box-shadow: 0 0 0 0 rgb(3.6, 109.2, 127.2)  !important;
+}
+
 .bg-gray-50 {
   background-color: rgb(240.2, 240.9, 242.3)  !important;
 }
@@ -5280,6 +8890,367 @@
 }
 
 .shadow-gray-900 {
+  box-shadow: 0 0 0 0 rgb(64.2, 68.4, 76.8)  !important;
+}
+
+html[data-mode=dark] .dark\:bg-gray-50 {
+  background-color: rgb(240.2, 240.9, 242.3)  !important;
+}
+html[data-mode=dark] .dark\:text-gray-50 {
+  color: rgb(240.2, 240.9, 242.3)  !important;
+}
+html[data-mode=dark] .dark\:border-gray-50 {
+  border-color: rgb(240.2, 240.9, 242.3)  !important;
+}
+html[data-mode=dark] .dark\:outline-gray-50 {
+  outline-color: rgb(240.2, 240.9, 242.3)  !important;
+}
+html[data-mode=dark] .dark\:fill-gray-50 {
+  fill: rgb(240.2, 240.9, 242.3)  !important;
+}
+html[data-mode=dark] .dark\:stroke-gray-50 {
+  stroke: rgb(240.2, 240.9, 242.3)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-gray-50 {
+  text-decoration-color: rgb(240.2, 240.9, 242.3)  !important;
+}
+html[data-mode=dark] .dark\:caret-gray-50 {
+  caret-color: rgb(240.2, 240.9, 242.3)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-gray-50 {
+  text-emphasis-color: rgb(240.2, 240.9, 242.3)  !important;
+}
+html[data-mode=dark] .dark\:accent-gray-50 {
+  accent-color: rgb(240.2, 240.9, 242.3)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-gray-50 {
+  column-rule-color: rgb(240.2, 240.9, 242.3)  !important;
+}
+html[data-mode=dark] .dark\:shadow-gray-50 {
+  box-shadow: 0 0 0 0 rgb(240.2, 240.9, 242.3)  !important;
+}
+html[data-mode=dark] .dark\:bg-gray-100 {
+  background-color: rgb(225.4, 226.8, 229.6)  !important;
+}
+html[data-mode=dark] .dark\:text-gray-100 {
+  color: rgb(225.4, 226.8, 229.6)  !important;
+}
+html[data-mode=dark] .dark\:border-gray-100 {
+  border-color: rgb(225.4, 226.8, 229.6)  !important;
+}
+html[data-mode=dark] .dark\:outline-gray-100 {
+  outline-color: rgb(225.4, 226.8, 229.6)  !important;
+}
+html[data-mode=dark] .dark\:fill-gray-100 {
+  fill: rgb(225.4, 226.8, 229.6)  !important;
+}
+html[data-mode=dark] .dark\:stroke-gray-100 {
+  stroke: rgb(225.4, 226.8, 229.6)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-gray-100 {
+  text-decoration-color: rgb(225.4, 226.8, 229.6)  !important;
+}
+html[data-mode=dark] .dark\:caret-gray-100 {
+  caret-color: rgb(225.4, 226.8, 229.6)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-gray-100 {
+  text-emphasis-color: rgb(225.4, 226.8, 229.6)  !important;
+}
+html[data-mode=dark] .dark\:accent-gray-100 {
+  accent-color: rgb(225.4, 226.8, 229.6)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-gray-100 {
+  column-rule-color: rgb(225.4, 226.8, 229.6)  !important;
+}
+html[data-mode=dark] .dark\:shadow-gray-100 {
+  box-shadow: 0 0 0 0 rgb(225.4, 226.8, 229.6)  !important;
+}
+html[data-mode=dark] .dark\:bg-gray-200 {
+  background-color: rgb(210.6, 212.7, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:text-gray-200 {
+  color: rgb(210.6, 212.7, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:border-gray-200 {
+  border-color: rgb(210.6, 212.7, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:outline-gray-200 {
+  outline-color: rgb(210.6, 212.7, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:fill-gray-200 {
+  fill: rgb(210.6, 212.7, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:stroke-gray-200 {
+  stroke: rgb(210.6, 212.7, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-gray-200 {
+  text-decoration-color: rgb(210.6, 212.7, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:caret-gray-200 {
+  caret-color: rgb(210.6, 212.7, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-gray-200 {
+  text-emphasis-color: rgb(210.6, 212.7, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:accent-gray-200 {
+  accent-color: rgb(210.6, 212.7, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-gray-200 {
+  column-rule-color: rgb(210.6, 212.7, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:shadow-gray-200 {
+  box-shadow: 0 0 0 0 rgb(210.6, 212.7, 216.9)  !important;
+}
+html[data-mode=dark] .dark\:bg-gray-300 {
+  background-color: rgb(195.8, 198.6, 204.2)  !important;
+}
+html[data-mode=dark] .dark\:text-gray-300 {
+  color: rgb(195.8, 198.6, 204.2)  !important;
+}
+html[data-mode=dark] .dark\:border-gray-300 {
+  border-color: rgb(195.8, 198.6, 204.2)  !important;
+}
+html[data-mode=dark] .dark\:outline-gray-300 {
+  outline-color: rgb(195.8, 198.6, 204.2)  !important;
+}
+html[data-mode=dark] .dark\:fill-gray-300 {
+  fill: rgb(195.8, 198.6, 204.2)  !important;
+}
+html[data-mode=dark] .dark\:stroke-gray-300 {
+  stroke: rgb(195.8, 198.6, 204.2)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-gray-300 {
+  text-decoration-color: rgb(195.8, 198.6, 204.2)  !important;
+}
+html[data-mode=dark] .dark\:caret-gray-300 {
+  caret-color: rgb(195.8, 198.6, 204.2)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-gray-300 {
+  text-emphasis-color: rgb(195.8, 198.6, 204.2)  !important;
+}
+html[data-mode=dark] .dark\:accent-gray-300 {
+  accent-color: rgb(195.8, 198.6, 204.2)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-gray-300 {
+  column-rule-color: rgb(195.8, 198.6, 204.2)  !important;
+}
+html[data-mode=dark] .dark\:shadow-gray-300 {
+  box-shadow: 0 0 0 0 rgb(195.8, 198.6, 204.2)  !important;
+}
+html[data-mode=dark] .dark\:bg-gray-400 {
+  background-color: rgb(181, 184.5, 191.5)  !important;
+}
+html[data-mode=dark] .dark\:text-gray-400 {
+  color: rgb(181, 184.5, 191.5)  !important;
+}
+html[data-mode=dark] .dark\:border-gray-400 {
+  border-color: rgb(181, 184.5, 191.5)  !important;
+}
+html[data-mode=dark] .dark\:outline-gray-400 {
+  outline-color: rgb(181, 184.5, 191.5)  !important;
+}
+html[data-mode=dark] .dark\:fill-gray-400 {
+  fill: rgb(181, 184.5, 191.5)  !important;
+}
+html[data-mode=dark] .dark\:stroke-gray-400 {
+  stroke: rgb(181, 184.5, 191.5)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-gray-400 {
+  text-decoration-color: rgb(181, 184.5, 191.5)  !important;
+}
+html[data-mode=dark] .dark\:caret-gray-400 {
+  caret-color: rgb(181, 184.5, 191.5)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-gray-400 {
+  text-emphasis-color: rgb(181, 184.5, 191.5)  !important;
+}
+html[data-mode=dark] .dark\:accent-gray-400 {
+  accent-color: rgb(181, 184.5, 191.5)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-gray-400 {
+  column-rule-color: rgb(181, 184.5, 191.5)  !important;
+}
+html[data-mode=dark] .dark\:shadow-gray-400 {
+  box-shadow: 0 0 0 0 rgb(181, 184.5, 191.5)  !important;
+}
+html[data-mode=dark] .dark\:bg-gray-500 {
+  background-color: #6b7280  !important;
+}
+html[data-mode=dark] .dark\:text-gray-500 {
+  color: #6b7280  !important;
+}
+html[data-mode=dark] .dark\:border-gray-500 {
+  border-color: #6b7280  !important;
+}
+html[data-mode=dark] .dark\:outline-gray-500 {
+  outline-color: #6b7280  !important;
+}
+html[data-mode=dark] .dark\:fill-gray-500 {
+  fill: #6b7280  !important;
+}
+html[data-mode=dark] .dark\:stroke-gray-500 {
+  stroke: #6b7280  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-gray-500 {
+  text-decoration-color: #6b7280  !important;
+}
+html[data-mode=dark] .dark\:caret-gray-500 {
+  caret-color: #6b7280  !important;
+}
+html[data-mode=dark] .dark\:emphasis-gray-500 {
+  text-emphasis-color: #6b7280  !important;
+}
+html[data-mode=dark] .dark\:accent-gray-500 {
+  accent-color: #6b7280  !important;
+}
+html[data-mode=dark] .dark\:column-rule-gray-500 {
+  column-rule-color: #6b7280  !important;
+}
+html[data-mode=dark] .dark\:shadow-gray-500 {
+  box-shadow: 0 0 0 0 #6b7280  !important;
+}
+html[data-mode=dark] .dark\:bg-gray-600 {
+  background-color: rgb(96.3, 102.6, 115.2)  !important;
+}
+html[data-mode=dark] .dark\:text-gray-600 {
+  color: rgb(96.3, 102.6, 115.2)  !important;
+}
+html[data-mode=dark] .dark\:border-gray-600 {
+  border-color: rgb(96.3, 102.6, 115.2)  !important;
+}
+html[data-mode=dark] .dark\:outline-gray-600 {
+  outline-color: rgb(96.3, 102.6, 115.2)  !important;
+}
+html[data-mode=dark] .dark\:fill-gray-600 {
+  fill: rgb(96.3, 102.6, 115.2)  !important;
+}
+html[data-mode=dark] .dark\:stroke-gray-600 {
+  stroke: rgb(96.3, 102.6, 115.2)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-gray-600 {
+  text-decoration-color: rgb(96.3, 102.6, 115.2)  !important;
+}
+html[data-mode=dark] .dark\:caret-gray-600 {
+  caret-color: rgb(96.3, 102.6, 115.2)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-gray-600 {
+  text-emphasis-color: rgb(96.3, 102.6, 115.2)  !important;
+}
+html[data-mode=dark] .dark\:accent-gray-600 {
+  accent-color: rgb(96.3, 102.6, 115.2)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-gray-600 {
+  column-rule-color: rgb(96.3, 102.6, 115.2)  !important;
+}
+html[data-mode=dark] .dark\:shadow-gray-600 {
+  box-shadow: 0 0 0 0 rgb(96.3, 102.6, 115.2)  !important;
+}
+html[data-mode=dark] .dark\:bg-gray-700 {
+  background-color: rgb(85.6, 91.2, 102.4)  !important;
+}
+html[data-mode=dark] .dark\:text-gray-700 {
+  color: rgb(85.6, 91.2, 102.4)  !important;
+}
+html[data-mode=dark] .dark\:border-gray-700 {
+  border-color: rgb(85.6, 91.2, 102.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-gray-700 {
+  outline-color: rgb(85.6, 91.2, 102.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-gray-700 {
+  fill: rgb(85.6, 91.2, 102.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-gray-700 {
+  stroke: rgb(85.6, 91.2, 102.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-gray-700 {
+  text-decoration-color: rgb(85.6, 91.2, 102.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-gray-700 {
+  caret-color: rgb(85.6, 91.2, 102.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-gray-700 {
+  text-emphasis-color: rgb(85.6, 91.2, 102.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-gray-700 {
+  accent-color: rgb(85.6, 91.2, 102.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-gray-700 {
+  column-rule-color: rgb(85.6, 91.2, 102.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-gray-700 {
+  box-shadow: 0 0 0 0 rgb(85.6, 91.2, 102.4)  !important;
+}
+html[data-mode=dark] .dark\:bg-gray-800 {
+  background-color: rgb(74.9, 79.8, 89.6)  !important;
+}
+html[data-mode=dark] .dark\:text-gray-800 {
+  color: rgb(74.9, 79.8, 89.6)  !important;
+}
+html[data-mode=dark] .dark\:border-gray-800 {
+  border-color: rgb(74.9, 79.8, 89.6)  !important;
+}
+html[data-mode=dark] .dark\:outline-gray-800 {
+  outline-color: rgb(74.9, 79.8, 89.6)  !important;
+}
+html[data-mode=dark] .dark\:fill-gray-800 {
+  fill: rgb(74.9, 79.8, 89.6)  !important;
+}
+html[data-mode=dark] .dark\:stroke-gray-800 {
+  stroke: rgb(74.9, 79.8, 89.6)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-gray-800 {
+  text-decoration-color: rgb(74.9, 79.8, 89.6)  !important;
+}
+html[data-mode=dark] .dark\:caret-gray-800 {
+  caret-color: rgb(74.9, 79.8, 89.6)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-gray-800 {
+  text-emphasis-color: rgb(74.9, 79.8, 89.6)  !important;
+}
+html[data-mode=dark] .dark\:accent-gray-800 {
+  accent-color: rgb(74.9, 79.8, 89.6)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-gray-800 {
+  column-rule-color: rgb(74.9, 79.8, 89.6)  !important;
+}
+html[data-mode=dark] .dark\:shadow-gray-800 {
+  box-shadow: 0 0 0 0 rgb(74.9, 79.8, 89.6)  !important;
+}
+html[data-mode=dark] .dark\:bg-gray-900 {
+  background-color: rgb(64.2, 68.4, 76.8)  !important;
+}
+html[data-mode=dark] .dark\:text-gray-900 {
+  color: rgb(64.2, 68.4, 76.8)  !important;
+}
+html[data-mode=dark] .dark\:border-gray-900 {
+  border-color: rgb(64.2, 68.4, 76.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-gray-900 {
+  outline-color: rgb(64.2, 68.4, 76.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-gray-900 {
+  fill: rgb(64.2, 68.4, 76.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-gray-900 {
+  stroke: rgb(64.2, 68.4, 76.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-gray-900 {
+  text-decoration-color: rgb(64.2, 68.4, 76.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-gray-900 {
+  caret-color: rgb(64.2, 68.4, 76.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-gray-900 {
+  text-emphasis-color: rgb(64.2, 68.4, 76.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-gray-900 {
+  accent-color: rgb(64.2, 68.4, 76.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-gray-900 {
+  column-rule-color: rgb(64.2, 68.4, 76.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-gray-900 {
   box-shadow: 0 0 0 0 rgb(64.2, 68.4, 76.8)  !important;
 }
 
@@ -5763,6 +9734,367 @@
   box-shadow: 0 0 0 0 black  !important;
 }
 
+html[data-mode=dark] .dark\:bg-black-50 {
+  background-color: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:text-black-50 {
+  color: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:border-black-50 {
+  border-color: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:outline-black-50 {
+  outline-color: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:fill-black-50 {
+  fill: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:stroke-black-50 {
+  stroke: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-black-50 {
+  text-decoration-color: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:caret-black-50 {
+  caret-color: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-black-50 {
+  text-emphasis-color: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:accent-black-50 {
+  accent-color: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-black-50 {
+  column-rule-color: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:shadow-black-50 {
+  box-shadow: 0 0 0 0 rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:bg-black-100 {
+  background-color: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:text-black-100 {
+  color: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:border-black-100 {
+  border-color: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:outline-black-100 {
+  outline-color: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:fill-black-100 {
+  fill: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:stroke-black-100 {
+  stroke: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-black-100 {
+  text-decoration-color: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:caret-black-100 {
+  caret-color: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:emphasis-black-100 {
+  text-emphasis-color: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:accent-black-100 {
+  accent-color: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:column-rule-black-100 {
+  column-rule-color: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:shadow-black-100 {
+  box-shadow: 0 0 0 0 #cccccc  !important;
+}
+html[data-mode=dark] .dark\:bg-black-200 {
+  background-color: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:text-black-200 {
+  color: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:border-black-200 {
+  border-color: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:outline-black-200 {
+  outline-color: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:fill-black-200 {
+  fill: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:stroke-black-200 {
+  stroke: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-black-200 {
+  text-decoration-color: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:caret-black-200 {
+  caret-color: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-black-200 {
+  text-emphasis-color: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:accent-black-200 {
+  accent-color: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-black-200 {
+  column-rule-color: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:shadow-black-200 {
+  box-shadow: 0 0 0 0 rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:bg-black-300 {
+  background-color: #999999  !important;
+}
+html[data-mode=dark] .dark\:text-black-300 {
+  color: #999999  !important;
+}
+html[data-mode=dark] .dark\:border-black-300 {
+  border-color: #999999  !important;
+}
+html[data-mode=dark] .dark\:outline-black-300 {
+  outline-color: #999999  !important;
+}
+html[data-mode=dark] .dark\:fill-black-300 {
+  fill: #999999  !important;
+}
+html[data-mode=dark] .dark\:stroke-black-300 {
+  stroke: #999999  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-black-300 {
+  text-decoration-color: #999999  !important;
+}
+html[data-mode=dark] .dark\:caret-black-300 {
+  caret-color: #999999  !important;
+}
+html[data-mode=dark] .dark\:emphasis-black-300 {
+  text-emphasis-color: #999999  !important;
+}
+html[data-mode=dark] .dark\:accent-black-300 {
+  accent-color: #999999  !important;
+}
+html[data-mode=dark] .dark\:column-rule-black-300 {
+  column-rule-color: #999999  !important;
+}
+html[data-mode=dark] .dark\:shadow-black-300 {
+  box-shadow: 0 0 0 0 #999999  !important;
+}
+html[data-mode=dark] .dark\:bg-black-400 {
+  background-color: rgb(127.5, 127.5, 127.5)  !important;
+}
+html[data-mode=dark] .dark\:text-black-400 {
+  color: rgb(127.5, 127.5, 127.5)  !important;
+}
+html[data-mode=dark] .dark\:border-black-400 {
+  border-color: rgb(127.5, 127.5, 127.5)  !important;
+}
+html[data-mode=dark] .dark\:outline-black-400 {
+  outline-color: rgb(127.5, 127.5, 127.5)  !important;
+}
+html[data-mode=dark] .dark\:fill-black-400 {
+  fill: rgb(127.5, 127.5, 127.5)  !important;
+}
+html[data-mode=dark] .dark\:stroke-black-400 {
+  stroke: rgb(127.5, 127.5, 127.5)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-black-400 {
+  text-decoration-color: rgb(127.5, 127.5, 127.5)  !important;
+}
+html[data-mode=dark] .dark\:caret-black-400 {
+  caret-color: rgb(127.5, 127.5, 127.5)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-black-400 {
+  text-emphasis-color: rgb(127.5, 127.5, 127.5)  !important;
+}
+html[data-mode=dark] .dark\:accent-black-400 {
+  accent-color: rgb(127.5, 127.5, 127.5)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-black-400 {
+  column-rule-color: rgb(127.5, 127.5, 127.5)  !important;
+}
+html[data-mode=dark] .dark\:shadow-black-400 {
+  box-shadow: 0 0 0 0 rgb(127.5, 127.5, 127.5)  !important;
+}
+html[data-mode=dark] .dark\:bg-black-500 {
+  background-color: black  !important;
+}
+html[data-mode=dark] .dark\:text-black-500 {
+  color: black  !important;
+}
+html[data-mode=dark] .dark\:border-black-500 {
+  border-color: black  !important;
+}
+html[data-mode=dark] .dark\:outline-black-500 {
+  outline-color: black  !important;
+}
+html[data-mode=dark] .dark\:fill-black-500 {
+  fill: black  !important;
+}
+html[data-mode=dark] .dark\:stroke-black-500 {
+  stroke: black  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-black-500 {
+  text-decoration-color: black  !important;
+}
+html[data-mode=dark] .dark\:caret-black-500 {
+  caret-color: black  !important;
+}
+html[data-mode=dark] .dark\:emphasis-black-500 {
+  text-emphasis-color: black  !important;
+}
+html[data-mode=dark] .dark\:accent-black-500 {
+  accent-color: black  !important;
+}
+html[data-mode=dark] .dark\:column-rule-black-500 {
+  column-rule-color: black  !important;
+}
+html[data-mode=dark] .dark\:shadow-black-500 {
+  box-shadow: 0 0 0 0 black  !important;
+}
+html[data-mode=dark] .dark\:bg-black-600 {
+  background-color: black  !important;
+}
+html[data-mode=dark] .dark\:text-black-600 {
+  color: black  !important;
+}
+html[data-mode=dark] .dark\:border-black-600 {
+  border-color: black  !important;
+}
+html[data-mode=dark] .dark\:outline-black-600 {
+  outline-color: black  !important;
+}
+html[data-mode=dark] .dark\:fill-black-600 {
+  fill: black  !important;
+}
+html[data-mode=dark] .dark\:stroke-black-600 {
+  stroke: black  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-black-600 {
+  text-decoration-color: black  !important;
+}
+html[data-mode=dark] .dark\:caret-black-600 {
+  caret-color: black  !important;
+}
+html[data-mode=dark] .dark\:emphasis-black-600 {
+  text-emphasis-color: black  !important;
+}
+html[data-mode=dark] .dark\:accent-black-600 {
+  accent-color: black  !important;
+}
+html[data-mode=dark] .dark\:column-rule-black-600 {
+  column-rule-color: black  !important;
+}
+html[data-mode=dark] .dark\:shadow-black-600 {
+  box-shadow: 0 0 0 0 black  !important;
+}
+html[data-mode=dark] .dark\:bg-black-700 {
+  background-color: black  !important;
+}
+html[data-mode=dark] .dark\:text-black-700 {
+  color: black  !important;
+}
+html[data-mode=dark] .dark\:border-black-700 {
+  border-color: black  !important;
+}
+html[data-mode=dark] .dark\:outline-black-700 {
+  outline-color: black  !important;
+}
+html[data-mode=dark] .dark\:fill-black-700 {
+  fill: black  !important;
+}
+html[data-mode=dark] .dark\:stroke-black-700 {
+  stroke: black  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-black-700 {
+  text-decoration-color: black  !important;
+}
+html[data-mode=dark] .dark\:caret-black-700 {
+  caret-color: black  !important;
+}
+html[data-mode=dark] .dark\:emphasis-black-700 {
+  text-emphasis-color: black  !important;
+}
+html[data-mode=dark] .dark\:accent-black-700 {
+  accent-color: black  !important;
+}
+html[data-mode=dark] .dark\:column-rule-black-700 {
+  column-rule-color: black  !important;
+}
+html[data-mode=dark] .dark\:shadow-black-700 {
+  box-shadow: 0 0 0 0 black  !important;
+}
+html[data-mode=dark] .dark\:bg-black-800 {
+  background-color: black  !important;
+}
+html[data-mode=dark] .dark\:text-black-800 {
+  color: black  !important;
+}
+html[data-mode=dark] .dark\:border-black-800 {
+  border-color: black  !important;
+}
+html[data-mode=dark] .dark\:outline-black-800 {
+  outline-color: black  !important;
+}
+html[data-mode=dark] .dark\:fill-black-800 {
+  fill: black  !important;
+}
+html[data-mode=dark] .dark\:stroke-black-800 {
+  stroke: black  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-black-800 {
+  text-decoration-color: black  !important;
+}
+html[data-mode=dark] .dark\:caret-black-800 {
+  caret-color: black  !important;
+}
+html[data-mode=dark] .dark\:emphasis-black-800 {
+  text-emphasis-color: black  !important;
+}
+html[data-mode=dark] .dark\:accent-black-800 {
+  accent-color: black  !important;
+}
+html[data-mode=dark] .dark\:column-rule-black-800 {
+  column-rule-color: black  !important;
+}
+html[data-mode=dark] .dark\:shadow-black-800 {
+  box-shadow: 0 0 0 0 black  !important;
+}
+html[data-mode=dark] .dark\:bg-black-900 {
+  background-color: black  !important;
+}
+html[data-mode=dark] .dark\:text-black-900 {
+  color: black  !important;
+}
+html[data-mode=dark] .dark\:border-black-900 {
+  border-color: black  !important;
+}
+html[data-mode=dark] .dark\:outline-black-900 {
+  outline-color: black  !important;
+}
+html[data-mode=dark] .dark\:fill-black-900 {
+  fill: black  !important;
+}
+html[data-mode=dark] .dark\:stroke-black-900 {
+  stroke: black  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-black-900 {
+  text-decoration-color: black  !important;
+}
+html[data-mode=dark] .dark\:caret-black-900 {
+  caret-color: black  !important;
+}
+html[data-mode=dark] .dark\:emphasis-black-900 {
+  text-emphasis-color: black  !important;
+}
+html[data-mode=dark] .dark\:accent-black-900 {
+  accent-color: black  !important;
+}
+html[data-mode=dark] .dark\:column-rule-black-900 {
+  column-rule-color: black  !important;
+}
+html[data-mode=dark] .dark\:shadow-black-900 {
+  box-shadow: 0 0 0 0 black  !important;
+}
+
 .bg-white-50 {
   background-color: white  !important;
 }
@@ -6240,6 +10572,367 @@
 }
 
 .shadow-white-900 {
+  box-shadow: 0 0 0 0 #999999  !important;
+}
+
+html[data-mode=dark] .dark\:bg-white-50 {
+  background-color: white  !important;
+}
+html[data-mode=dark] .dark\:text-white-50 {
+  color: white  !important;
+}
+html[data-mode=dark] .dark\:border-white-50 {
+  border-color: white  !important;
+}
+html[data-mode=dark] .dark\:outline-white-50 {
+  outline-color: white  !important;
+}
+html[data-mode=dark] .dark\:fill-white-50 {
+  fill: white  !important;
+}
+html[data-mode=dark] .dark\:stroke-white-50 {
+  stroke: white  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-white-50 {
+  text-decoration-color: white  !important;
+}
+html[data-mode=dark] .dark\:caret-white-50 {
+  caret-color: white  !important;
+}
+html[data-mode=dark] .dark\:emphasis-white-50 {
+  text-emphasis-color: white  !important;
+}
+html[data-mode=dark] .dark\:accent-white-50 {
+  accent-color: white  !important;
+}
+html[data-mode=dark] .dark\:column-rule-white-50 {
+  column-rule-color: white  !important;
+}
+html[data-mode=dark] .dark\:shadow-white-50 {
+  box-shadow: 0 0 0 0 white  !important;
+}
+html[data-mode=dark] .dark\:bg-white-100 {
+  background-color: white  !important;
+}
+html[data-mode=dark] .dark\:text-white-100 {
+  color: white  !important;
+}
+html[data-mode=dark] .dark\:border-white-100 {
+  border-color: white  !important;
+}
+html[data-mode=dark] .dark\:outline-white-100 {
+  outline-color: white  !important;
+}
+html[data-mode=dark] .dark\:fill-white-100 {
+  fill: white  !important;
+}
+html[data-mode=dark] .dark\:stroke-white-100 {
+  stroke: white  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-white-100 {
+  text-decoration-color: white  !important;
+}
+html[data-mode=dark] .dark\:caret-white-100 {
+  caret-color: white  !important;
+}
+html[data-mode=dark] .dark\:emphasis-white-100 {
+  text-emphasis-color: white  !important;
+}
+html[data-mode=dark] .dark\:accent-white-100 {
+  accent-color: white  !important;
+}
+html[data-mode=dark] .dark\:column-rule-white-100 {
+  column-rule-color: white  !important;
+}
+html[data-mode=dark] .dark\:shadow-white-100 {
+  box-shadow: 0 0 0 0 white  !important;
+}
+html[data-mode=dark] .dark\:bg-white-200 {
+  background-color: white  !important;
+}
+html[data-mode=dark] .dark\:text-white-200 {
+  color: white  !important;
+}
+html[data-mode=dark] .dark\:border-white-200 {
+  border-color: white  !important;
+}
+html[data-mode=dark] .dark\:outline-white-200 {
+  outline-color: white  !important;
+}
+html[data-mode=dark] .dark\:fill-white-200 {
+  fill: white  !important;
+}
+html[data-mode=dark] .dark\:stroke-white-200 {
+  stroke: white  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-white-200 {
+  text-decoration-color: white  !important;
+}
+html[data-mode=dark] .dark\:caret-white-200 {
+  caret-color: white  !important;
+}
+html[data-mode=dark] .dark\:emphasis-white-200 {
+  text-emphasis-color: white  !important;
+}
+html[data-mode=dark] .dark\:accent-white-200 {
+  accent-color: white  !important;
+}
+html[data-mode=dark] .dark\:column-rule-white-200 {
+  column-rule-color: white  !important;
+}
+html[data-mode=dark] .dark\:shadow-white-200 {
+  box-shadow: 0 0 0 0 white  !important;
+}
+html[data-mode=dark] .dark\:bg-white-300 {
+  background-color: white  !important;
+}
+html[data-mode=dark] .dark\:text-white-300 {
+  color: white  !important;
+}
+html[data-mode=dark] .dark\:border-white-300 {
+  border-color: white  !important;
+}
+html[data-mode=dark] .dark\:outline-white-300 {
+  outline-color: white  !important;
+}
+html[data-mode=dark] .dark\:fill-white-300 {
+  fill: white  !important;
+}
+html[data-mode=dark] .dark\:stroke-white-300 {
+  stroke: white  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-white-300 {
+  text-decoration-color: white  !important;
+}
+html[data-mode=dark] .dark\:caret-white-300 {
+  caret-color: white  !important;
+}
+html[data-mode=dark] .dark\:emphasis-white-300 {
+  text-emphasis-color: white  !important;
+}
+html[data-mode=dark] .dark\:accent-white-300 {
+  accent-color: white  !important;
+}
+html[data-mode=dark] .dark\:column-rule-white-300 {
+  column-rule-color: white  !important;
+}
+html[data-mode=dark] .dark\:shadow-white-300 {
+  box-shadow: 0 0 0 0 white  !important;
+}
+html[data-mode=dark] .dark\:bg-white-400 {
+  background-color: white  !important;
+}
+html[data-mode=dark] .dark\:text-white-400 {
+  color: white  !important;
+}
+html[data-mode=dark] .dark\:border-white-400 {
+  border-color: white  !important;
+}
+html[data-mode=dark] .dark\:outline-white-400 {
+  outline-color: white  !important;
+}
+html[data-mode=dark] .dark\:fill-white-400 {
+  fill: white  !important;
+}
+html[data-mode=dark] .dark\:stroke-white-400 {
+  stroke: white  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-white-400 {
+  text-decoration-color: white  !important;
+}
+html[data-mode=dark] .dark\:caret-white-400 {
+  caret-color: white  !important;
+}
+html[data-mode=dark] .dark\:emphasis-white-400 {
+  text-emphasis-color: white  !important;
+}
+html[data-mode=dark] .dark\:accent-white-400 {
+  accent-color: white  !important;
+}
+html[data-mode=dark] .dark\:column-rule-white-400 {
+  column-rule-color: white  !important;
+}
+html[data-mode=dark] .dark\:shadow-white-400 {
+  box-shadow: 0 0 0 0 white  !important;
+}
+html[data-mode=dark] .dark\:bg-white-500 {
+  background-color: white  !important;
+}
+html[data-mode=dark] .dark\:text-white-500 {
+  color: white  !important;
+}
+html[data-mode=dark] .dark\:border-white-500 {
+  border-color: white  !important;
+}
+html[data-mode=dark] .dark\:outline-white-500 {
+  outline-color: white  !important;
+}
+html[data-mode=dark] .dark\:fill-white-500 {
+  fill: white  !important;
+}
+html[data-mode=dark] .dark\:stroke-white-500 {
+  stroke: white  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-white-500 {
+  text-decoration-color: white  !important;
+}
+html[data-mode=dark] .dark\:caret-white-500 {
+  caret-color: white  !important;
+}
+html[data-mode=dark] .dark\:emphasis-white-500 {
+  text-emphasis-color: white  !important;
+}
+html[data-mode=dark] .dark\:accent-white-500 {
+  accent-color: white  !important;
+}
+html[data-mode=dark] .dark\:column-rule-white-500 {
+  column-rule-color: white  !important;
+}
+html[data-mode=dark] .dark\:shadow-white-500 {
+  box-shadow: 0 0 0 0 white  !important;
+}
+html[data-mode=dark] .dark\:bg-white-600 {
+  background-color: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:text-white-600 {
+  color: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:border-white-600 {
+  border-color: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:outline-white-600 {
+  outline-color: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:fill-white-600 {
+  fill: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:stroke-white-600 {
+  stroke: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-white-600 {
+  text-decoration-color: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:caret-white-600 {
+  caret-color: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-white-600 {
+  text-emphasis-color: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:accent-white-600 {
+  accent-color: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-white-600 {
+  column-rule-color: rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:shadow-white-600 {
+  box-shadow: 0 0 0 0 rgb(229.5, 229.5, 229.5)  !important;
+}
+html[data-mode=dark] .dark\:bg-white-700 {
+  background-color: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:text-white-700 {
+  color: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:border-white-700 {
+  border-color: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:outline-white-700 {
+  outline-color: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:fill-white-700 {
+  fill: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:stroke-white-700 {
+  stroke: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-white-700 {
+  text-decoration-color: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:caret-white-700 {
+  caret-color: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:emphasis-white-700 {
+  text-emphasis-color: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:accent-white-700 {
+  accent-color: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:column-rule-white-700 {
+  column-rule-color: #cccccc  !important;
+}
+html[data-mode=dark] .dark\:shadow-white-700 {
+  box-shadow: 0 0 0 0 #cccccc  !important;
+}
+html[data-mode=dark] .dark\:bg-white-800 {
+  background-color: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:text-white-800 {
+  color: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:border-white-800 {
+  border-color: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:outline-white-800 {
+  outline-color: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:fill-white-800 {
+  fill: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:stroke-white-800 {
+  stroke: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-white-800 {
+  text-decoration-color: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:caret-white-800 {
+  caret-color: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-white-800 {
+  text-emphasis-color: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:accent-white-800 {
+  accent-color: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-white-800 {
+  column-rule-color: rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:shadow-white-800 {
+  box-shadow: 0 0 0 0 rgb(178.5, 178.5, 178.5)  !important;
+}
+html[data-mode=dark] .dark\:bg-white-900 {
+  background-color: #999999  !important;
+}
+html[data-mode=dark] .dark\:text-white-900 {
+  color: #999999  !important;
+}
+html[data-mode=dark] .dark\:border-white-900 {
+  border-color: #999999  !important;
+}
+html[data-mode=dark] .dark\:outline-white-900 {
+  outline-color: #999999  !important;
+}
+html[data-mode=dark] .dark\:fill-white-900 {
+  fill: #999999  !important;
+}
+html[data-mode=dark] .dark\:stroke-white-900 {
+  stroke: #999999  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-white-900 {
+  text-decoration-color: #999999  !important;
+}
+html[data-mode=dark] .dark\:caret-white-900 {
+  caret-color: #999999  !important;
+}
+html[data-mode=dark] .dark\:emphasis-white-900 {
+  text-emphasis-color: #999999  !important;
+}
+html[data-mode=dark] .dark\:accent-white-900 {
+  accent-color: #999999  !important;
+}
+html[data-mode=dark] .dark\:column-rule-white-900 {
+  column-rule-color: #999999  !important;
+}
+html[data-mode=dark] .dark\:shadow-white-900 {
   box-shadow: 0 0 0 0 #999999  !important;
 }
 
@@ -6723,6 +11416,367 @@
   box-shadow: 0 0 0 0 rgb(67.8, 67.8, 73.2)  !important;
 }
 
+html[data-mode=dark] .dark\:bg-zinc-50 {
+  background-color: rgb(240.8, 240.8, 241.7)  !important;
+}
+html[data-mode=dark] .dark\:text-zinc-50 {
+  color: rgb(240.8, 240.8, 241.7)  !important;
+}
+html[data-mode=dark] .dark\:border-zinc-50 {
+  border-color: rgb(240.8, 240.8, 241.7)  !important;
+}
+html[data-mode=dark] .dark\:outline-zinc-50 {
+  outline-color: rgb(240.8, 240.8, 241.7)  !important;
+}
+html[data-mode=dark] .dark\:fill-zinc-50 {
+  fill: rgb(240.8, 240.8, 241.7)  !important;
+}
+html[data-mode=dark] .dark\:stroke-zinc-50 {
+  stroke: rgb(240.8, 240.8, 241.7)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-zinc-50 {
+  text-decoration-color: rgb(240.8, 240.8, 241.7)  !important;
+}
+html[data-mode=dark] .dark\:caret-zinc-50 {
+  caret-color: rgb(240.8, 240.8, 241.7)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-zinc-50 {
+  text-emphasis-color: rgb(240.8, 240.8, 241.7)  !important;
+}
+html[data-mode=dark] .dark\:accent-zinc-50 {
+  accent-color: rgb(240.8, 240.8, 241.7)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-zinc-50 {
+  column-rule-color: rgb(240.8, 240.8, 241.7)  !important;
+}
+html[data-mode=dark] .dark\:shadow-zinc-50 {
+  box-shadow: 0 0 0 0 rgb(240.8, 240.8, 241.7)  !important;
+}
+html[data-mode=dark] .dark\:bg-zinc-100 {
+  background-color: rgb(226.6, 226.6, 228.4)  !important;
+}
+html[data-mode=dark] .dark\:text-zinc-100 {
+  color: rgb(226.6, 226.6, 228.4)  !important;
+}
+html[data-mode=dark] .dark\:border-zinc-100 {
+  border-color: rgb(226.6, 226.6, 228.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-zinc-100 {
+  outline-color: rgb(226.6, 226.6, 228.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-zinc-100 {
+  fill: rgb(226.6, 226.6, 228.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-zinc-100 {
+  stroke: rgb(226.6, 226.6, 228.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-zinc-100 {
+  text-decoration-color: rgb(226.6, 226.6, 228.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-zinc-100 {
+  caret-color: rgb(226.6, 226.6, 228.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-zinc-100 {
+  text-emphasis-color: rgb(226.6, 226.6, 228.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-zinc-100 {
+  accent-color: rgb(226.6, 226.6, 228.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-zinc-100 {
+  column-rule-color: rgb(226.6, 226.6, 228.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-zinc-100 {
+  box-shadow: 0 0 0 0 rgb(226.6, 226.6, 228.4)  !important;
+}
+html[data-mode=dark] .dark\:bg-zinc-200 {
+  background-color: rgb(212.4, 212.4, 215.1)  !important;
+}
+html[data-mode=dark] .dark\:text-zinc-200 {
+  color: rgb(212.4, 212.4, 215.1)  !important;
+}
+html[data-mode=dark] .dark\:border-zinc-200 {
+  border-color: rgb(212.4, 212.4, 215.1)  !important;
+}
+html[data-mode=dark] .dark\:outline-zinc-200 {
+  outline-color: rgb(212.4, 212.4, 215.1)  !important;
+}
+html[data-mode=dark] .dark\:fill-zinc-200 {
+  fill: rgb(212.4, 212.4, 215.1)  !important;
+}
+html[data-mode=dark] .dark\:stroke-zinc-200 {
+  stroke: rgb(212.4, 212.4, 215.1)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-zinc-200 {
+  text-decoration-color: rgb(212.4, 212.4, 215.1)  !important;
+}
+html[data-mode=dark] .dark\:caret-zinc-200 {
+  caret-color: rgb(212.4, 212.4, 215.1)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-zinc-200 {
+  text-emphasis-color: rgb(212.4, 212.4, 215.1)  !important;
+}
+html[data-mode=dark] .dark\:accent-zinc-200 {
+  accent-color: rgb(212.4, 212.4, 215.1)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-zinc-200 {
+  column-rule-color: rgb(212.4, 212.4, 215.1)  !important;
+}
+html[data-mode=dark] .dark\:shadow-zinc-200 {
+  box-shadow: 0 0 0 0 rgb(212.4, 212.4, 215.1)  !important;
+}
+html[data-mode=dark] .dark\:bg-zinc-300 {
+  background-color: rgb(198.2, 198.2, 201.8)  !important;
+}
+html[data-mode=dark] .dark\:text-zinc-300 {
+  color: rgb(198.2, 198.2, 201.8)  !important;
+}
+html[data-mode=dark] .dark\:border-zinc-300 {
+  border-color: rgb(198.2, 198.2, 201.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-zinc-300 {
+  outline-color: rgb(198.2, 198.2, 201.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-zinc-300 {
+  fill: rgb(198.2, 198.2, 201.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-zinc-300 {
+  stroke: rgb(198.2, 198.2, 201.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-zinc-300 {
+  text-decoration-color: rgb(198.2, 198.2, 201.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-zinc-300 {
+  caret-color: rgb(198.2, 198.2, 201.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-zinc-300 {
+  text-emphasis-color: rgb(198.2, 198.2, 201.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-zinc-300 {
+  accent-color: rgb(198.2, 198.2, 201.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-zinc-300 {
+  column-rule-color: rgb(198.2, 198.2, 201.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-zinc-300 {
+  box-shadow: 0 0 0 0 rgb(198.2, 198.2, 201.8)  !important;
+}
+html[data-mode=dark] .dark\:bg-zinc-400 {
+  background-color: rgb(184, 184, 188.5)  !important;
+}
+html[data-mode=dark] .dark\:text-zinc-400 {
+  color: rgb(184, 184, 188.5)  !important;
+}
+html[data-mode=dark] .dark\:border-zinc-400 {
+  border-color: rgb(184, 184, 188.5)  !important;
+}
+html[data-mode=dark] .dark\:outline-zinc-400 {
+  outline-color: rgb(184, 184, 188.5)  !important;
+}
+html[data-mode=dark] .dark\:fill-zinc-400 {
+  fill: rgb(184, 184, 188.5)  !important;
+}
+html[data-mode=dark] .dark\:stroke-zinc-400 {
+  stroke: rgb(184, 184, 188.5)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-zinc-400 {
+  text-decoration-color: rgb(184, 184, 188.5)  !important;
+}
+html[data-mode=dark] .dark\:caret-zinc-400 {
+  caret-color: rgb(184, 184, 188.5)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-zinc-400 {
+  text-emphasis-color: rgb(184, 184, 188.5)  !important;
+}
+html[data-mode=dark] .dark\:accent-zinc-400 {
+  accent-color: rgb(184, 184, 188.5)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-zinc-400 {
+  column-rule-color: rgb(184, 184, 188.5)  !important;
+}
+html[data-mode=dark] .dark\:shadow-zinc-400 {
+  box-shadow: 0 0 0 0 rgb(184, 184, 188.5)  !important;
+}
+html[data-mode=dark] .dark\:bg-zinc-500 {
+  background-color: #71717a  !important;
+}
+html[data-mode=dark] .dark\:text-zinc-500 {
+  color: #71717a  !important;
+}
+html[data-mode=dark] .dark\:border-zinc-500 {
+  border-color: #71717a  !important;
+}
+html[data-mode=dark] .dark\:outline-zinc-500 {
+  outline-color: #71717a  !important;
+}
+html[data-mode=dark] .dark\:fill-zinc-500 {
+  fill: #71717a  !important;
+}
+html[data-mode=dark] .dark\:stroke-zinc-500 {
+  stroke: #71717a  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-zinc-500 {
+  text-decoration-color: #71717a  !important;
+}
+html[data-mode=dark] .dark\:caret-zinc-500 {
+  caret-color: #71717a  !important;
+}
+html[data-mode=dark] .dark\:emphasis-zinc-500 {
+  text-emphasis-color: #71717a  !important;
+}
+html[data-mode=dark] .dark\:accent-zinc-500 {
+  accent-color: #71717a  !important;
+}
+html[data-mode=dark] .dark\:column-rule-zinc-500 {
+  column-rule-color: #71717a  !important;
+}
+html[data-mode=dark] .dark\:shadow-zinc-500 {
+  box-shadow: 0 0 0 0 #71717a  !important;
+}
+html[data-mode=dark] .dark\:bg-zinc-600 {
+  background-color: rgb(101.7, 101.7, 109.8)  !important;
+}
+html[data-mode=dark] .dark\:text-zinc-600 {
+  color: rgb(101.7, 101.7, 109.8)  !important;
+}
+html[data-mode=dark] .dark\:border-zinc-600 {
+  border-color: rgb(101.7, 101.7, 109.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-zinc-600 {
+  outline-color: rgb(101.7, 101.7, 109.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-zinc-600 {
+  fill: rgb(101.7, 101.7, 109.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-zinc-600 {
+  stroke: rgb(101.7, 101.7, 109.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-zinc-600 {
+  text-decoration-color: rgb(101.7, 101.7, 109.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-zinc-600 {
+  caret-color: rgb(101.7, 101.7, 109.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-zinc-600 {
+  text-emphasis-color: rgb(101.7, 101.7, 109.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-zinc-600 {
+  accent-color: rgb(101.7, 101.7, 109.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-zinc-600 {
+  column-rule-color: rgb(101.7, 101.7, 109.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-zinc-600 {
+  box-shadow: 0 0 0 0 rgb(101.7, 101.7, 109.8)  !important;
+}
+html[data-mode=dark] .dark\:bg-zinc-700 {
+  background-color: rgb(90.4, 90.4, 97.6)  !important;
+}
+html[data-mode=dark] .dark\:text-zinc-700 {
+  color: rgb(90.4, 90.4, 97.6)  !important;
+}
+html[data-mode=dark] .dark\:border-zinc-700 {
+  border-color: rgb(90.4, 90.4, 97.6)  !important;
+}
+html[data-mode=dark] .dark\:outline-zinc-700 {
+  outline-color: rgb(90.4, 90.4, 97.6)  !important;
+}
+html[data-mode=dark] .dark\:fill-zinc-700 {
+  fill: rgb(90.4, 90.4, 97.6)  !important;
+}
+html[data-mode=dark] .dark\:stroke-zinc-700 {
+  stroke: rgb(90.4, 90.4, 97.6)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-zinc-700 {
+  text-decoration-color: rgb(90.4, 90.4, 97.6)  !important;
+}
+html[data-mode=dark] .dark\:caret-zinc-700 {
+  caret-color: rgb(90.4, 90.4, 97.6)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-zinc-700 {
+  text-emphasis-color: rgb(90.4, 90.4, 97.6)  !important;
+}
+html[data-mode=dark] .dark\:accent-zinc-700 {
+  accent-color: rgb(90.4, 90.4, 97.6)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-zinc-700 {
+  column-rule-color: rgb(90.4, 90.4, 97.6)  !important;
+}
+html[data-mode=dark] .dark\:shadow-zinc-700 {
+  box-shadow: 0 0 0 0 rgb(90.4, 90.4, 97.6)  !important;
+}
+html[data-mode=dark] .dark\:bg-zinc-800 {
+  background-color: rgb(79.1, 79.1, 85.4)  !important;
+}
+html[data-mode=dark] .dark\:text-zinc-800 {
+  color: rgb(79.1, 79.1, 85.4)  !important;
+}
+html[data-mode=dark] .dark\:border-zinc-800 {
+  border-color: rgb(79.1, 79.1, 85.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-zinc-800 {
+  outline-color: rgb(79.1, 79.1, 85.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-zinc-800 {
+  fill: rgb(79.1, 79.1, 85.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-zinc-800 {
+  stroke: rgb(79.1, 79.1, 85.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-zinc-800 {
+  text-decoration-color: rgb(79.1, 79.1, 85.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-zinc-800 {
+  caret-color: rgb(79.1, 79.1, 85.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-zinc-800 {
+  text-emphasis-color: rgb(79.1, 79.1, 85.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-zinc-800 {
+  accent-color: rgb(79.1, 79.1, 85.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-zinc-800 {
+  column-rule-color: rgb(79.1, 79.1, 85.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-zinc-800 {
+  box-shadow: 0 0 0 0 rgb(79.1, 79.1, 85.4)  !important;
+}
+html[data-mode=dark] .dark\:bg-zinc-900 {
+  background-color: rgb(67.8, 67.8, 73.2)  !important;
+}
+html[data-mode=dark] .dark\:text-zinc-900 {
+  color: rgb(67.8, 67.8, 73.2)  !important;
+}
+html[data-mode=dark] .dark\:border-zinc-900 {
+  border-color: rgb(67.8, 67.8, 73.2)  !important;
+}
+html[data-mode=dark] .dark\:outline-zinc-900 {
+  outline-color: rgb(67.8, 67.8, 73.2)  !important;
+}
+html[data-mode=dark] .dark\:fill-zinc-900 {
+  fill: rgb(67.8, 67.8, 73.2)  !important;
+}
+html[data-mode=dark] .dark\:stroke-zinc-900 {
+  stroke: rgb(67.8, 67.8, 73.2)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-zinc-900 {
+  text-decoration-color: rgb(67.8, 67.8, 73.2)  !important;
+}
+html[data-mode=dark] .dark\:caret-zinc-900 {
+  caret-color: rgb(67.8, 67.8, 73.2)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-zinc-900 {
+  text-emphasis-color: rgb(67.8, 67.8, 73.2)  !important;
+}
+html[data-mode=dark] .dark\:accent-zinc-900 {
+  accent-color: rgb(67.8, 67.8, 73.2)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-zinc-900 {
+  column-rule-color: rgb(67.8, 67.8, 73.2)  !important;
+}
+html[data-mode=dark] .dark\:shadow-zinc-900 {
+  box-shadow: 0 0 0 0 rgb(67.8, 67.8, 73.2)  !important;
+}
+
 .bg-rose-50 {
   background-color: rgb(253.9, 235.8, 238.9)  !important;
 }
@@ -7200,6 +12254,367 @@
 }
 
 .shadow-rose-900 {
+  box-shadow: 0 0 0 0 rgb(146.4, 37.8, 56.4)  !important;
+}
+
+html[data-mode=dark] .dark\:bg-rose-50 {
+  background-color: rgb(253.9, 235.8, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:text-rose-50 {
+  color: rgb(253.9, 235.8, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:border-rose-50 {
+  border-color: rgb(253.9, 235.8, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:outline-rose-50 {
+  outline-color: rgb(253.9, 235.8, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:fill-rose-50 {
+  fill: rgb(253.9, 235.8, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:stroke-rose-50 {
+  stroke: rgb(253.9, 235.8, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-rose-50 {
+  text-decoration-color: rgb(253.9, 235.8, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:caret-rose-50 {
+  caret-color: rgb(253.9, 235.8, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-rose-50 {
+  text-emphasis-color: rgb(253.9, 235.8, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:accent-rose-50 {
+  accent-color: rgb(253.9, 235.8, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-rose-50 {
+  column-rule-color: rgb(253.9, 235.8, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:shadow-rose-50 {
+  box-shadow: 0 0 0 0 rgb(253.9, 235.8, 238.9)  !important;
+}
+html[data-mode=dark] .dark\:bg-rose-100 {
+  background-color: rgb(252.8, 216.6, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:text-rose-100 {
+  color: rgb(252.8, 216.6, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:border-rose-100 {
+  border-color: rgb(252.8, 216.6, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-rose-100 {
+  outline-color: rgb(252.8, 216.6, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-rose-100 {
+  fill: rgb(252.8, 216.6, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-rose-100 {
+  stroke: rgb(252.8, 216.6, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-rose-100 {
+  text-decoration-color: rgb(252.8, 216.6, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-rose-100 {
+  caret-color: rgb(252.8, 216.6, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-rose-100 {
+  text-emphasis-color: rgb(252.8, 216.6, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-rose-100 {
+  accent-color: rgb(252.8, 216.6, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-rose-100 {
+  column-rule-color: rgb(252.8, 216.6, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-rose-100 {
+  box-shadow: 0 0 0 0 rgb(252.8, 216.6, 222.8)  !important;
+}
+html[data-mode=dark] .dark\:bg-rose-200 {
+  background-color: rgb(251.7, 197.4, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:text-rose-200 {
+  color: rgb(251.7, 197.4, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:border-rose-200 {
+  border-color: rgb(251.7, 197.4, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:outline-rose-200 {
+  outline-color: rgb(251.7, 197.4, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:fill-rose-200 {
+  fill: rgb(251.7, 197.4, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:stroke-rose-200 {
+  stroke: rgb(251.7, 197.4, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-rose-200 {
+  text-decoration-color: rgb(251.7, 197.4, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:caret-rose-200 {
+  caret-color: rgb(251.7, 197.4, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-rose-200 {
+  text-emphasis-color: rgb(251.7, 197.4, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:accent-rose-200 {
+  accent-color: rgb(251.7, 197.4, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-rose-200 {
+  column-rule-color: rgb(251.7, 197.4, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:shadow-rose-200 {
+  box-shadow: 0 0 0 0 rgb(251.7, 197.4, 206.7)  !important;
+}
+html[data-mode=dark] .dark\:bg-rose-300 {
+  background-color: rgb(250.6, 178.2, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:text-rose-300 {
+  color: rgb(250.6, 178.2, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:border-rose-300 {
+  border-color: rgb(250.6, 178.2, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:outline-rose-300 {
+  outline-color: rgb(250.6, 178.2, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:fill-rose-300 {
+  fill: rgb(250.6, 178.2, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:stroke-rose-300 {
+  stroke: rgb(250.6, 178.2, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-rose-300 {
+  text-decoration-color: rgb(250.6, 178.2, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:caret-rose-300 {
+  caret-color: rgb(250.6, 178.2, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-rose-300 {
+  text-emphasis-color: rgb(250.6, 178.2, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:accent-rose-300 {
+  accent-color: rgb(250.6, 178.2, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-rose-300 {
+  column-rule-color: rgb(250.6, 178.2, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:shadow-rose-300 {
+  box-shadow: 0 0 0 0 rgb(250.6, 178.2, 190.6)  !important;
+}
+html[data-mode=dark] .dark\:bg-rose-400 {
+  background-color: rgb(249.5, 159, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:text-rose-400 {
+  color: rgb(249.5, 159, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:border-rose-400 {
+  border-color: rgb(249.5, 159, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:outline-rose-400 {
+  outline-color: rgb(249.5, 159, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:fill-rose-400 {
+  fill: rgb(249.5, 159, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:stroke-rose-400 {
+  stroke: rgb(249.5, 159, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-rose-400 {
+  text-decoration-color: rgb(249.5, 159, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:caret-rose-400 {
+  caret-color: rgb(249.5, 159, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-rose-400 {
+  text-emphasis-color: rgb(249.5, 159, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:accent-rose-400 {
+  accent-color: rgb(249.5, 159, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-rose-400 {
+  column-rule-color: rgb(249.5, 159, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:shadow-rose-400 {
+  box-shadow: 0 0 0 0 rgb(249.5, 159, 174.5)  !important;
+}
+html[data-mode=dark] .dark\:bg-rose-500 {
+  background-color: #f43f5e  !important;
+}
+html[data-mode=dark] .dark\:text-rose-500 {
+  color: #f43f5e  !important;
+}
+html[data-mode=dark] .dark\:border-rose-500 {
+  border-color: #f43f5e  !important;
+}
+html[data-mode=dark] .dark\:outline-rose-500 {
+  outline-color: #f43f5e  !important;
+}
+html[data-mode=dark] .dark\:fill-rose-500 {
+  fill: #f43f5e  !important;
+}
+html[data-mode=dark] .dark\:stroke-rose-500 {
+  stroke: #f43f5e  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-rose-500 {
+  text-decoration-color: #f43f5e  !important;
+}
+html[data-mode=dark] .dark\:caret-rose-500 {
+  caret-color: #f43f5e  !important;
+}
+html[data-mode=dark] .dark\:emphasis-rose-500 {
+  text-emphasis-color: #f43f5e  !important;
+}
+html[data-mode=dark] .dark\:accent-rose-500 {
+  accent-color: #f43f5e  !important;
+}
+html[data-mode=dark] .dark\:column-rule-rose-500 {
+  column-rule-color: #f43f5e  !important;
+}
+html[data-mode=dark] .dark\:shadow-rose-500 {
+  box-shadow: 0 0 0 0 #f43f5e  !important;
+}
+html[data-mode=dark] .dark\:bg-rose-600 {
+  background-color: rgb(219.6, 56.7, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:text-rose-600 {
+  color: rgb(219.6, 56.7, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:border-rose-600 {
+  border-color: rgb(219.6, 56.7, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:outline-rose-600 {
+  outline-color: rgb(219.6, 56.7, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:fill-rose-600 {
+  fill: rgb(219.6, 56.7, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:stroke-rose-600 {
+  stroke: rgb(219.6, 56.7, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-rose-600 {
+  text-decoration-color: rgb(219.6, 56.7, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:caret-rose-600 {
+  caret-color: rgb(219.6, 56.7, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-rose-600 {
+  text-emphasis-color: rgb(219.6, 56.7, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:accent-rose-600 {
+  accent-color: rgb(219.6, 56.7, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-rose-600 {
+  column-rule-color: rgb(219.6, 56.7, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:shadow-rose-600 {
+  box-shadow: 0 0 0 0 rgb(219.6, 56.7, 84.6)  !important;
+}
+html[data-mode=dark] .dark\:bg-rose-700 {
+  background-color: rgb(195.2, 50.4, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:text-rose-700 {
+  color: rgb(195.2, 50.4, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:border-rose-700 {
+  border-color: rgb(195.2, 50.4, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:outline-rose-700 {
+  outline-color: rgb(195.2, 50.4, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:fill-rose-700 {
+  fill: rgb(195.2, 50.4, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:stroke-rose-700 {
+  stroke: rgb(195.2, 50.4, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-rose-700 {
+  text-decoration-color: rgb(195.2, 50.4, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:caret-rose-700 {
+  caret-color: rgb(195.2, 50.4, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-rose-700 {
+  text-emphasis-color: rgb(195.2, 50.4, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:accent-rose-700 {
+  accent-color: rgb(195.2, 50.4, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-rose-700 {
+  column-rule-color: rgb(195.2, 50.4, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:shadow-rose-700 {
+  box-shadow: 0 0 0 0 rgb(195.2, 50.4, 75.2)  !important;
+}
+html[data-mode=dark] .dark\:bg-rose-800 {
+  background-color: rgb(170.8, 44.1, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:text-rose-800 {
+  color: rgb(170.8, 44.1, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:border-rose-800 {
+  border-color: rgb(170.8, 44.1, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:outline-rose-800 {
+  outline-color: rgb(170.8, 44.1, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:fill-rose-800 {
+  fill: rgb(170.8, 44.1, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:stroke-rose-800 {
+  stroke: rgb(170.8, 44.1, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-rose-800 {
+  text-decoration-color: rgb(170.8, 44.1, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:caret-rose-800 {
+  caret-color: rgb(170.8, 44.1, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-rose-800 {
+  text-emphasis-color: rgb(170.8, 44.1, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:accent-rose-800 {
+  accent-color: rgb(170.8, 44.1, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-rose-800 {
+  column-rule-color: rgb(170.8, 44.1, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:shadow-rose-800 {
+  box-shadow: 0 0 0 0 rgb(170.8, 44.1, 65.8)  !important;
+}
+html[data-mode=dark] .dark\:bg-rose-900 {
+  background-color: rgb(146.4, 37.8, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:text-rose-900 {
+  color: rgb(146.4, 37.8, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:border-rose-900 {
+  border-color: rgb(146.4, 37.8, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:outline-rose-900 {
+  outline-color: rgb(146.4, 37.8, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:fill-rose-900 {
+  fill: rgb(146.4, 37.8, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:stroke-rose-900 {
+  stroke: rgb(146.4, 37.8, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:text-decoration-rose-900 {
+  text-decoration-color: rgb(146.4, 37.8, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:caret-rose-900 {
+  caret-color: rgb(146.4, 37.8, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:emphasis-rose-900 {
+  text-emphasis-color: rgb(146.4, 37.8, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:accent-rose-900 {
+  accent-color: rgb(146.4, 37.8, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:column-rule-rose-900 {
+  column-rule-color: rgb(146.4, 37.8, 56.4)  !important;
+}
+html[data-mode=dark] .dark\:shadow-rose-900 {
   box-shadow: 0 0 0 0 rgb(146.4, 37.8, 56.4)  !important;
 }
 

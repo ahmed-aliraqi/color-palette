@@ -127,6 +127,9 @@ For a color named `blue`, the plugin generates:
 .bg-blue-50 { background-color: #eff6ff !important; }
 .bg-blue-500 { background-color: #3b82f6 !important; }
 .bg-blue-900 { background-color: #1e3a8a !important; }
+.dark\:bg-blue-50 { background-color: #eff6ff !important; }
+.dark\:bg-blue-500 { background-color: #3b82f6 !important; }
+.dark\:bg-blue-900 { background-color: #1e3a8a !important; }
 ```
 
 ### Text Classes
@@ -134,19 +137,27 @@ For a color named `blue`, the plugin generates:
 .text-blue-50 { color: #eff6ff !important; }
 .text-blue-500 { color: #3b82f6 !important; }
 .text-blue-900 { color: #1e3a8a !important; }
+.dark\:text-blue-50 { color: #eff6ff !important; }
+.dark\:text-blue-500 { color: #3b82f6 !important; }
+.dark\:text-blue-900 { color: #1e3a8a !important; }
 ```
 
 ### Border Classes
 ```css
 .border-blue-500 { border-color: #3b82f6 !important; }
 .outline-blue-500 { outline-color: #3b82f6 !important; }
+.dark\:border-blue-500 { border-color: #3b82f6 !important; }
+.dark\:outline-blue-500 { outline-color: #3b82f6 !important; }
 ```
 
 ### SVG Classes
 ```css
 .fill-blue-500 { fill: #3b82f6 !important; }
 .stroke-blue-500 { stroke: #3b82f6 !important; }
+.dark\:fill-blue-500 { fill: #3b82f6 !important; }
+.dark\:stroke-blue-500 { stroke: #3b82f6 !important; }
 ```
+>> Note: all colors in dark mode depends on html[data-mode='dark']
 
 ## Browser Support
 
